@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\MyCRM.rxtmg
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\MyCRM.rxtst
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\MyCRM.exe.config
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\MyCRM.xml
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\MyCRM.exe
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\MyCRM.pdb
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.csproj.CopyComplete
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.exe
+C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.pdb

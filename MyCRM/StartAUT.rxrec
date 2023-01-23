@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="MyCRM">
+	</codegen>
+	<variables>
+		<var
+		id="ae79d364-9099-4f94-99b4-84d1927a6ab4"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\Admin\Desktop\MyCRM.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="45d9c5ae-36dc-48ef-b65d-536b9fd22260"
+	name="MyCRMRepository"
+	relativepath="MyCRMRepository.rxrep">
+		<codegen
+		classname="MyCRMRepository"
+		namespace="MyCRM">
+		</codegen>
+		<rootfolder
+		id="320422cc-3ab0-40a5-848a-96c127c13395"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

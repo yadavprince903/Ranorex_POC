@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f62c3776-3f0e-4cab-9350-fd68c588040b"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="MyCRM">
+	</codegen>
+	<variables>
+		<var
+		id="521b9566-633b-4a28-ab01-e7fbdb523c2d"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="4e271f49-1231-4ee3-9fed-6a79477e3436">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="45d9c5ae-36dc-48ef-b65d-536b9fd22260"
+	name="MyCRMRepository"
+	relativepath="MyCRMRepository.rxrep">
+		<codegen
+		classname="MyCRMRepository"
+		namespace="MyCRM">
+		</codegen>
+		<rootfolder
+		id="320422cc-3ab0-40a5-848a-96c127c13395"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
