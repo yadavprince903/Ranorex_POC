@@ -137,6 +137,22 @@ name="MyCRMRepository">
 				searchtimeout="30000ms">
 					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox4']/?/?/text[@accessiblename='Work:']
 				</item>
+				<item
+				capname="checkbox"
+				id="11efd133-881c-477d-b063-d645a2d2e2a2"
+				name="Active"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/?/?/checkbox[@controlname='checkBox1']
+				</item>
+				<item
+				capname="text"
+				id="ed6ea948-49ca-483c-abda-e08c8ca260b0"
+				name="Comments"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox3']/?/?/text[@accessiblerole='Text']
+				</item>
 			</folder>
 			<basepath>
 				/form[@controlname='Form1']/?/?
