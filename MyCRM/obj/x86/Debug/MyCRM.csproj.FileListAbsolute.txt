@@ -20,3 +20,5 @@ C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\Ranorex.Core.Resolver.dll
 C:\Ranorex\Ranorex_POC\MyCRM\obj\x86\Debug\MyCRM.csprojResolveAssemblyReference.cache
 C:\Ranorex\Ranorex_POC\MyCRM\obj\x86\Debug\MyCRM.exe
 C:\Ranorex\Ranorex_POC\MyCRM\obj\x86\Debug\MyCRM.pdb
+C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\Sanity.rxtst
+C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.rxsqc
