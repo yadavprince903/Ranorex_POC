@@ -10,3 +10,13 @@ C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.csproj.CoreComp
 C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.csproj.CopyComplete
 C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.exe
 C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.pdb
+C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.rxtmg
+C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.rxtst
+C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.exe.config
+C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.xml
+C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.exe
+C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.pdb
+C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Ranorex\Ranorex_POC\MyCRM\obj\x86\Debug\MyCRM.csprojResolveAssemblyReference.cache
+C:\Ranorex\Ranorex_POC\MyCRM\obj\x86\Debug\MyCRM.exe
+C:\Ranorex\Ranorex_POC\MyCRM\obj\x86\Debug\MyCRM.pdb

@@ -159,6 +159,30 @@
       <UserCode>true</UserCode>
       <id>aa8a0329-bfb6-4a52-9cc3-c5663f61063a</id>
     </Compile>
+    <Compile Include="Recordings\Company\TC_001\VerifyPageLabelDisplayed.cs">
+      <BoundTo>b979483c-d8e8-49d3-8c82-014f7b058e80</BoundTo>
+      <DependentUpon>VerifyPageLabelDisplayed.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c8ed3b05-1744-400d-aa15-70a60a59e018</id>
+    </Compile>
+    <Compile Include="Recordings\Company\TC_001\VerifyPageLabelDisplayed.UserCode.cs">
+      <BoundTo>b979483c-d8e8-49d3-8c82-014f7b058e80</BoundTo>
+      <DependentUpon>VerifyPageLabelDisplayed.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>07992b30-8e95-4b51-9bcc-2b169278b300</id>
+    </Compile>
+    <Compile Include="Recordings\Company\TC_002\VerifyLabelText.cs">
+      <BoundTo>e231d1ce-8240-4bec-8303-002fc1ea6836</BoundTo>
+      <DependentUpon>VerifyLabelText.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5349fa91-fc3b-4ed7-a1b8-218a4974aa91</id>
+    </Compile>
+    <Compile Include="Recordings\Company\TC_002\VerifyLabelText.UserCode.cs">
+      <BoundTo>e231d1ce-8240-4bec-8303-002fc1ea6836</BoundTo>
+      <DependentUpon>VerifyLabelText.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>89b909a2-faee-4c7d-8f05-46a6c43cb578</id>
+    </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>4be86203-6406-4137-bb6b-e03bd8922480</BoundTo>
       <DependentUpon>StartAUT.rxrec</DependentUpon>
@@ -197,6 +221,16 @@
       <id>7beaf6b1-7077-45a0-90e8-55f0e8122045</id>
       <recordtableid>182187fd-5a61-4b61-9a11-0a71a1a01bb9</recordtableid>
     </None>
+    <None Include="Recordings\Company\TC_001\VerifyPageLabelDisplayed.rxrec">
+      <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
+      <id>b979483c-d8e8-49d3-8c82-014f7b058e80</id>
+      <recordtableid>da2425a4-869c-4b46-9570-ff4f5752d122</recordtableid>
+    </None>
+    <None Include="Recordings\Company\TC_002\VerifyLabelText.rxrec">
+      <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
+      <id>e231d1ce-8240-4bec-8303-002fc1ea6836</id>
+      <recordtableid>52a63fda-865b-4508-88ae-a8dec16f31d4</recordtableid>
+    </None>
     <None Include="StartAUT.rxrec">
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
       <id>4be86203-6406-4137-bb6b-e03bd8922480</id>
@@ -212,6 +246,20 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>a1ec9511-5ed8-4767-babf-bcd622cb9017</id>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Recordings">
+      <id>82ea76ad-b4de-40d5-abd9-25afd6999b13</id>
+    </Folder>
+    <Folder Include="Recordings\Company">
+      <id>625c5129-2fc2-4b1a-964e-b86e728c78b3</id>
+    </Folder>
+    <Folder Include="Recordings\Company\TC_002">
+      <id>6a55a3d1-a1bb-4e67-9a58-837a1f0a4db7</id>
+    </Folder>
+    <Folder Include="Recordings\Company\TC_001">
+      <id>00ce8563-1f52-4e8e-a240-eef244571c35</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

@@ -19,16 +19,6 @@
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:MyCRM.CloseAUT.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:MyCRM.CloseAUT.CloseAutProcessIDVar">
-            <summary>
-            Gets or sets the value of variable CloseAutProcessIDVar.
-            </summary>
-        </member>
         <member name="M:MyCRM.CloseAUT.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:MyCRM.CloseAUT.Instance"/>.
@@ -48,19 +38,29 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:MyCRM.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyCRM.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
         <member name="T:MyCRM.MyCRMRepository">
             <summary>
             The class representing the MyCRMRepository element repository.
             </summary>
         </member>
-        <member name="P:MyCRM.MyCRMRepository.Instance">
-            <summary>
-            Gets the singleton class instance representing the MyCRMRepository element repository.
-            </summary>
-        </member>
         <member name="M:MyCRM.MyCRMRepository.#ctor">
             <summary>
             Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyCRMRepository element repository.
             </summary>
         </member>
         <member name="P:MyCRM.MyCRMRepository.SelfInfo">
@@ -101,6 +101,16 @@
         <member name="P:MyCRM.MyCRMRepositoryFolders.MyCRMAppFolder.People">
             <summary>
             The People folder.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.MyCRMAppFolder.Company">
+            <summary>
+            The Company folder.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.MyCRMAppFolder.Navigation">
+            <summary>
+            The Navigation folder.
             </summary>
         </member>
         <member name="T:MyCRM.MyCRMRepositoryFolders.PeopleFolder">
@@ -148,6 +158,196 @@
             The Male item info.
             </summary>
         </member>
+        <member name="T:MyCRM.MyCRMRepositoryFolders.CompanyFolder">
+            <summary>
+            The CompanyFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyCRM.MyCRMRepositoryFolders.CompanyFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Company  folder.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelAddLine1">
+            <summary>
+            The LabelAddLine1 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelAddLine1Info">
+            <summary>
+            The LabelAddLine1 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelAddLine2">
+            <summary>
+            The LabelAddLine2 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelAddLine2Info">
+            <summary>
+            The LabelAddLine2 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelCity">
+            <summary>
+            The LabelCity item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelCityInfo">
+            <summary>
+            The LabelCity item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelState">
+            <summary>
+            The LabelState item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelStateInfo">
+            <summary>
+            The LabelState item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelZip">
+            <summary>
+            The LabelZip item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelZipInfo">
+            <summary>
+            The LabelZip item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabeMain">
+            <summary>
+            The LabeMain item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabeMainInfo">
+            <summary>
+            The LabeMain item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelOther">
+            <summary>
+            The LabelOther item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelOtherInfo">
+            <summary>
+            The LabelOther item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.DropDownState">
+            <summary>
+            The DropDownState item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.DropDownStateInfo">
+            <summary>
+            The DropDownState item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.CommentBox">
+            <summary>
+            The CommentBox item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.CommentBoxInfo">
+            <summary>
+            The CommentBox item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtAddressLine1">
+            <summary>
+            The TxtAddressLine1 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtAddressLine1Info">
+            <summary>
+            The TxtAddressLine1 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtAddressLine2">
+            <summary>
+            The TxtAddressLine2 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtAddressLine2Info">
+            <summary>
+            The TxtAddressLine2 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtCity">
+            <summary>
+            The TxtCity item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtCityInfo">
+            <summary>
+            The TxtCity item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtZip">
+            <summary>
+            The TxtZip item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtZipInfo">
+            <summary>
+            The TxtZip item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtMain">
+            <summary>
+            The TxtMain item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtMainInfo">
+            <summary>
+            The TxtMain item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtOther">
+            <summary>
+            The TxtOther item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.TxtOtherInfo">
+            <summary>
+            The TxtOther item info.
+            </summary>
+        </member>
+        <member name="T:MyCRM.MyCRMRepositoryFolders.NavigationFolder">
+            <summary>
+            The NavigationFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyCRM.MyCRMRepositoryFolders.NavigationFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Navigation  folder.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.Company">
+            <summary>
+            The Company item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.CompanyInfo">
+            <summary>
+            The Company item info.
+            </summary>
+        </member>
         <member name="T:MyCRM.Recording1">
              <summary>
             The Recording1 recording.
@@ -161,21 +361,6 @@
         <member name="M:MyCRM.Recording1.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recording1.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recording1.First">
-            <summary>
-            Gets or sets the value of variable First.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recording1.Last">
-            <summary>
-            Gets or sets the value of variable Last.
             </summary>
         </member>
         <member name="M:MyCRM.Recording1.Start">
@@ -197,6 +382,139 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:MyCRM.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recording1.First">
+            <summary>
+            Gets or sets the value of variable First.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recording1.Last">
+            <summary>
+            Gets or sets the value of variable Last.
+            </summary>
+        </member>
+        <member name="T:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed">
+             <summary>
+            The VerifyPageLabelDisplayed recording.
+             </summary>
+        </member>
+        <member name="F:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.repo">
+            <summary>
+            Holds an instance of the global::MyCRM.MyCRMRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyCRM.Recordings.Company.TC_002.VerifyLabelText">
+             <summary>
+            The VerifyLabelText recording.
+             </summary>
+        </member>
+        <member name="F:MyCRM.Recordings.Company.TC_002.VerifyLabelText.repo">
+            <summary>
+            Holds an instance of the global::MyCRM.MyCRMRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.AdressLine1">
+            <summary>
+            Gets or sets the value of variable AdressLine1.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.AddressLine2">
+            <summary>
+            Gets or sets the value of variable AddressLine2.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.City">
+            <summary>
+            Gets or sets the value of variable City.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.State">
+            <summary>
+            Gets or sets the value of variable State.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Zip">
+            <summary>
+            Gets or sets the value of variable Zip.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Main">
+            <summary>
+            Gets or sets the value of variable Main.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Other">
+            <summary>
+            Gets or sets the value of variable Other.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Comment">
+            <summary>
+            Gets or sets the value of variable Comment.
+            </summary>
+        </member>
         <member name="T:MyCRM.StartAUT">
              <summary>
             The StartAUT recording.
@@ -210,16 +528,6 @@
         <member name="M:MyCRM.StartAUT.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:MyCRM.StartAUT.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:MyCRM.StartAUT.StartAutProcessIDVar">
-            <summary>
-            Gets or sets the value of variable StartAutProcessIDVar.
             </summary>
         </member>
         <member name="M:MyCRM.StartAUT.Start">
@@ -239,6 +547,16 @@
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyCRM.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyCRM.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

@@ -3,6 +3,20 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="1320cc3f-597a-4427-acab-34538443889c"
+			name="CloseAUT"
+			ref="f62c3776-3f0e-4cab-9350-fd68c588040b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="521b9566-633b-4a28-ab01-e7fbdb523c2d"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="2c15ee49-6dec-4cbb-8515-d09d88749442"
 			name="Recording1"
 			ref="182187fd-5a61-4b61-9a11-0a71a1a01bb9"
@@ -19,6 +33,62 @@
 					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
 					variableid="b86e07f9-6016-4bc4-aa1d-f60bc4e0c011"
 					variablename="Last">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="4a2771c9-f521-49cf-a3b6-a0d2ac1e78be"
+			name="VerifyLabelText"
+			ref="52a63fda-865b-4508-88ae-a8dec16f31d4"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AdressLine1"
+					datasourceid="8bf2c03b-3684-4430-8ac4-438e873a859f"
+					variableid="44e5d779-a371-49ab-ba89-55442a408e68"
+					variablename="AdressLine1">
+					</var>
+					<var
+					dataname="AddressLine2"
+					datasourceid="8bf2c03b-3684-4430-8ac4-438e873a859f"
+					variableid="b4c02137-7a5e-4d8d-89f2-a972d847a35a"
+					variablename="AddressLine2">
+					</var>
+					<var
+					dataname="City"
+					datasourceid="8bf2c03b-3684-4430-8ac4-438e873a859f"
+					variableid="6ae00447-09e7-4eea-8d12-99502a675e97"
+					variablename="City">
+					</var>
+					<var
+					dataname="State"
+					datasourceid="8bf2c03b-3684-4430-8ac4-438e873a859f"
+					variableid="49d4a669-0c2e-4eb1-84ab-b95142dab2fd"
+					variablename="State">
+					</var>
+					<var
+					dataname="Zip"
+					datasourceid="8bf2c03b-3684-4430-8ac4-438e873a859f"
+					variableid="062336ae-4002-48c6-b9b1-eaa36300b96a"
+					variablename="Zip">
+					</var>
+					<var
+					dataname="Main"
+					datasourceid="8bf2c03b-3684-4430-8ac4-438e873a859f"
+					variableid="5ebced3e-4085-4a1e-b061-37cab27410bd"
+					variablename="Main">
+					</var>
+					<var
+					dataname="Other"
+					datasourceid="8bf2c03b-3684-4430-8ac4-438e873a859f"
+					variableid="612265d6-497f-477b-91c5-47960ce0c7c5"
+					variablename="Other">
+					</var>
+					<var
+					dataname="Comment"
+					datasourceid="8bf2c03b-3684-4430-8ac4-438e873a859f"
+					variableid="8c9e61e3-05a8-46a8-a500-ffc8b9bcca2e"
+					variablename="Comment">
 					</var>
 				</databinding>
 			</testmodule>
@@ -46,6 +116,16 @@
 			reportwriteinterval="30000ms"
 			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
+			<testmodule
+			id="51e725f5-e8a6-4829-8030-2c6497c7b18e"
+			name="VerifyPageLabelDisplayed"
+			ref="da2425a4-869c-4b46-9570-ff4f5752d122"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="5623fe9c-60fa-4e61-a99d-0c6d3f21a2f9"
+			name="teardown">
+			</teardown>
 			<setup
 			id="61009f5e-1c94-4aae-b08f-33fabbe1f78b"
 			name="setup">
@@ -61,6 +141,72 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="874d7a4f-3d76-4637-ae0b-ecd099e979b3"
+			name="CloseAUT"
+			ref="f62c3776-3f0e-4cab-9350-fd68c588040b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="521b9566-633b-4a28-ab01-e7fbdb523c2d"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="8bf2c03b-3684-4430-8ac4-438e873a859f"
+			name="TC_002">
+				<parameters>
+					<param
+					name="AdressLine1"
+					value="500 Park Avenue">
+					</param>
+					<param
+					name="AddressLine2"
+					value="Suite 200">
+					</param>
+					<param
+					name="City"
+					value="New York">
+					</param>
+					<param
+					name="State"
+					value="">
+					</param>
+					<param
+					name="Zip"
+					value="10028">
+					</param>
+					<param
+					name="Main"
+					value="212-770-7000">
+					</param>
+					<param
+					name="Other"
+					value="212-770-7001">
+					</param>
+					<param
+					name="Comment"
+					value="Test">
+					</param>
+				</parameters>
+			</testcase>
+			<testmodule
+			id="903ec3af-bb83-4b34-8c57-85d2bc6c993a"
+			name="StartAUT"
+			ref="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="ae79d364-9099-4f94-99b4-84d1927a6ab4"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="a07b1b98-0424-40fc-b6b2-efe7c4784b10"
 			name="teardown">
@@ -79,6 +225,28 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="aabb0371-97f1-4b1c-ba48-0c171a79c42b"
+			name="setup">
+			</setup>
+			<testmodule
+			id="d01686ac-d6a3-41e0-8077-993a9c322cf5"
+			name="StartAUT"
+			ref="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="ae79d364-9099-4f94-99b4-84d1927a6ab4"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<teardown
+			id="da8e827f-b590-410e-acf5-983fcbf036d5"
+			name="teardown">
+			</teardown>
 			<testcase
 			id="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
 			name="TestCase">
@@ -107,6 +275,14 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="ea4fa3be-944c-4756-8ed5-d179cef0bf2d"
+			name="TC_001">
+			</testcase>
+			<setup
+			id="ec8f3a9a-261b-4c07-bae0-5847c55aa44f"
+			name="setup">
+			</setup>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -139,6 +315,54 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="ea4fa3be-944c-4756-8ed5-d179cef0bf2d"
+					name="TC_001">
+						<setup
+						id="aabb0371-97f1-4b1c-ba48-0c171a79c42b"
+						name="setup">
+							<testmodule
+							id="d01686ac-d6a3-41e0-8077-993a9c322cf5"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="51e725f5-e8a6-4829-8030-2c6497c7b18e"
+						name="VerifyPageLabelDisplayed">
+						</testmodule>
+						<teardown
+						id="da8e827f-b590-410e-acf5-983fcbf036d5"
+						name="teardown">
+							<testmodule
+							id="1320cc3f-597a-4427-acab-34538443889c"
+							name="CloseAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="8bf2c03b-3684-4430-8ac4-438e873a859f"
+					name="TC_002">
+						<setup
+						id="ec8f3a9a-261b-4c07-bae0-5847c55aa44f"
+						name="setup">
+							<testmodule
+							id="903ec3af-bb83-4b34-8c57-85d2bc6c993a"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="4a2771c9-f521-49cf-a3b6-a0d2ac1e78be"
+						name="VerifyLabelText">
+						</testmodule>
+						<teardown
+						id="5623fe9c-60fa-4e61-a99d-0c6d3f21a2f9"
+						name="teardown">
+							<testmodule
+							id="874d7a4f-3d76-4637-ae0b-ecd099e979b3"
+							name="CloseAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -153,7 +377,7 @@
 			id="7fe1dc66-a5e0-4f7a-aefe-201e03b95460">
 			</testcontainer>
 			<testcontainer
-			id="df7a0fe6-6cce-4d30-829e-6f9c990ad97e">
+			id="8bf2c03b-3684-4430-8ac4-438e873a859f">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

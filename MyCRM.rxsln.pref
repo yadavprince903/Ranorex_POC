@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{4AC0B0EF-16D7-4171-B451-9D3B87970E1F}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution MyCRM[MyCRM[Recordings[Company[]]]]]&#xD;&#xA;Solution MyCRM\MyCRM\MyCRM.rxtst&#xD;&#xA;Solution MyCRM" />
+  <StartupProject value="{4AC0B0EF-16D7-4171-B451-9D3B87970E1F}" />
+</Properties>

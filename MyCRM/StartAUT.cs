@@ -92,8 +92,8 @@ namespace MyCRM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\Admin\\Desktop\\MyCRM.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
-            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Users\\Admin\\Desktop\\MyCRM.exe", "", "", false));
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\User\\Downloads' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
+            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Users\\User\\Downloads", "", "", false));
             Delay.Milliseconds(0);
             
         }
