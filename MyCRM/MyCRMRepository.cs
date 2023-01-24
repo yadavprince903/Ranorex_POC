@@ -139,6 +139,19 @@ namespace MyCRM
             RepoItemInfo _firstInfo;
             RepoItemInfo _lastInfo;
             RepoItemInfo _maleInfo;
+            RepoItemInfo _femaleInfo;
+            RepoItemInfo _addressline1Info;
+            RepoItemInfo _addressline2Info;
+            RepoItemInfo _cityInfo;
+            RepoItemInfo _stateInfo;
+            RepoItemInfo _zipInfo;
+            RepoItemInfo _homeInfo;
+            RepoItemInfo _workInfo;
+            RepoItemInfo _mobileInfo;
+            RepoItemInfo _personalmailInfo;
+            RepoItemInfo _workmailInfo;
+            RepoItemInfo _activeInfo;
+            RepoItemInfo _commentsInfo;
 
             /// <summary>
             /// Creates a new People  folder.
@@ -149,6 +162,19 @@ namespace MyCRM
                 _firstInfo = new RepoItemInfo(this, "First", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox5']/?/?/text[@accessiblename='First:']", "", 30000, null, "38ff9c73-1bdf-468e-8567-eebdc3569b75");
                 _lastInfo = new RepoItemInfo(this, "Last", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox5']/?/?/text[@accessiblename='Last:']", "", 30000, null, "1ff75e9c-8f84-4076-9191-c4bf9dc43cdb");
                 _maleInfo = new RepoItemInfo(this, "Male", "tabpage[@controlname='tabPagePeople']/?/?/radiobutton[@controlname='radioButtonMale']", "", 30000, null, "e1801a9f-06ff-4048-a697-8099022b84f8");
+                _femaleInfo = new RepoItemInfo(this, "Female", "tabpage[@controlname='tabPagePeople']/?/?/radiobutton[@controlname='radioButtonFemale']", "element", 30000, null, "875b9d47-71c9-4223-b268-7962bc5ee414");
+                _addressline1Info = new RepoItemInfo(this, "Addressline1", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox1']/?/?/text[@accessiblename='Add Line 1:']", "element", 30000, null, "cdb4eb91-b0ee-4ca9-b162-29e8be384b9c");
+                _addressline2Info = new RepoItemInfo(this, "Addressline2", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox1']/?/?/text[@accessiblename='Add Line 2:']", "element", 30000, null, "9ed4d4de-23e7-459f-b7e9-95e858087ab0");
+                _cityInfo = new RepoItemInfo(this, "City", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox1']/?/?/text[@accessiblename='City:']", "element", 30000, null, "580cf3d3-59f7-4c3e-a161-f70ec03171b3");
+                _stateInfo = new RepoItemInfo(this, "State", "tabpage[@controlname='tabPagePeople']/?/?/combobox[@controlname='comboBoxPeopleAddressState']", "element", 30000, null, "dda4586d-d628-4561-84d2-f0a3b845f13d");
+                _zipInfo = new RepoItemInfo(this, "Zip", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox1']/?/?/text[@accessiblename='Zip:']", "element", 30000, null, "c9c0e1ea-89e5-4064-8a77-08ae5fade462");
+                _homeInfo = new RepoItemInfo(this, "Home", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox2']/?/?/text[@accessiblename='Home:']", "element", 30000, null, "4fbaed2d-4c54-4b73-8030-6fe9e4a3ce8f");
+                _workInfo = new RepoItemInfo(this, "Work", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox2']/?/?/text[@accessiblename='Work:']", "element", 30000, null, "fa3af862-a7cf-4af6-9f1a-c4ab39cfb8ec");
+                _mobileInfo = new RepoItemInfo(this, "Mobile", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox2']/?/?/text[@accessiblename='Mobile:']", "element", 30000, null, "b3421d84-682e-4fad-b99f-1e9963912f88");
+                _personalmailInfo = new RepoItemInfo(this, "Personalmail", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox4']/?/?/text[@accessiblename='Personal:']", "element", 30000, null, "3fc55c3a-aa05-4fc9-93a4-02b1a53a1324");
+                _workmailInfo = new RepoItemInfo(this, "Workmail", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox4']/?/?/text[@accessiblename='Work:']", "element", 30000, null, "9fc16568-08b1-487a-9cbd-9726e9d4a2e7");
+                _activeInfo = new RepoItemInfo(this, "Active", "tabpage[@controlname='tabPagePeople']/?/?/checkbox[@controlname='checkBox1']", "element", 30000, null, "11efd133-881c-477d-b063-d645a2d2e2a2");
+                _commentsInfo = new RepoItemInfo(this, "Comments", "tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox3']/?/?/text[@accessiblerole='Text']", "element", 30000, null, "ed6ea948-49ca-483c-abda-e08c8ca260b0");
             }
 
             /// <summary>
@@ -232,6 +258,318 @@ namespace MyCRM
                 get
                 {
                     return _maleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Female item.
+            /// </summary>
+            [RepositoryItem("875b9d47-71c9-4223-b268-7962bc5ee414")]
+            public virtual Ranorex.RadioButton Female
+            {
+                get
+                {
+                    return _femaleInfo.CreateAdapter<Ranorex.RadioButton>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Female item info.
+            /// </summary>
+            [RepositoryItemInfo("875b9d47-71c9-4223-b268-7962bc5ee414")]
+            public virtual RepoItemInfo FemaleInfo
+            {
+                get
+                {
+                    return _femaleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Addressline1 item.
+            /// </summary>
+            [RepositoryItem("cdb4eb91-b0ee-4ca9-b162-29e8be384b9c")]
+            public virtual Ranorex.Text Addressline1
+            {
+                get
+                {
+                    return _addressline1Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Addressline1 item info.
+            /// </summary>
+            [RepositoryItemInfo("cdb4eb91-b0ee-4ca9-b162-29e8be384b9c")]
+            public virtual RepoItemInfo Addressline1Info
+            {
+                get
+                {
+                    return _addressline1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Addressline2 item.
+            /// </summary>
+            [RepositoryItem("9ed4d4de-23e7-459f-b7e9-95e858087ab0")]
+            public virtual Ranorex.Text Addressline2
+            {
+                get
+                {
+                    return _addressline2Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Addressline2 item info.
+            /// </summary>
+            [RepositoryItemInfo("9ed4d4de-23e7-459f-b7e9-95e858087ab0")]
+            public virtual RepoItemInfo Addressline2Info
+            {
+                get
+                {
+                    return _addressline2Info;
+                }
+            }
+
+            /// <summary>
+            /// The City item.
+            /// </summary>
+            [RepositoryItem("580cf3d3-59f7-4c3e-a161-f70ec03171b3")]
+            public virtual Ranorex.Text City
+            {
+                get
+                {
+                    return _cityInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The City item info.
+            /// </summary>
+            [RepositoryItemInfo("580cf3d3-59f7-4c3e-a161-f70ec03171b3")]
+            public virtual RepoItemInfo CityInfo
+            {
+                get
+                {
+                    return _cityInfo;
+                }
+            }
+
+            /// <summary>
+            /// The State item.
+            /// </summary>
+            [RepositoryItem("dda4586d-d628-4561-84d2-f0a3b845f13d")]
+            public virtual Ranorex.ComboBox State
+            {
+                get
+                {
+                    return _stateInfo.CreateAdapter<Ranorex.ComboBox>(true);
+                }
+            }
+
+            /// <summary>
+            /// The State item info.
+            /// </summary>
+            [RepositoryItemInfo("dda4586d-d628-4561-84d2-f0a3b845f13d")]
+            public virtual RepoItemInfo StateInfo
+            {
+                get
+                {
+                    return _stateInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Zip item.
+            /// </summary>
+            [RepositoryItem("c9c0e1ea-89e5-4064-8a77-08ae5fade462")]
+            public virtual Ranorex.Text Zip
+            {
+                get
+                {
+                    return _zipInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Zip item info.
+            /// </summary>
+            [RepositoryItemInfo("c9c0e1ea-89e5-4064-8a77-08ae5fade462")]
+            public virtual RepoItemInfo ZipInfo
+            {
+                get
+                {
+                    return _zipInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Home item.
+            /// </summary>
+            [RepositoryItem("4fbaed2d-4c54-4b73-8030-6fe9e4a3ce8f")]
+            public virtual Ranorex.Text Home
+            {
+                get
+                {
+                    return _homeInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Home item info.
+            /// </summary>
+            [RepositoryItemInfo("4fbaed2d-4c54-4b73-8030-6fe9e4a3ce8f")]
+            public virtual RepoItemInfo HomeInfo
+            {
+                get
+                {
+                    return _homeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Work item.
+            /// </summary>
+            [RepositoryItem("fa3af862-a7cf-4af6-9f1a-c4ab39cfb8ec")]
+            public virtual Ranorex.Text Work
+            {
+                get
+                {
+                    return _workInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Work item info.
+            /// </summary>
+            [RepositoryItemInfo("fa3af862-a7cf-4af6-9f1a-c4ab39cfb8ec")]
+            public virtual RepoItemInfo WorkInfo
+            {
+                get
+                {
+                    return _workInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Mobile item.
+            /// </summary>
+            [RepositoryItem("b3421d84-682e-4fad-b99f-1e9963912f88")]
+            public virtual Ranorex.Text Mobile
+            {
+                get
+                {
+                    return _mobileInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Mobile item info.
+            /// </summary>
+            [RepositoryItemInfo("b3421d84-682e-4fad-b99f-1e9963912f88")]
+            public virtual RepoItemInfo MobileInfo
+            {
+                get
+                {
+                    return _mobileInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Personalmail item.
+            /// </summary>
+            [RepositoryItem("3fc55c3a-aa05-4fc9-93a4-02b1a53a1324")]
+            public virtual Ranorex.Text Personalmail
+            {
+                get
+                {
+                    return _personalmailInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Personalmail item info.
+            /// </summary>
+            [RepositoryItemInfo("3fc55c3a-aa05-4fc9-93a4-02b1a53a1324")]
+            public virtual RepoItemInfo PersonalmailInfo
+            {
+                get
+                {
+                    return _personalmailInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Workmail item.
+            /// </summary>
+            [RepositoryItem("9fc16568-08b1-487a-9cbd-9726e9d4a2e7")]
+            public virtual Ranorex.Text Workmail
+            {
+                get
+                {
+                    return _workmailInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Workmail item info.
+            /// </summary>
+            [RepositoryItemInfo("9fc16568-08b1-487a-9cbd-9726e9d4a2e7")]
+            public virtual RepoItemInfo WorkmailInfo
+            {
+                get
+                {
+                    return _workmailInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Active item.
+            /// </summary>
+            [RepositoryItem("11efd133-881c-477d-b063-d645a2d2e2a2")]
+            public virtual Ranorex.CheckBox Active
+            {
+                get
+                {
+                    return _activeInfo.CreateAdapter<Ranorex.CheckBox>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Active item info.
+            /// </summary>
+            [RepositoryItemInfo("11efd133-881c-477d-b063-d645a2d2e2a2")]
+            public virtual RepoItemInfo ActiveInfo
+            {
+                get
+                {
+                    return _activeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Comments item.
+            /// </summary>
+            [RepositoryItem("ed6ea948-49ca-483c-abda-e08c8ca260b0")]
+            public virtual Ranorex.Text Comments
+            {
+                get
+                {
+                    return _commentsInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Comments item info.
+            /// </summary>
+            [RepositoryItemInfo("ed6ea948-49ca-483c-abda-e08c8ca260b0")]
+            public virtual RepoItemInfo CommentsInfo
+            {
+                get
+                {
+                    return _commentsInfo;
                 }
             }
         }

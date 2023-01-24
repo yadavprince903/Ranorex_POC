@@ -148,6 +148,116 @@
             The Male item info.
             </summary>
         </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Female">
+            <summary>
+            The Female item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.FemaleInfo">
+            <summary>
+            The Female item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Addressline1">
+            <summary>
+            The Addressline1 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Addressline1Info">
+            <summary>
+            The Addressline1 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Addressline2">
+            <summary>
+            The Addressline2 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Addressline2Info">
+            <summary>
+            The Addressline2 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.City">
+            <summary>
+            The City item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.CityInfo">
+            <summary>
+            The City item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.State">
+            <summary>
+            The State item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.StateInfo">
+            <summary>
+            The State item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Zip">
+            <summary>
+            The Zip item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.ZipInfo">
+            <summary>
+            The Zip item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Home">
+            <summary>
+            The Home item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.HomeInfo">
+            <summary>
+            The Home item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Work">
+            <summary>
+            The Work item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.WorkInfo">
+            <summary>
+            The Work item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Mobile">
+            <summary>
+            The Mobile item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.MobileInfo">
+            <summary>
+            The Mobile item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Personalmail">
+            <summary>
+            The Personalmail item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.PersonalmailInfo">
+            <summary>
+            The Personalmail item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.Workmail">
+            <summary>
+            The Workmail item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.PeopleFolder.WorkmailInfo">
+            <summary>
+            The Workmail item info.
+            </summary>
+        </member>
         <member name="T:MyCRM.Recording1">
              <summary>
             The Recording1 recording.

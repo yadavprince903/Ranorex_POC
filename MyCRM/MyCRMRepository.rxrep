@@ -49,6 +49,94 @@ name="MyCRMRepository">
 				searchtimeout="30000ms">
 					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/?/?/radiobutton[@controlname='radioButtonMale']
 				</item>
+				<item
+				capname="radiobutton"
+				id="875b9d47-71c9-4223-b268-7962bc5ee414"
+				name="Female"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/?/?/radiobutton[@controlname='radioButtonFemale']
+				</item>
+				<item
+				capname="text"
+				id="cdb4eb91-b0ee-4ca9-b162-29e8be384b9c"
+				name="Addressline1"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox1']/?/?/text[@accessiblename='Add Line 1:']
+				</item>
+				<item
+				capname="text"
+				id="9ed4d4de-23e7-459f-b7e9-95e858087ab0"
+				name="Addressline2"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox1']/?/?/text[@accessiblename='Add Line 2:']
+				</item>
+				<item
+				capname="text"
+				id="580cf3d3-59f7-4c3e-a161-f70ec03171b3"
+				name="City"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox1']/?/?/text[@accessiblename='City:']
+				</item>
+				<item
+				capname="combobox"
+				id="dda4586d-d628-4561-84d2-f0a3b845f13d"
+				name="State"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/?/?/combobox[@controlname='comboBoxPeopleAddressState']
+				</item>
+				<item
+				capname="text"
+				id="c9c0e1ea-89e5-4064-8a77-08ae5fade462"
+				name="Zip"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox1']/?/?/text[@accessiblename='Zip:']
+				</item>
+				<item
+				capname="text"
+				id="4fbaed2d-4c54-4b73-8030-6fe9e4a3ce8f"
+				name="Home"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox2']/?/?/text[@accessiblename='Home:']
+				</item>
+				<item
+				capname="text"
+				id="fa3af862-a7cf-4af6-9f1a-c4ab39cfb8ec"
+				name="Work"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox2']/?/?/text[@accessiblename='Work:']
+				</item>
+				<item
+				capname="text"
+				id="b3421d84-682e-4fad-b99f-1e9963912f88"
+				name="Mobile"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox2']/?/?/text[@accessiblename='Mobile:']
+				</item>
+				<item
+				capname="text"
+				id="3fc55c3a-aa05-4fc9-93a4-02b1a53a1324"
+				name="Personalmail"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox4']/?/?/text[@accessiblename='Personal:']
+				</item>
+				<item
+				capname="text"
+				id="9fc16568-08b1-487a-9cbd-9726e9d4a2e7"
+				name="Workmail"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox4']/?/?/text[@accessiblename='Work:']
+				</item>
 			</folder>
 			<basepath>
 				/form[@controlname='Form1']/?/?
