@@ -34,8 +34,16 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="512dcb0c-6f44-4c15-9c30-d215072d04b1"
+			name="teardown">
+			</teardown>
 			<setup
 			id="5ac80d67-0818-4389-9b8a-0f563ed56eb4"
+			name="setup">
+			</setup>
+			<setup
+			id="5e6ed09c-c67e-4fa0-bd02-090420d6d04f"
 			name="setup">
 			</setup>
 			<setup
@@ -203,6 +211,10 @@
 			name="teardown">
 			</teardown>
 			<testcase
+			id="f2d724c0-e247-4339-8ca4-5d9aca3008b9"
+			name="TC_003">
+			</testcase>
+			<testcase
 			id="f6433b1e-ba27-456d-bbc5-b353aca14224"
 			name="Sanity"
 			reportlevel="Info;20">
@@ -269,6 +281,18 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="f2d724c0-e247-4339-8ca4-5d9aca3008b9"
+					name="TC_003">
+						<setup
+						id="5e6ed09c-c67e-4fa0-bd02-090420d6d04f"
+						name="setup">
+						</setup>
+						<teardown
+						id="512dcb0c-6f44-4c15-9c30-d215072d04b1"
+						name="teardown">
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -284,6 +308,9 @@
 			</testcontainer>
 			<testcontainer
 			id="ce54a919-0f30-47b5-aba5-855687d5e44e">
+			</testcontainer>
+			<testcontainer
+			id="f2d724c0-e247-4339-8ca4-5d9aca3008b9">
 			</testcontainer>
 			<testcontainer
 			id="f6433b1e-ba27-456d-bbc5-b353aca14224">

@@ -10,7 +10,6 @@ C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.csproj.CopyComp
 C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.exe
 C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\obj\x86\Debug\MyCRM.pdb
 C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.rxtmg
-C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.rxtst
 C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.exe.config
 C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.xml
 C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.exe
@@ -24,3 +23,4 @@ C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\MyCRM.rxsqc
 C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\Sanity.rxtst
 C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\MyCRM.rxsqc
 C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\Regression.rxtst
+C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\Regression.rxtst

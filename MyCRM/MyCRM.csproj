@@ -171,6 +171,18 @@
       <UserCode>true</UserCode>
       <id>89b909a2-faee-4c7d-8f05-46a6c43cb578</id>
     </Compile>
+    <Compile Include="Recordings\Other\TC_003\VerifyLabelAndButtonlsPresent.cs">
+      <BoundTo>50103938-3c12-4853-99fd-7832fb3cf345</BoundTo>
+      <DependentUpon>VerifyLabelAndButtonlsPresent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2e0da449-e00c-487b-9f79-dda4816e1a69</id>
+    </Compile>
+    <Compile Include="Recordings\Other\TC_003\VerifyLabelAndButtonlsPresent.UserCode.cs">
+      <BoundTo>50103938-3c12-4853-99fd-7832fb3cf345</BoundTo>
+      <DependentUpon>VerifyLabelAndButtonlsPresent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>84ac6fca-c5a3-4413-b2ab-bb3323331314</id>
+    </Compile>
     <Compile Include="Recordings\People\Recording1.cs">
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -246,6 +258,11 @@
       <id>e231d1ce-8240-4bec-8303-002fc1ea6836</id>
       <recordtableid>52a63fda-865b-4508-88ae-a8dec16f31d4</recordtableid>
     </None>
+    <None Include="Recordings\Other\TC_003\VerifyLabelAndButtonlsPresent.rxrec">
+      <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
+      <id>50103938-3c12-4853-99fd-7832fb3cf345</id>
+      <recordtableid>eb444085-dd2f-4026-bdc3-c9925550d49a</recordtableid>
+    </None>
     <None Include="Recordings\People\Recording1.rxrec">
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
       <id>7beaf6b1-7077-45a0-90e8-55f0e8122045</id>
@@ -284,6 +301,12 @@
     </Folder>
     <Folder Include="Recordings\Company\TC_001">
       <id>00ce8563-1f52-4e8e-a240-eef244571c35</id>
+    </Folder>
+    <Folder Include="Recordings\Other">
+      <id>326f748c-e665-4bf6-bb94-3cf459e24c81</id>
+    </Folder>
+    <Folder Include="Recordings\Other\TC_003">
+      <id>3cfbf139-8846-4afb-91b3-a3c488ad2175</id>
     </Folder>
     <Folder Include="Recordings\People">
       <id>5906ec25-8564-4816-b3c4-768ae0571a73</id>
