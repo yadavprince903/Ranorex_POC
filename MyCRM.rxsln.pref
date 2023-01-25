@@ -11,6 +11,10 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
+<<<<<<< HEAD
   <ProjectBrowserState value="[Solution MyCRM[MyCRM[]]]&#xD;&#xA;Solution MyCRM\MyCRM\Recording1.rxrec&#xD;&#xA;Solution MyCRM" />
+=======
+  <ProjectBrowserState value="[Solution MyCRM[MyCRM[Recordings[Company[]]]]]&#xD;&#xA;Solution MyCRM\MyCRM\MyCRM.rxtst&#xD;&#xA;Solution MyCRM" />
+>>>>>>> 47f9c4e85363c63337dbd8141b4ec6e7943aca16
   <StartupProject value="{4AC0B0EF-16D7-4171-B451-9D3B87970E1F}" />
 </Properties>

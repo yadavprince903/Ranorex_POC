@@ -1,4 +1,5 @@
-﻿<repository
+<?xml version="1.0" encoding="utf-8"?>
+<repository
 id="45d9c5ae-36dc-48ef-b65d-536b9fd22260"
 name="MyCRMRepository">
 	<codegen
@@ -152,6 +153,148 @@ name="MyCRMRepository">
 				robustPath="/form[@controlname='Form1']/?/?/element"
 				searchtimeout="30000ms">
 					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPagePeople']/container[@controlname='groupBox3']/?/?/text[@accessiblerole='Text']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="6741e82e-ec3b-4d2f-8c4c-23dc101f2b01"
+			isrooted="False"
+			name="Company"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="7b75f60f-32b6-4f20-9418-16e6c61b62d6"
+				name="LabelAddLine1"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label22']
+				</item>
+				<item
+				capname="text"
+				id="7e363e15-abc4-4287-a46b-bcee1a06d4f1"
+				name="LabelAddLine2"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label21']
+				</item>
+				<item
+				capname="text"
+				id="779072db-e2e8-470f-adc0-5380f608e5a4"
+				name="LabelCity"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label20']
+				</item>
+				<item
+				capname="text"
+				id="df73478f-20e8-4720-95cb-13764a4229e4"
+				name="LabelState"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label19']
+				</item>
+				<item
+				capname="text"
+				id="f5c6e247-fa1d-43ee-80d1-5712f26e316f"
+				name="LabelZip"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label18']
+				</item>
+				<item
+				capname="text"
+				id="8337b98d-a2b2-4def-b286-35bcd8c48525"
+				name="LabeMain"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label17']
+				</item>
+				<item
+				capname="text"
+				id="5d4a6c93-4aae-4ed3-8730-9121950548a5"
+				name="LabelOther"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label16']
+				</item>
+				<item
+				capname="combobox"
+				id="e65fc614-8bd2-4d04-9252-de0eb6329387"
+				name="DropDownState"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/combobox[@controlname='comboBoxCompaniesAddressState']
+				</item>
+				<item
+				capname="text"
+				id="f6838123-bdd2-4b00-9eb6-cb045d61d0e3"
+				name="CommentBox"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox7']/?/?/text[@accessiblerole='Text']
+				</item>
+				<item
+				capname="text"
+				id="b60ecbbf-17c2-4de7-933e-459db99e9516"
+				name="TxtAddressLine1"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']
+				</item>
+				<item
+				capname="text"
+				id="49a26305-d674-4995-8ccd-341ed6f8f41d"
+				name="TxtAddressLine2"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']
+				</item>
+				<item
+				capname="text"
+				id="d87c6fc7-70eb-4d03-b9fa-f153e34ced75"
+				name="TxtCity"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressCity']
+				</item>
+				<item
+				capname="text"
+				id="4ab49ece-250a-4c49-9613-d35e539e5a1e"
+				name="TxtZip"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressZip']
+				</item>
+				<item
+				capname="text"
+				id="c0fe8e77-830f-4264-baa5-eab05b48b368"
+				name="TxtMain"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Main:']
+				</item>
+				<item
+				capname="text"
+				id="202b68c9-d382-4b20-897b-bf688bb3e1b3"
+				name="TxtOther"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Other:']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="3c3167bb-0bd8-4bbe-ab1d-1513efefc36e"
+			isrooted="False"
+			name="Navigation"
+			searchtimeout="0ms">
+				<item
+				capname="tabpage"
+				id="c3394663-c50f-4003-8abf-2e349bdfca82"
+				name="Company"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@accessiblename='Company ']
 				</item>
 			</folder>
 			<basepath>
