@@ -20,7 +20,7 @@ mode="Desktop">
 	</useDefaultItemLogging>
 	<codegen
 	classname="Recording1"
-	namespace="MyCRM">
+	namespace="MyCRM.Recordings.People">
 	</codegen>
 	<variables>
 		<var
@@ -122,7 +122,7 @@ mode="Desktop">
 	<repository
 	id="45d9c5ae-36dc-48ef-b65d-536b9fd22260"
 	name="MyCRMRepository"
-	relativepath="MyCRMRepository.rxrep">
+	relativepath="..\..\MyCRMRepository.rxrep">
 		<codegen
 		classname="MyCRMRepository"
 		namespace="MyCRM">

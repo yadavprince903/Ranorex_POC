@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace MyCRM
+namespace MyCRM.Recordings.People
 {
     public partial class Recording1
     {

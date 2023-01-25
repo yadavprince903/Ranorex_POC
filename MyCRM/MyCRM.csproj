@@ -147,18 +147,6 @@
     <Compile Include="Program.cs">
       <id>0bde291a-82e5-4dc8-9d70-51b6a6e642fa</id>
     </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>7beaf6b1-7077-45a0-90e8-55f0e8122045</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>8e1fc087-d0de-4fe2-a211-c3c31de9f0d9</id>
-    </Compile>
-    <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>7beaf6b1-7077-45a0-90e8-55f0e8122045</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>aa8a0329-bfb6-4a52-9cc3-c5663f61063a</id>
-    </Compile>
     <Compile Include="Recordings\Company\TC_001\VerifyPageLabelDisplayed.cs">
       <BoundTo>b979483c-d8e8-49d3-8c82-014f7b058e80</BoundTo>
       <DependentUpon>VerifyPageLabelDisplayed.rxrec</DependentUpon>
@@ -182,6 +170,30 @@
       <DependentUpon>VerifyLabelText.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>89b909a2-faee-4c7d-8f05-46a6c43cb578</id>
+    </Compile>
+    <Compile Include="Recordings\People\Recording1.cs">
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8e1fc087-d0de-4fe2-a211-c3c31de9f0d9</id>
+      <BoundTo>7beaf6b1-7077-45a0-90e8-55f0e8122045</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\People\Recording1.UserCode.cs">
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aa8a0329-bfb6-4a52-9cc3-c5663f61063a</id>
+      <BoundTo>7beaf6b1-7077-45a0-90e8-55f0e8122045</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\People\ValidateDefaultValuesInPeopleTab.cs">
+      <BoundTo>4f4ad7cb-e883-468d-af50-44c8d094c7a9</BoundTo>
+      <DependentUpon>ValidateDefaultValuesInPeopleTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9074236b-60e8-46ad-8e0c-5f0e2b6572fa</id>
+    </Compile>
+    <Compile Include="Recordings\People\ValidateDefaultValuesInPeopleTab.UserCode.cs">
+      <BoundTo>4f4ad7cb-e883-468d-af50-44c8d094c7a9</BoundTo>
+      <DependentUpon>ValidateDefaultValuesInPeopleTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a105fc5d-969f-440c-9fdf-106423a77f28</id>
     </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>4be86203-6406-4137-bb6b-e03bd8922480</BoundTo>
@@ -224,11 +236,6 @@
       <repoid>45d9c5ae-36dc-48ef-b65d-536b9fd22260</repoid>
       <reporootid>320422cc-3ab0-40a5-848a-96c127c13395</reporootid>
     </None>
-    <None Include="Recording1.rxrec">
-      <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
-      <id>7beaf6b1-7077-45a0-90e8-55f0e8122045</id>
-      <recordtableid>182187fd-5a61-4b61-9a11-0a71a1a01bb9</recordtableid>
-    </None>
     <None Include="Recordings\Company\TC_001\VerifyPageLabelDisplayed.rxrec">
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
       <id>b979483c-d8e8-49d3-8c82-014f7b058e80</id>
@@ -238,6 +245,16 @@
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
       <id>e231d1ce-8240-4bec-8303-002fc1ea6836</id>
       <recordtableid>52a63fda-865b-4508-88ae-a8dec16f31d4</recordtableid>
+    </None>
+    <None Include="Recordings\People\Recording1.rxrec">
+      <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
+      <id>7beaf6b1-7077-45a0-90e8-55f0e8122045</id>
+      <recordtableid>182187fd-5a61-4b61-9a11-0a71a1a01bb9</recordtableid>
+    </None>
+    <None Include="Recordings\People\ValidateDefaultValuesInPeopleTab.rxrec">
+      <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
+      <id>4f4ad7cb-e883-468d-af50-44c8d094c7a9</id>
+      <recordtableid>d3f0273c-6a4b-4c18-bf32-a9fc5af5daa6</recordtableid>
     </None>
     <None Include="StartAUT.rxrec">
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
@@ -250,7 +267,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>6069c6b1-50f4-4fe4-a7a7-3bde3d49d0d5</id>
     </Content>
-    <Content Include="MyCRM.rxtst">
+    <Content Include="Regression.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>a1ec9511-5ed8-4767-babf-bcd622cb9017</id>
     </Content>
@@ -267,6 +284,9 @@
     </Folder>
     <Folder Include="Recordings\Company\TC_001">
       <id>00ce8563-1f52-4e8e-a240-eef244571c35</id>
+    </Folder>
+    <Folder Include="Recordings\People">
+      <id>5906ec25-8564-4816-b3c4-768ae0571a73</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

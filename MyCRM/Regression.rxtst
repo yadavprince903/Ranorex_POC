@@ -3,6 +3,20 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="134fbbb4-99a5-4d25-989e-248e8ea7315f"
+			name="StartAUT"
+			ref="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="ae79d364-9099-4f94-99b4-84d1927a6ab4"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="2c15ee49-6dec-4cbb-8515-d09d88749442"
 			name="Recording1"
 			ref="182187fd-5a61-4b61-9a11-0a71a1a01bb9"
@@ -36,7 +50,7 @@
 			includeimageschecked="False"
 			includerecordingschecked="False"
 			junitreport="False"
-			name="MyCRM"
+			name="Regression"
 			overwritefilechecked="False"
 			reportcompress="False"
 			reportdirectoryname="Reports"
@@ -50,9 +64,15 @@
 			id="61009f5e-1c94-4aae-b08f-33fabbe1f78b"
 			name="setup">
 			</setup>
+			<testmodule
+			id="6172ddac-62ef-4a55-a825-fd323537dcb2"
+			name="ValidateDefaultValuesInPeopleTab"
+			ref="d3f0273c-6a4b-4c18-bf32-a9fc5af5daa6"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
-			name="MyCRM"
+			name="Regression"
 			reportlevel="Info;20">
 				<parameters>
 					<param
@@ -61,6 +81,10 @@
 					</param>
 				</parameters>
 			</testcase>
+			<teardown
+			id="8ed46cfb-7b61-479f-893a-997255bd488d"
+			name="teardown">
+			</teardown>
 			<teardown
 			id="a07b1b98-0424-40fc-b6b2-efe7c4784b10"
 			name="teardown">
@@ -79,6 +103,28 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="a6d8a7a5-e8b0-49be-b32b-135e9093a4c0"
+			name="CloseAUT"
+			ref="f62c3776-3f0e-4cab-9350-fd68c588040b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="521b9566-633b-4a28-ab01-e7fbdb523c2d"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<setup
+			id="b8dbaa89-ad43-40a8-978e-dc5a2a25d8bb"
+			name="setup">
+			</setup>
+			<testcase
+			id="c0ba5fad-382a-4e1e-afca-bf0b14e731f0"
+			name="RG-001">
+			</testcase>
 			<testcase
 			id="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
 			name="TestCase">
@@ -111,10 +157,10 @@
 		<childhierarchy>
 			<testsuite
 			id="4a433a15-baa1-4e00-9183-67be37a7413f"
-			name="MyCRM">
+			name="Regression">
 				<testcase
 				id="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
-				name="MyCRM">
+				name="Regression">
 					<testcase
 					id="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
 					name="TestCase">
@@ -139,6 +185,30 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="c0ba5fad-382a-4e1e-afca-bf0b14e731f0"
+					name="RG-001">
+						<setup
+						id="b8dbaa89-ad43-40a8-978e-dc5a2a25d8bb"
+						name="setup">
+							<testmodule
+							id="134fbbb4-99a5-4d25-989e-248e8ea7315f"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="6172ddac-62ef-4a55-a825-fd323537dcb2"
+						name="ValidateDefaultValuesInPeopleTab">
+						</testmodule>
+						<teardown
+						id="8ed46cfb-7b61-479f-893a-997255bd488d"
+						name="teardown">
+							<testmodule
+							id="a6d8a7a5-e8b0-49be-b32b-135e9093a4c0"
+							name="CloseAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -153,7 +223,7 @@
 			id="7fe1dc66-a5e0-4f7a-aefe-201e03b95460">
 			</testcontainer>
 			<testcontainer
-			id="df7a0fe6-6cce-4d30-829e-6f9c990ad97e">
+			id="c0ba5fad-382a-4e1e-afca-bf0b14e731f0">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

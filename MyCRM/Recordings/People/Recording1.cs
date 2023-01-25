@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace MyCRM
+namespace MyCRM.Recordings.People
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
@@ -30,9 +30,9 @@ namespace MyCRM
     public partial class Recording1 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the MyCRMRepository repository.
+        /// Holds an instance of the global::MyCRM.MyCRMRepository repository.
         /// </summary>
-        public static MyCRMRepository repo = MyCRMRepository.Instance;
+        public static global::MyCRM.MyCRMRepository repo = global::MyCRM.MyCRMRepository.Instance;
 
         static Recording1 instance = new Recording1();
 
