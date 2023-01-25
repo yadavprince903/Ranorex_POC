@@ -16,9 +16,13 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="1c61fd0d-c533-433b-9035-55a98496bac2"
+			name="People">
+			</smartfoldernode>
 			<testmodule
 			id="2c15ee49-6dec-4cbb-8515-d09d88749442"
-			name="Recording1"
+			name="ValidateInputDataInPeopleTab"
 			ref="182187fd-5a61-4b61-9a11-0a71a1a01bb9"
 			type="Recording">
 				<databinding>
@@ -33,6 +37,66 @@
 					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
 					variableid="b86e07f9-6016-4bc4-aa1d-f60bc4e0c011"
 					variablename="Last">
+					</var>
+					<var
+					dataname="Addressline1"
+					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+					variableid="34a799b8-e330-475d-96c3-0d4a5484c633"
+					variablename="Addressline1">
+					</var>
+					<var
+					dataname="Addressline2"
+					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+					variableid="eabd320d-6722-44b9-b753-8f68a3b6880c"
+					variablename="Addressline2">
+					</var>
+					<var
+					dataname="City"
+					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+					variableid="39694936-b76b-4e96-9513-46ac78ef58a8"
+					variablename="City">
+					</var>
+					<var
+					dataname="Zip"
+					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+					variableid="dddc0363-7b5b-4fbd-b17c-e2138218512b"
+					variablename="Zip">
+					</var>
+					<var
+					dataname="Home"
+					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+					variableid="ec149052-780c-4020-b858-81f8799db0eb"
+					variablename="Home">
+					</var>
+					<var
+					dataname="Work"
+					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+					variableid="37476ffa-5a8b-4807-a209-261eac233e17"
+					variablename="Work">
+					</var>
+					<var
+					dataname="Mobile"
+					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+					variableid="510a55a1-4b62-442a-85d1-a2797796a65c"
+					variablename="Mobile">
+					</var>
+					<var
+					dataname="Personalmail"
+					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+					variableid="ff1d802c-74d2-4945-a020-30eb94b8aad8"
+					variablename="Personalmail">
+					</var>
+					<var
+					dataname="Workmail"
+					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+					variableid="7c612d30-43f0-4d30-b4ae-d96d7962a8c7"
+					variablename="Workmail">
+					</var>
+					<var
+					dataname="Comments"
+					datasourceid="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+					variableid="c95ec08d-4f67-4cf9-968b-1b7fc60480b1"
+					variablename="Comments">
 					</var>
 				</databinding>
 			</testmodule>
@@ -85,6 +149,10 @@
 			id="8ed46cfb-7b61-479f-893a-997255bd488d"
 			name="teardown">
 			</teardown>
+			<smartfoldernode
+			id="946c5cd9-cb32-4f51-ba6d-44a0589b23ab"
+			name="Company">
+			</smartfoldernode>
 			<teardown
 			id="a07b1b98-0424-40fc-b6b2-efe7c4784b10"
 			name="teardown">
@@ -127,7 +195,7 @@
 			</testcase>
 			<testcase
 			id="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
-			name="TestCase">
+			name="RG-002">
 				<parameters>
 					<param
 					name="First"
@@ -136,6 +204,46 @@
 					<param
 					name="Last"
 					value="Yadav">
+					</param>
+					<param
+					name="Addressline1"
+					value="1 East ">
+					</param>
+					<param
+					name="Addressline2"
+					value="34th Street">
+					</param>
+					<param
+					name="City"
+					value="New york">
+					</param>
+					<param
+					name="Zip"
+					value="10001">
+					</param>
+					<param
+					name="Home"
+					value="1234567">
+					</param>
+					<param
+					name="Work"
+					value="+187356892">
+					</param>
+					<param
+					name="Mobile"
+					value="+17869990">
+					</param>
+					<param
+					name="Personalmail"
+					value="test@gmail.com">
+					</param>
+					<param
+					name="Workmail"
+					value="testwork@gmail.com">
+					</param>
+					<param
+					name="Comments"
+					value="">
 					</param>
 				</parameters>
 			</testcase>
@@ -153,6 +261,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="ea0f25d6-daae-4174-864f-52d623c45b89"
+			name="Other">
+			</smartfoldernode>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -161,54 +273,66 @@
 				<testcase
 				id="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
 				name="Regression">
-					<testcase
-					id="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
-					name="TestCase">
-						<setup
-						id="61009f5e-1c94-4aae-b08f-33fabbe1f78b"
-						name="setup">
+					<smartfoldernode
+					id="1c61fd0d-c533-433b-9035-55a98496bac2"
+					name="People">
+						<testcase
+						id="c0ba5fad-382a-4e1e-afca-bf0b14e731f0"
+						name="RG-001">
+							<setup
+							id="b8dbaa89-ad43-40a8-978e-dc5a2a25d8bb"
+							name="setup">
+								<testmodule
+								id="134fbbb4-99a5-4d25-989e-248e8ea7315f"
+								name="StartAUT">
+								</testmodule>
+							</setup>
 							<testmodule
-							id="a56e7cd0-b203-47d2-a312-cf930459fa3f"
-							name="StartAUT">
+							id="6172ddac-62ef-4a55-a825-fd323537dcb2"
+							name="ValidateDefaultValuesInPeopleTab">
 							</testmodule>
-						</setup>
-						<testmodule
-						id="2c15ee49-6dec-4cbb-8515-d09d88749442"
-						name="Recording1">
-						</testmodule>
-						<teardown
-						id="a07b1b98-0424-40fc-b6b2-efe7c4784b10"
-						name="teardown">
+							<teardown
+							id="8ed46cfb-7b61-479f-893a-997255bd488d"
+							name="teardown">
+								<testmodule
+								id="a6d8a7a5-e8b0-49be-b32b-135e9093a4c0"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
+						</testcase>
+						<testcase
+						id="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
+						name="RG-002">
+							<setup
+							id="61009f5e-1c94-4aae-b08f-33fabbe1f78b"
+							name="setup">
+								<testmodule
+								id="a56e7cd0-b203-47d2-a312-cf930459fa3f"
+								name="StartAUT">
+								</testmodule>
+							</setup>
 							<testmodule
-							id="e2ea3e85-e145-4391-a3e5-f88303ea82cd"
-							name="CloseAUT">
+							id="2c15ee49-6dec-4cbb-8515-d09d88749442"
+							name="ValidateInputDataInPeopleTab">
 							</testmodule>
-						</teardown>
-					</testcase>
-					<testcase
-					id="c0ba5fad-382a-4e1e-afca-bf0b14e731f0"
-					name="RG-001">
-						<setup
-						id="b8dbaa89-ad43-40a8-978e-dc5a2a25d8bb"
-						name="setup">
-							<testmodule
-							id="134fbbb4-99a5-4d25-989e-248e8ea7315f"
-							name="StartAUT">
-							</testmodule>
-						</setup>
-						<testmodule
-						id="6172ddac-62ef-4a55-a825-fd323537dcb2"
-						name="ValidateDefaultValuesInPeopleTab">
-						</testmodule>
-						<teardown
-						id="8ed46cfb-7b61-479f-893a-997255bd488d"
-						name="teardown">
-							<testmodule
-							id="a6d8a7a5-e8b0-49be-b32b-135e9093a4c0"
-							name="CloseAUT">
-							</testmodule>
-						</teardown>
-					</testcase>
+							<teardown
+							id="a07b1b98-0424-40fc-b6b2-efe7c4784b10"
+							name="teardown">
+								<testmodule
+								id="e2ea3e85-e145-4391-a3e5-f88303ea82cd"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
+						</testcase>
+					</smartfoldernode>
+					<smartfoldernode
+					id="946c5cd9-cb32-4f51-ba6d-44a0589b23ab"
+					name="Company">
+					</smartfoldernode>
+					<smartfoldernode
+					id="ea0f25d6-daae-4174-864f-52d623c45b89"
+					name="Other">
+					</smartfoldernode>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -220,10 +344,16 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="1c61fd0d-c533-433b-9035-55a98496bac2">
+			</testcontainer>
+			<testcontainer
 			id="7fe1dc66-a5e0-4f7a-aefe-201e03b95460">
 			</testcontainer>
 			<testcontainer
 			id="c0ba5fad-382a-4e1e-afca-bf0b14e731f0">
+			</testcontainer>
+			<testcontainer
+			id="df7a0fe6-6cce-4d30-829e-6f9c990ad97e">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

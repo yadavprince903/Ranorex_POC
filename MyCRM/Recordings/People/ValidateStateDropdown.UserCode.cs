@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace MyCRM.Recordings.People
 {
-    public partial class Recording1
+    public partial class ValidateStateDropdown
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

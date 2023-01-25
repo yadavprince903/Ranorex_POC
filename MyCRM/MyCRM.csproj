@@ -171,14 +171,14 @@
       <UserCode>true</UserCode>
       <id>89b909a2-faee-4c7d-8f05-46a6c43cb578</id>
     </Compile>
-    <Compile Include="Recordings\People\Recording1.cs">
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+    <Compile Include="Recordings\People\ValidateInputDataInPeopleTab.cs">
+      <DependentUpon>ValidateInputDataInPeopleTab.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>8e1fc087-d0de-4fe2-a211-c3c31de9f0d9</id>
       <BoundTo>7beaf6b1-7077-45a0-90e8-55f0e8122045</BoundTo>
     </Compile>
-    <Compile Include="Recordings\People\Recording1.UserCode.cs">
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+    <Compile Include="Recordings\People\ValidateInputDataInPeopleTab.UserCode.cs">
+      <DependentUpon>ValidateInputDataInPeopleTab.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>aa8a0329-bfb6-4a52-9cc3-c5663f61063a</id>
       <BoundTo>7beaf6b1-7077-45a0-90e8-55f0e8122045</BoundTo>
@@ -194,6 +194,18 @@
       <DependentUpon>ValidateDefaultValuesInPeopleTab.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>a105fc5d-969f-440c-9fdf-106423a77f28</id>
+    </Compile>
+    <Compile Include="Recordings\People\ValidateStateDropdown.cs">
+      <BoundTo>0861f067-8373-42e6-ba67-2690d91970f6</BoundTo>
+      <DependentUpon>ValidateStateDropdown.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>35128297-bd17-485c-8378-4e89c9c9660d</id>
+    </Compile>
+    <Compile Include="Recordings\People\ValidateStateDropdown.UserCode.cs">
+      <BoundTo>0861f067-8373-42e6-ba67-2690d91970f6</BoundTo>
+      <DependentUpon>ValidateStateDropdown.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>00875afd-bee5-4128-95e0-305e0daa3cb0</id>
     </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>4be86203-6406-4137-bb6b-e03bd8922480</BoundTo>
@@ -246,7 +258,7 @@
       <id>e231d1ce-8240-4bec-8303-002fc1ea6836</id>
       <recordtableid>52a63fda-865b-4508-88ae-a8dec16f31d4</recordtableid>
     </None>
-    <None Include="Recordings\People\Recording1.rxrec">
+    <None Include="Recordings\People\ValidateInputDataInPeopleTab.rxrec">
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
       <id>7beaf6b1-7077-45a0-90e8-55f0e8122045</id>
       <recordtableid>182187fd-5a61-4b61-9a11-0a71a1a01bb9</recordtableid>
@@ -255,6 +267,11 @@
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
       <id>4f4ad7cb-e883-468d-af50-44c8d094c7a9</id>
       <recordtableid>d3f0273c-6a4b-4c18-bf32-a9fc5af5daa6</recordtableid>
+    </None>
+    <None Include="Recordings\People\ValidateStateDropdown.rxrec">
+      <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
+      <id>0861f067-8373-42e6-ba67-2690d91970f6</id>
+      <recordtableid>463aef47-9a53-4bca-b18e-b6876a7bafeb</recordtableid>
     </None>
     <None Include="StartAUT.rxrec">
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
