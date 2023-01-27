@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace MyCRM.Recordings.Company.TC_002
+namespace MyCRM.Recordings.Company.SN_001
 {
-    public partial class VerifyLabelText
+    public partial class VerifyPageLabelDisplayed
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

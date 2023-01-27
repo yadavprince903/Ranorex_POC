@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace MyCRM.Recordings.Other.TC_003
+namespace MyCRM.Recordings.Other.SN_003
 {
     public partial class VerifyLabelAndButtonlsPresent
     {

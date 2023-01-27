@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="VerifyLabelAndButtonlsPresent"
-	namespace="MyCRM.Recordings.Other.TC_003">
+	namespace="MyCRM.Recordings.Other.SN_003">
 	</codegen>
 	<variables>
 	</variables>

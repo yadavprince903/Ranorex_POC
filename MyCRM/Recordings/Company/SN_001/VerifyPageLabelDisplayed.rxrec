@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="52a63fda-865b-4508-88ae-a8dec16f31d4"
+id="da2425a4-869c-4b46-9570-ff4f5752d122"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,42 +19,10 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="VerifyLabelText"
-	namespace="MyCRM.Recordings.Company.TC_002">
+	classname="VerifyPageLabelDisplayed"
+	namespace="MyCRM.Recordings.Company.SN_001">
 	</codegen>
 	<variables>
-		<var
-		id="44e5d779-a371-49ab-ba89-55442a408e68"
-		name="AdressLine1">
-		</var>
-		<var
-		id="b4c02137-7a5e-4d8d-89f2-a972d847a35a"
-		name="AddressLine2">
-		</var>
-		<var
-		id="6ae00447-09e7-4eea-8d12-99502a675e97"
-		name="City">
-		</var>
-		<var
-		id="49d4a669-0c2e-4eb1-84ab-b95142dab2fd"
-		name="State">
-		</var>
-		<var
-		id="062336ae-4002-48c6-b9b1-eaa36300b96a"
-		name="Zip">
-		</var>
-		<var
-		id="5ebced3e-4085-4a1e-b061-37cab27410bd"
-		name="Main">
-		</var>
-		<var
-		id="612265d6-497f-477b-91c5-47960ce0c7c5"
-		name="Other">
-		</var>
-		<var
-		id="8c9e61e3-05a8-46a8-a500-ffc8b9bcca2e"
-		name="Comment">
-		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -84,216 +52,188 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<validationitem
-		action="AttributeEqual"
+		action="Exists"
 		enabled="True"
 		optional="False"
 		searchpropertyid="a64577b3-fdac-4bd6-9cbd-718c0c1fd8b6">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="MatchValue"
-				variable="AdressLine1">
-				</binding>
 			</bindings>
 			<info
-			id="b60ecbbf-17c2-4de7-933e-459db99e9516"
+			id="7b75f60f-32b6-4f20-9418-16e6c61b62d6"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label22']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 			<matchname>
-				Text
+				(Choose)
 			</matchname>
 			<matchvalue>
 				yourValue
 			</matchvalue>
 		</validationitem>
 		<validationitem
-		action="AttributeEqual"
+		action="Exists"
 		enabled="True"
 		optional="False"
 		searchpropertyid="a64577b3-fdac-4bd6-9cbd-718c0c1fd8b6">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="MatchValue"
-				variable="AddressLine2">
-				</binding>
 			</bindings>
 			<info
-			id="49a26305-d674-4995-8ccd-341ed6f8f41d"
+			id="7e363e15-abc4-4287-a46b-bcee1a06d4f1"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label21']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 			<matchname>
-				Text
+				(Choose)
 			</matchname>
 			<matchvalue>
 				yourValue
 			</matchvalue>
 		</validationitem>
 		<validationitem
-		action="AttributeEqual"
+		action="Exists"
 		enabled="True"
 		optional="False"
 		searchpropertyid="a64577b3-fdac-4bd6-9cbd-718c0c1fd8b6">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="MatchValue"
-				variable="City">
-				</binding>
 			</bindings>
 			<info
-			id="d87c6fc7-70eb-4d03-b9fa-f153e34ced75"
+			id="779072db-e2e8-470f-adc0-5380f608e5a4"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressCity']
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label20']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 			<matchname>
-				Text
+				(Choose)
 			</matchname>
 			<matchvalue>
 				yourValue
 			</matchvalue>
 		</validationitem>
 		<validationitem
-		action="AttributeEqual"
+		action="Exists"
 		enabled="True"
 		optional="False"
 		searchpropertyid="a64577b3-fdac-4bd6-9cbd-718c0c1fd8b6">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="MatchValue"
-				variable="Zip">
-				</binding>
 			</bindings>
 			<info
-			id="4ab49ece-250a-4c49-9613-d35e539e5a1e"
+			id="df73478f-20e8-4720-95cb-13764a4229e4"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressZip']
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label19']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 			<matchname>
-				Text
+				(Choose)
 			</matchname>
 			<matchvalue>
 				yourValue
 			</matchvalue>
 		</validationitem>
 		<validationitem
-		action="AttributeEqual"
+		action="Exists"
 		enabled="True"
 		optional="False"
 		searchpropertyid="a64577b3-fdac-4bd6-9cbd-718c0c1fd8b6">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="MatchValue"
-				variable="Main">
-				</binding>
 			</bindings>
 			<info
-			id="c0fe8e77-830f-4264-baa5-eab05b48b368"
+			id="f5c6e247-fa1d-43ee-80d1-5712f26e316f"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Main:']
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label18']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 			<matchname>
-				Text
+				(Choose)
 			</matchname>
 			<matchvalue>
 				yourValue
 			</matchvalue>
 		</validationitem>
 		<validationitem
-		action="AttributeEqual"
+		action="Exists"
 		enabled="True"
 		optional="False"
 		searchpropertyid="a64577b3-fdac-4bd6-9cbd-718c0c1fd8b6">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="MatchValue"
-				variable="Other">
-				</binding>
 			</bindings>
 			<info
-			id="202b68c9-d382-4b20-897b-bf688bb3e1b3"
+			id="8337b98d-a2b2-4def-b286-35bcd8c48525"
 			sourcename="RepositoryEditor">
 				<path>
-					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Other:']
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label17']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 			<matchname>
-				Text
+				(Choose)
 			</matchname>
 			<matchvalue>
 				yourValue
 			</matchvalue>
 		</validationitem>
-		<keysequenceitem
-		KeySequence="yourtext"
-		duration="20ms"
-		enabled="True"
-		optional="False"
-		presstime="20ms"
-		searchpropertyid="10e6c782-abd4-4a76-877b-fc0185747ffa">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="KeySequence"
-				variable="Comment">
-				</binding>
-			</bindings>
-			<info
-			id="f6838123-bdd2-4b00-9eb6-cb045d61d0e3"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox7']/?/?/text[@accessiblerole='Text']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</keysequenceitem>
 		<validationitem
-		action="AttributeEqual"
+		action="Exists"
 		enabled="True"
 		optional="False"
 		searchpropertyid="a64577b3-fdac-4bd6-9cbd-718c0c1fd8b6">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="MatchValue"
-				variable="Comment">
-				</binding>
+			</bindings>
+			<info
+			id="5d4a6c93-4aae-4ed3-8730-9121950548a5"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label16']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a64577b3-fdac-4bd6-9cbd-718c0c1fd8b6">
+			<comment>
+			</comment>
+			<bindings>
 			</bindings>
 			<info
 			id="f6838123-bdd2-4b00-9eb6-cb045d61d0e3"
@@ -305,7 +245,7 @@ mode="Global">
 				</robustPath>
 			</info>
 			<matchname>
-				Text
+				(Choose)
 			</matchname>
 			<matchvalue>
 				yourValue
@@ -327,7 +267,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		VerifyLabelText.UserCode.cs
+		VerifyPageLabelDisplayed.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

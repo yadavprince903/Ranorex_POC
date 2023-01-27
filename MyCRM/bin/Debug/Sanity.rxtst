@@ -21,6 +21,34 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="11e09aa2-e196-4590-98a7-a0a614b9f273"
+			name="CloseAUT"
+			ref="f62c3776-3f0e-4cab-9350-fd68c588040b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="f6433b1e-ba27-456d-bbc5-b353aca14224"
+					variableid="521b9566-633b-4a28-ab01-e7fbdb523c2d"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="2648b003-4c0f-4e65-aff9-51de6b5c170c"
+			name="StartAUT"
+			ref="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="f6433b1e-ba27-456d-bbc5-b353aca14224"
+					variableid="ae79d364-9099-4f94-99b4-84d1927a6ab4"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="32f969bd-be2e-4cc9-95fa-1575eda758b1"
 			name="CloseAUT"
 			ref="f62c3776-3f0e-4cab-9350-fd68c588040b"
@@ -138,7 +166,7 @@
 			</testmodule>
 			<testcase
 			id="94c95a3e-aacb-4bb4-b540-c063ca4f8d61"
-			name="TC_002">
+			name="SN_002">
 				<parameters>
 					<param
 					name="AdressLine1"
@@ -174,9 +202,15 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="ba3433ab-bfa7-4ad5-985f-24b5a92400ca"
+			name="VerifyLabelAndButtonlsPresent"
+			ref="eb444085-dd2f-4026-bdc3-c9925550d49a"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="ce54a919-0f30-47b5-aba5-855687d5e44e"
-			name="TC_001">
+			name="SN_001">
 			</testcase>
 			<testmodule
 			id="ddc49440-11cf-40af-89dc-b8feb6a67992"
@@ -212,7 +246,7 @@
 			</teardown>
 			<testcase
 			id="f2d724c0-e247-4339-8ca4-5d9aca3008b9"
-			name="TC_003">
+			name="SN_003">
 			</testcase>
 			<testcase
 			id="f6433b1e-ba27-456d-bbc5-b353aca14224"
@@ -235,7 +269,7 @@
 				name="Sanity">
 					<testcase
 					id="ce54a919-0f30-47b5-aba5-855687d5e44e"
-					name="TC_001">
+					name="SN_001">
 						<setup
 						id="74fa61bb-913d-4f66-8e54-894a91992af9"
 						name="setup">
@@ -259,7 +293,7 @@
 					</testcase>
 					<testcase
 					id="94c95a3e-aacb-4bb4-b540-c063ca4f8d61"
-					name="TC_002">
+					name="SN_002">
 						<setup
 						id="5ac80d67-0818-4389-9b8a-0f563ed56eb4"
 						name="setup">
@@ -283,14 +317,26 @@
 					</testcase>
 					<testcase
 					id="f2d724c0-e247-4339-8ca4-5d9aca3008b9"
-					name="TC_003">
+					name="SN_003">
 						<setup
 						id="5e6ed09c-c67e-4fa0-bd02-090420d6d04f"
 						name="setup">
+							<testmodule
+							id="2648b003-4c0f-4e65-aff9-51de6b5c170c"
+							name="StartAUT">
+							</testmodule>
 						</setup>
+						<testmodule
+						id="ba3433ab-bfa7-4ad5-985f-24b5a92400ca"
+						name="VerifyLabelAndButtonlsPresent">
+						</testmodule>
 						<teardown
 						id="512dcb0c-6f44-4c15-9c30-d215072d04b1"
 						name="teardown">
+							<testmodule
+							id="11e09aa2-e196-4590-98a7-a0a614b9f273"
+							name="CloseAUT">
+							</testmodule>
 						</teardown>
 					</testcase>
 				</testcase>

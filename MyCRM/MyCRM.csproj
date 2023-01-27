@@ -147,37 +147,37 @@
     <Compile Include="Program.cs">
       <id>0bde291a-82e5-4dc8-9d70-51b6a6e642fa</id>
     </Compile>
-    <Compile Include="Recordings\Company\TC_001\VerifyPageLabelDisplayed.cs">
+    <Compile Include="Recordings\Company\SN_001\VerifyPageLabelDisplayed.cs">
       <BoundTo>b979483c-d8e8-49d3-8c82-014f7b058e80</BoundTo>
       <DependentUpon>VerifyPageLabelDisplayed.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>c8ed3b05-1744-400d-aa15-70a60a59e018</id>
     </Compile>
-    <Compile Include="Recordings\Company\TC_001\VerifyPageLabelDisplayed.UserCode.cs">
+    <Compile Include="Recordings\Company\SN_001\VerifyPageLabelDisplayed.UserCode.cs">
       <BoundTo>b979483c-d8e8-49d3-8c82-014f7b058e80</BoundTo>
       <DependentUpon>VerifyPageLabelDisplayed.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>07992b30-8e95-4b51-9bcc-2b169278b300</id>
     </Compile>
-    <Compile Include="Recordings\Company\TC_002\VerifyLabelText.cs">
+    <Compile Include="Recordings\Company\SN_002\VerifyLabelText.cs">
       <BoundTo>e231d1ce-8240-4bec-8303-002fc1ea6836</BoundTo>
       <DependentUpon>VerifyLabelText.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>5349fa91-fc3b-4ed7-a1b8-218a4974aa91</id>
     </Compile>
-    <Compile Include="Recordings\Company\TC_002\VerifyLabelText.UserCode.cs">
+    <Compile Include="Recordings\Company\SN_002\VerifyLabelText.UserCode.cs">
       <BoundTo>e231d1ce-8240-4bec-8303-002fc1ea6836</BoundTo>
       <DependentUpon>VerifyLabelText.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>89b909a2-faee-4c7d-8f05-46a6c43cb578</id>
     </Compile>
-    <Compile Include="Recordings\Other\TC_003\VerifyLabelAndButtonlsPresent.cs">
+    <Compile Include="Recordings\Other\SN_003\VerifyLabelAndButtonlsPresent.cs">
       <BoundTo>50103938-3c12-4853-99fd-7832fb3cf345</BoundTo>
       <DependentUpon>VerifyLabelAndButtonlsPresent.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>2e0da449-e00c-487b-9f79-dda4816e1a69</id>
     </Compile>
-    <Compile Include="Recordings\Other\TC_003\VerifyLabelAndButtonlsPresent.UserCode.cs">
+    <Compile Include="Recordings\Other\SN_003\VerifyLabelAndButtonlsPresent.UserCode.cs">
       <BoundTo>50103938-3c12-4853-99fd-7832fb3cf345</BoundTo>
       <DependentUpon>VerifyLabelAndButtonlsPresent.rxrec</DependentUpon>
       <UserCode>true</UserCode>
@@ -248,17 +248,17 @@
       <repoid>45d9c5ae-36dc-48ef-b65d-536b9fd22260</repoid>
       <reporootid>320422cc-3ab0-40a5-848a-96c127c13395</reporootid>
     </None>
-    <None Include="Recordings\Company\TC_001\VerifyPageLabelDisplayed.rxrec">
+    <None Include="Recordings\Company\SN_001\VerifyPageLabelDisplayed.rxrec">
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
       <id>b979483c-d8e8-49d3-8c82-014f7b058e80</id>
       <recordtableid>da2425a4-869c-4b46-9570-ff4f5752d122</recordtableid>
     </None>
-    <None Include="Recordings\Company\TC_002\VerifyLabelText.rxrec">
+    <None Include="Recordings\Company\SN_002\VerifyLabelText.rxrec">
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
       <id>e231d1ce-8240-4bec-8303-002fc1ea6836</id>
       <recordtableid>52a63fda-865b-4508-88ae-a8dec16f31d4</recordtableid>
     </None>
-    <None Include="Recordings\Other\TC_003\VerifyLabelAndButtonlsPresent.rxrec">
+    <None Include="Recordings\Other\SN_003\VerifyLabelAndButtonlsPresent.rxrec">
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
       <id>50103938-3c12-4853-99fd-7832fb3cf345</id>
       <recordtableid>eb444085-dd2f-4026-bdc3-c9925550d49a</recordtableid>
@@ -296,16 +296,16 @@
     <Folder Include="Recordings\Company">
       <id>625c5129-2fc2-4b1a-964e-b86e728c78b3</id>
     </Folder>
-    <Folder Include="Recordings\Company\TC_002">
+    <Folder Include="Recordings\Company\SN_002">
       <id>6a55a3d1-a1bb-4e67-9a58-837a1f0a4db7</id>
     </Folder>
-    <Folder Include="Recordings\Company\TC_001">
+    <Folder Include="Recordings\Company\SN_001">
       <id>00ce8563-1f52-4e8e-a240-eef244571c35</id>
     </Folder>
     <Folder Include="Recordings\Other">
       <id>326f748c-e665-4bf6-bb94-3cf459e24c81</id>
     </Folder>
-    <Folder Include="Recordings\Other\TC_003">
+    <Folder Include="Recordings\Other\SN_003">
       <id>3cfbf139-8846-4afb-91b3-a3c488ad2175</id>
     </Folder>
     <Folder Include="Recordings\People">

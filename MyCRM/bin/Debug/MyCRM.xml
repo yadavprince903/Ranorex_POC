@@ -728,27 +728,27 @@
             The TxtGeneric10 item info.
             </summary>
         </member>
-        <member name="T:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed">
+        <member name="T:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed">
              <summary>
             The VerifyPageLabelDisplayed recording.
              </summary>
         </member>
-        <member name="F:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.repo">
+        <member name="F:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.repo">
             <summary>
             Holds an instance of the global::MyCRM.MyCRMRepository repository.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.#ctor">
+        <member name="M:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Start">
+        <member name="M:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Instance"/>.
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Instance"/>.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -756,38 +756,38 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Init">
+        <member name="M:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Instance">
+        <member name="P:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="T:MyCRM.Recordings.Company.TC_002.VerifyLabelText">
+        <member name="T:MyCRM.Recordings.Company.SN_002.VerifyLabelText">
              <summary>
             The VerifyLabelText recording.
              </summary>
         </member>
-        <member name="F:MyCRM.Recordings.Company.TC_002.VerifyLabelText.repo">
+        <member name="F:MyCRM.Recordings.Company.SN_002.VerifyLabelText.repo">
             <summary>
             Holds an instance of the global::MyCRM.MyCRMRepository repository.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.#ctor">
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Start">
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Instance"/>.
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Instance"/>.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -795,55 +795,94 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Init">
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Instance">
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.AdressLine1">
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.AdressLine1">
             <summary>
             Gets or sets the value of variable AdressLine1.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.AddressLine2">
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.AddressLine2">
             <summary>
             Gets or sets the value of variable AddressLine2.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.City">
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.City">
             <summary>
             Gets or sets the value of variable City.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.State">
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.State">
             <summary>
             Gets or sets the value of variable State.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Zip">
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Zip">
             <summary>
             Gets or sets the value of variable Zip.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Main">
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Main">
             <summary>
             Gets or sets the value of variable Main.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Other">
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Other">
             <summary>
             Gets or sets the value of variable Other.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Comment">
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Comment">
             <summary>
             Gets or sets the value of variable Comment.
+            </summary>
+        </member>
+        <member name="T:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent">
+             <summary>
+            The VerifyLabelAndButtonlsPresent recording.
+             </summary>
+        </member>
+        <member name="F:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.repo">
+            <summary>
+            Holds an instance of the global::MyCRM.MyCRMRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:MyCRM.Recordings.People.Recording1">

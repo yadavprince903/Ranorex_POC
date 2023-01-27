@@ -6,9 +6,8 @@
   <Array name="files">
     <Element value="Sanity.rxtst" />
     <Element value="Recordings\Company\TC_002\VerifyLabelText.rxrec" />
-    <Element value="MyCRM.rxtst" />
-    <Element value="Recording1.rxrec" />
     <Element value="Recordings\Company\TC_001\VerifyPageLabelDisplayed.rxrec" />
+    <Element value="Recordings\Other\TC_003\VerifyLabelAndButtonlsPresent.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
