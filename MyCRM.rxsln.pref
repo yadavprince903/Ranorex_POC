@@ -7,14 +7,12 @@
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{4AC0B0EF-16D7-4171-B451-9D3B87970E1F}</string>
-      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>82ea76ad-b4de-40d5-abd9-25afd6999b13</string>
+      <string>326f748c-e665-4bf6-bb94-3cf459e24c81</string>
+      <string>3cfbf139-8846-4afb-91b3-a3c488ad2175</string>
     </ArrayOfString>
   </SerializedValue>
-<<<<<<< HEAD
-  <ProjectBrowserState value="[Solution MyCRM[MyCRM[]]]&#xD;&#xA;Solution MyCRM\MyCRM\Recording1.rxrec&#xD;&#xA;Solution MyCRM" />
-=======
-  <ProjectBrowserState value="[Solution MyCRM[MyCRM[Recordings[Company[]]]]]&#xD;&#xA;Solution MyCRM\MyCRM\MyCRM.rxtst&#xD;&#xA;Solution MyCRM" />
->>>>>>> 47f9c4e85363c63337dbd8141b4ec6e7943aca16
+  <ProjectBrowserState value="[Solution MyCRM[MyCRM[Recordings[Company[]Other[]]]]]&#xD;&#xA;Solution MyCRM\MyCRM\Sanity.rxtst&#xD;&#xA;Solution MyCRM" />
   <StartupProject value="{4AC0B0EF-16D7-4171-B451-9D3B87970E1F}" />
 </Properties>

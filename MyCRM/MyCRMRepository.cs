@@ -88,6 +88,7 @@ namespace MyCRM
             MyCRMRepositoryFolders.PeopleFolder _people;
             MyCRMRepositoryFolders.CompanyFolder _company;
             MyCRMRepositoryFolders.NavigationFolder _navigation;
+            MyCRMRepositoryFolders.OtherFolder _other;
 
             /// <summary>
             /// Creates a new MyCRM  folder.
@@ -98,6 +99,7 @@ namespace MyCRM
                 _people = new MyCRMRepositoryFolders.PeopleFolder(this);
                 _company = new MyCRMRepositoryFolders.CompanyFolder(this);
                 _navigation = new MyCRMRepositoryFolders.NavigationFolder(this);
+                _other = new MyCRMRepositoryFolders.OtherFolder(this);
             }
 
             /// <summary>
@@ -149,6 +151,15 @@ namespace MyCRM
             public virtual MyCRMRepositoryFolders.NavigationFolder Navigation
             {
                 get { return _navigation; }
+            }
+
+            /// <summary>
+            /// The Other folder.
+            /// </summary>
+            [RepositoryFolder("37163c63-0c82-43a0-834c-9b5907690b82")]
+            public virtual MyCRMRepositoryFolders.OtherFolder Other
+            {
+                get { return _other; }
             }
         }
 
@@ -1021,6 +1032,7 @@ namespace MyCRM
         public partial class NavigationFolder : RepoGenBaseFolder
         {
             RepoItemInfo _companyInfo;
+            RepoItemInfo _otherInfo;
 
             /// <summary>
             /// Creates a new Navigation  folder.
@@ -1029,6 +1041,7 @@ namespace MyCRM
                     base("Navigation", "", parentFolder, 0, null, false, "3c3167bb-0bd8-4bbe-ab1d-1513efefc36e", "")
             {
                 _companyInfo = new RepoItemInfo(this, "Company", "tabpage[@accessiblename='Company ']", "element", 30000, null, "c3394663-c50f-4003-8abf-2e349bdfca82");
+                _otherInfo = new RepoItemInfo(this, "Other", "tabpage[@accessiblename='Other']", "element", 30000, null, "cd615060-2b63-404c-a29c-dbc2ed51514c");
             }
 
             /// <summary>
@@ -1064,6 +1077,630 @@ namespace MyCRM
                 get
                 {
                     return _companyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Other item.
+            /// </summary>
+            [RepositoryItem("cd615060-2b63-404c-a29c-dbc2ed51514c")]
+            public virtual Ranorex.TabPage Other
+            {
+                get
+                {
+                    return _otherInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Other item info.
+            /// </summary>
+            [RepositoryItemInfo("cd615060-2b63-404c-a29c-dbc2ed51514c")]
+            public virtual RepoItemInfo OtherInfo
+            {
+                get
+                {
+                    return _otherInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The OtherFolder folder.
+        /// </summary>
+        [RepositoryFolder("37163c63-0c82-43a0-834c-9b5907690b82")]
+        public partial class OtherFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _lnkgeneric1Info;
+            RepoItemInfo _linkgeneric2Info;
+            RepoItemInfo _linkgeneric3Info;
+            RepoItemInfo _linkgeneric4Info;
+            RepoItemInfo _linkgeneric5Info;
+            RepoItemInfo _linkgeneric6Info;
+            RepoItemInfo _linkgeneric7Info;
+            RepoItemInfo _linkgeneric8Info;
+            RepoItemInfo _linkgeneric9Info;
+            RepoItemInfo _linkgeneric10Info;
+            RepoItemInfo _browseInfo;
+            RepoItemInfo _saveInfo;
+            RepoItemInfo _txtgeneric1Info;
+            RepoItemInfo _txtgeneric2Info;
+            RepoItemInfo _txtgeneric3Info;
+            RepoItemInfo _txtgeneric4Info;
+            RepoItemInfo _txtgeneric5Info;
+            RepoItemInfo _txtgeneric6Info;
+            RepoItemInfo _txtgeneric7Info;
+            RepoItemInfo _txtgeneric8Info;
+            RepoItemInfo _txtgeneric9Info;
+            RepoItemInfo _txtgeneric10Info;
+
+            /// <summary>
+            /// Creates a new Other  folder.
+            /// </summary>
+            public OtherFolder(RepoGenBaseFolder parentFolder) :
+                    base("Other", "", parentFolder, 0, null, false, "37163c63-0c82-43a0-834c-9b5907690b82", "")
+            {
+                _lnkgeneric1Info = new RepoItemInfo(this, "LnkGeneric1", "tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric1']/?/?/link[@accessiblename='Generic 1:']", "element", 30000, null, "aa24db8c-eb2d-4460-81b4-f98eac0a106e");
+                _linkgeneric2Info = new RepoItemInfo(this, "LinkGeneric2", "tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric2']/?/?/link[@accessiblename='Generic 2:']", "element", 30000, null, "a96d5c52-236f-4ac4-9ac7-50eed7ac9436");
+                _linkgeneric3Info = new RepoItemInfo(this, "LinkGeneric3", "tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric3']/?/?/link[@accessiblename='Generic 3:']", "element", 30000, null, "efae864f-c705-49f0-b31c-f60dbe078107");
+                _linkgeneric4Info = new RepoItemInfo(this, "LinkGeneric4", "tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric4']/?/?/link[@accessiblename='Generic 4:']", "element", 30000, null, "c2a5c43a-95fb-4fa5-9e8c-6b65be7680a3");
+                _linkgeneric5Info = new RepoItemInfo(this, "LinkGeneric5", "tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric5']/?/?/link[@accessiblename='Generic 5:']", "element", 30000, null, "a3eb14c5-c88f-4e7c-8ebb-a142c2be3978");
+                _linkgeneric6Info = new RepoItemInfo(this, "LinkGeneric6", "tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric6']/?/?/link[@accessiblename='Generic 6:']", "element", 30000, null, "287fbece-84df-4352-ba11-f5b1bbb55477");
+                _linkgeneric7Info = new RepoItemInfo(this, "LinkGeneric7", "tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric7']/?/?/link[@accessiblename='Generic 7:']", "element", 30000, null, "1b13d570-287a-4c47-91e7-33ea31468d82");
+                _linkgeneric8Info = new RepoItemInfo(this, "LinkGeneric8", "tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric8']/?/?/link[@accessiblename='Generic 8:']", "element", 30000, null, "19635c85-dca9-4585-846a-62265a510d52");
+                _linkgeneric9Info = new RepoItemInfo(this, "LinkGeneric9", "tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric9']/?/?/link[@accessiblename='Generic 9:']", "element", 30000, null, "75007f5b-14f3-46c9-b2a6-4ef8ad12281b");
+                _linkgeneric10Info = new RepoItemInfo(this, "LinkGeneric10", "tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric10']/?/?/link[@accessiblename='Generic 10:']", "element", 30000, null, "6f932c7f-09b8-4add-bd0d-6d9849505c3e");
+                _browseInfo = new RepoItemInfo(this, "Browse", "tabpage[@controlname='tabPage4']/?/?/button[@controlname='button2']", "element", 30000, null, "1ccddaa3-8873-4801-a801-dbfa076f5ac6");
+                _saveInfo = new RepoItemInfo(this, "Save", "tabpage[@controlname='tabPage4']/?/?/button[@controlname='button1']", "element", 30000, null, "b15c5891-c7a6-44bd-81b6-7e220a130b04");
+                _txtgeneric1Info = new RepoItemInfo(this, "TxtGeneric1", "tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox8']/text[@accessiblename='Other:']", "element", 30000, null, "dbfd88ee-63fd-4a97-bd45-f282b3e26af8");
+                _txtgeneric2Info = new RepoItemInfo(this, "TxtGeneric2", "tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox7']/text[@accessiblerole='Text']", "element", 30000, null, "8b2d04ce-4448-4265-9225-14b2943d9bb9");
+                _txtgeneric3Info = new RepoItemInfo(this, "TxtGeneric3", "tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox3']/text[@accessiblerole='Text']", "element", 30000, null, "077dddd6-ef1e-464f-8135-d414ddee41d4");
+                _txtgeneric4Info = new RepoItemInfo(this, "TxtGeneric4", "tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox2']/text[@accessiblerole='Text']", "element", 30000, null, "63a13efb-fd4c-483a-9924-7bd2cdaaf00b");
+                _txtgeneric5Info = new RepoItemInfo(this, "TxtGeneric5", "tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox1']/text[@accessiblerole='Text']", "element", 30000, null, "2fd1ea0c-2721-41f4-b5fa-b11145a32f32");
+                _txtgeneric6Info = new RepoItemInfo(this, "TxtGeneric6", "tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox13']/text[@accessiblerole='Text']", "element", 30000, null, "57995e17-61a5-4379-9194-a46cbc0c11c4");
+                _txtgeneric7Info = new RepoItemInfo(this, "TxtGeneric7", "tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox12']/text[@accessiblerole='Text']", "element", 30000, null, "2fea7856-340c-4eca-96a7-afa95c0a3ffe");
+                _txtgeneric8Info = new RepoItemInfo(this, "TxtGeneric8", "tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox11']/text[@accessiblerole='Text']", "element", 30000, null, "5db4037a-0983-4032-b8b4-9788d5d330b7");
+                _txtgeneric9Info = new RepoItemInfo(this, "TxtGeneric9", "tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox10']/text[@accessiblerole='Text']", "element", 30000, null, "747327fd-4b6c-483e-a202-fb67e90426d8");
+                _txtgeneric10Info = new RepoItemInfo(this, "TxtGeneric10", "tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox9']/text[@accessiblerole='Text']", "element", 30000, null, "60333416-8525-42cf-aab8-1111878cf713");
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("37163c63-0c82-43a0-834c-9b5907690b82")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LnkGeneric1 item.
+            /// </summary>
+            [RepositoryItem("aa24db8c-eb2d-4460-81b4-f98eac0a106e")]
+            public virtual Ranorex.Link LnkGeneric1
+            {
+                get
+                {
+                    return _lnkgeneric1Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LnkGeneric1 item info.
+            /// </summary>
+            [RepositoryItemInfo("aa24db8c-eb2d-4460-81b4-f98eac0a106e")]
+            public virtual RepoItemInfo LnkGeneric1Info
+            {
+                get
+                {
+                    return _lnkgeneric1Info;
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric2 item.
+            /// </summary>
+            [RepositoryItem("a96d5c52-236f-4ac4-9ac7-50eed7ac9436")]
+            public virtual Ranorex.Link LinkGeneric2
+            {
+                get
+                {
+                    return _linkgeneric2Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric2 item info.
+            /// </summary>
+            [RepositoryItemInfo("a96d5c52-236f-4ac4-9ac7-50eed7ac9436")]
+            public virtual RepoItemInfo LinkGeneric2Info
+            {
+                get
+                {
+                    return _linkgeneric2Info;
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric3 item.
+            /// </summary>
+            [RepositoryItem("efae864f-c705-49f0-b31c-f60dbe078107")]
+            public virtual Ranorex.Link LinkGeneric3
+            {
+                get
+                {
+                    return _linkgeneric3Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric3 item info.
+            /// </summary>
+            [RepositoryItemInfo("efae864f-c705-49f0-b31c-f60dbe078107")]
+            public virtual RepoItemInfo LinkGeneric3Info
+            {
+                get
+                {
+                    return _linkgeneric3Info;
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric4 item.
+            /// </summary>
+            [RepositoryItem("c2a5c43a-95fb-4fa5-9e8c-6b65be7680a3")]
+            public virtual Ranorex.Link LinkGeneric4
+            {
+                get
+                {
+                    return _linkgeneric4Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric4 item info.
+            /// </summary>
+            [RepositoryItemInfo("c2a5c43a-95fb-4fa5-9e8c-6b65be7680a3")]
+            public virtual RepoItemInfo LinkGeneric4Info
+            {
+                get
+                {
+                    return _linkgeneric4Info;
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric5 item.
+            /// </summary>
+            [RepositoryItem("a3eb14c5-c88f-4e7c-8ebb-a142c2be3978")]
+            public virtual Ranorex.Link LinkGeneric5
+            {
+                get
+                {
+                    return _linkgeneric5Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric5 item info.
+            /// </summary>
+            [RepositoryItemInfo("a3eb14c5-c88f-4e7c-8ebb-a142c2be3978")]
+            public virtual RepoItemInfo LinkGeneric5Info
+            {
+                get
+                {
+                    return _linkgeneric5Info;
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric6 item.
+            /// </summary>
+            [RepositoryItem("287fbece-84df-4352-ba11-f5b1bbb55477")]
+            public virtual Ranorex.Link LinkGeneric6
+            {
+                get
+                {
+                    return _linkgeneric6Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric6 item info.
+            /// </summary>
+            [RepositoryItemInfo("287fbece-84df-4352-ba11-f5b1bbb55477")]
+            public virtual RepoItemInfo LinkGeneric6Info
+            {
+                get
+                {
+                    return _linkgeneric6Info;
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric7 item.
+            /// </summary>
+            [RepositoryItem("1b13d570-287a-4c47-91e7-33ea31468d82")]
+            public virtual Ranorex.Link LinkGeneric7
+            {
+                get
+                {
+                    return _linkgeneric7Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric7 item info.
+            /// </summary>
+            [RepositoryItemInfo("1b13d570-287a-4c47-91e7-33ea31468d82")]
+            public virtual RepoItemInfo LinkGeneric7Info
+            {
+                get
+                {
+                    return _linkgeneric7Info;
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric8 item.
+            /// </summary>
+            [RepositoryItem("19635c85-dca9-4585-846a-62265a510d52")]
+            public virtual Ranorex.Link LinkGeneric8
+            {
+                get
+                {
+                    return _linkgeneric8Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric8 item info.
+            /// </summary>
+            [RepositoryItemInfo("19635c85-dca9-4585-846a-62265a510d52")]
+            public virtual RepoItemInfo LinkGeneric8Info
+            {
+                get
+                {
+                    return _linkgeneric8Info;
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric9 item.
+            /// </summary>
+            [RepositoryItem("75007f5b-14f3-46c9-b2a6-4ef8ad12281b")]
+            public virtual Ranorex.Link LinkGeneric9
+            {
+                get
+                {
+                    return _linkgeneric9Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric9 item info.
+            /// </summary>
+            [RepositoryItemInfo("75007f5b-14f3-46c9-b2a6-4ef8ad12281b")]
+            public virtual RepoItemInfo LinkGeneric9Info
+            {
+                get
+                {
+                    return _linkgeneric9Info;
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric10 item.
+            /// </summary>
+            [RepositoryItem("6f932c7f-09b8-4add-bd0d-6d9849505c3e")]
+            public virtual Ranorex.Link LinkGeneric10
+            {
+                get
+                {
+                    return _linkgeneric10Info.CreateAdapter<Ranorex.Link>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LinkGeneric10 item info.
+            /// </summary>
+            [RepositoryItemInfo("6f932c7f-09b8-4add-bd0d-6d9849505c3e")]
+            public virtual RepoItemInfo LinkGeneric10Info
+            {
+                get
+                {
+                    return _linkgeneric10Info;
+                }
+            }
+
+            /// <summary>
+            /// The Browse item.
+            /// </summary>
+            [RepositoryItem("1ccddaa3-8873-4801-a801-dbfa076f5ac6")]
+            public virtual Ranorex.Button Browse
+            {
+                get
+                {
+                    return _browseInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Browse item info.
+            /// </summary>
+            [RepositoryItemInfo("1ccddaa3-8873-4801-a801-dbfa076f5ac6")]
+            public virtual RepoItemInfo BrowseInfo
+            {
+                get
+                {
+                    return _browseInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Save item.
+            /// </summary>
+            [RepositoryItem("b15c5891-c7a6-44bd-81b6-7e220a130b04")]
+            public virtual Ranorex.Button Save
+            {
+                get
+                {
+                    return _saveInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Save item info.
+            /// </summary>
+            [RepositoryItemInfo("b15c5891-c7a6-44bd-81b6-7e220a130b04")]
+            public virtual RepoItemInfo SaveInfo
+            {
+                get
+                {
+                    return _saveInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric1 item.
+            /// </summary>
+            [RepositoryItem("dbfd88ee-63fd-4a97-bd45-f282b3e26af8")]
+            public virtual Ranorex.Text TxtGeneric1
+            {
+                get
+                {
+                    return _txtgeneric1Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric1 item info.
+            /// </summary>
+            [RepositoryItemInfo("dbfd88ee-63fd-4a97-bd45-f282b3e26af8")]
+            public virtual RepoItemInfo TxtGeneric1Info
+            {
+                get
+                {
+                    return _txtgeneric1Info;
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric2 item.
+            /// </summary>
+            [RepositoryItem("8b2d04ce-4448-4265-9225-14b2943d9bb9")]
+            public virtual Ranorex.Text TxtGeneric2
+            {
+                get
+                {
+                    return _txtgeneric2Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric2 item info.
+            /// </summary>
+            [RepositoryItemInfo("8b2d04ce-4448-4265-9225-14b2943d9bb9")]
+            public virtual RepoItemInfo TxtGeneric2Info
+            {
+                get
+                {
+                    return _txtgeneric2Info;
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric3 item.
+            /// </summary>
+            [RepositoryItem("077dddd6-ef1e-464f-8135-d414ddee41d4")]
+            public virtual Ranorex.Text TxtGeneric3
+            {
+                get
+                {
+                    return _txtgeneric3Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric3 item info.
+            /// </summary>
+            [RepositoryItemInfo("077dddd6-ef1e-464f-8135-d414ddee41d4")]
+            public virtual RepoItemInfo TxtGeneric3Info
+            {
+                get
+                {
+                    return _txtgeneric3Info;
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric4 item.
+            /// </summary>
+            [RepositoryItem("63a13efb-fd4c-483a-9924-7bd2cdaaf00b")]
+            public virtual Ranorex.Text TxtGeneric4
+            {
+                get
+                {
+                    return _txtgeneric4Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric4 item info.
+            /// </summary>
+            [RepositoryItemInfo("63a13efb-fd4c-483a-9924-7bd2cdaaf00b")]
+            public virtual RepoItemInfo TxtGeneric4Info
+            {
+                get
+                {
+                    return _txtgeneric4Info;
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric5 item.
+            /// </summary>
+            [RepositoryItem("2fd1ea0c-2721-41f4-b5fa-b11145a32f32")]
+            public virtual Ranorex.Text TxtGeneric5
+            {
+                get
+                {
+                    return _txtgeneric5Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric5 item info.
+            /// </summary>
+            [RepositoryItemInfo("2fd1ea0c-2721-41f4-b5fa-b11145a32f32")]
+            public virtual RepoItemInfo TxtGeneric5Info
+            {
+                get
+                {
+                    return _txtgeneric5Info;
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric6 item.
+            /// </summary>
+            [RepositoryItem("57995e17-61a5-4379-9194-a46cbc0c11c4")]
+            public virtual Ranorex.Text TxtGeneric6
+            {
+                get
+                {
+                    return _txtgeneric6Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric6 item info.
+            /// </summary>
+            [RepositoryItemInfo("57995e17-61a5-4379-9194-a46cbc0c11c4")]
+            public virtual RepoItemInfo TxtGeneric6Info
+            {
+                get
+                {
+                    return _txtgeneric6Info;
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric7 item.
+            /// </summary>
+            [RepositoryItem("2fea7856-340c-4eca-96a7-afa95c0a3ffe")]
+            public virtual Ranorex.Text TxtGeneric7
+            {
+                get
+                {
+                    return _txtgeneric7Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric7 item info.
+            /// </summary>
+            [RepositoryItemInfo("2fea7856-340c-4eca-96a7-afa95c0a3ffe")]
+            public virtual RepoItemInfo TxtGeneric7Info
+            {
+                get
+                {
+                    return _txtgeneric7Info;
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric8 item.
+            /// </summary>
+            [RepositoryItem("5db4037a-0983-4032-b8b4-9788d5d330b7")]
+            public virtual Ranorex.Text TxtGeneric8
+            {
+                get
+                {
+                    return _txtgeneric8Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric8 item info.
+            /// </summary>
+            [RepositoryItemInfo("5db4037a-0983-4032-b8b4-9788d5d330b7")]
+            public virtual RepoItemInfo TxtGeneric8Info
+            {
+                get
+                {
+                    return _txtgeneric8Info;
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric9 item.
+            /// </summary>
+            [RepositoryItem("747327fd-4b6c-483e-a202-fb67e90426d8")]
+            public virtual Ranorex.Text TxtGeneric9
+            {
+                get
+                {
+                    return _txtgeneric9Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric9 item info.
+            /// </summary>
+            [RepositoryItemInfo("747327fd-4b6c-483e-a202-fb67e90426d8")]
+            public virtual RepoItemInfo TxtGeneric9Info
+            {
+                get
+                {
+                    return _txtgeneric9Info;
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric10 item.
+            /// </summary>
+            [RepositoryItem("60333416-8525-42cf-aab8-1111878cf713")]
+            public virtual Ranorex.Text TxtGeneric10
+            {
+                get
+                {
+                    return _txtgeneric10Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtGeneric10 item info.
+            /// </summary>
+            [RepositoryItemInfo("60333416-8525-42cf-aab8-1111878cf713")]
+            public virtual RepoItemInfo TxtGeneric10Info
+            {
+                get
+                {
+                    return _txtgeneric10Info;
                 }
             }
         }
