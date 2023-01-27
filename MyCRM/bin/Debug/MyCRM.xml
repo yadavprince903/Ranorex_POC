@@ -303,6 +303,16 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.CompanyName">
+            <summary>
+            The CompanyName item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.CompanyNameInfo">
+            <summary>
+            The CompanyName item info.
+            </summary>
+        </member>
         <member name="P:MyCRM.MyCRMRepositoryFolders.CompanyFolder.LabelAddLine1">
             <summary>
             The LabelAddLine1 item.
@@ -476,6 +486,90 @@
         <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.CompanyInfo">
             <summary>
             The Company item info.
+            </summary>
+        </member>
+        <member name="T:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab">
+             <summary>
+            The Validate_default_values_comapny_tab recording.
+             </summary>
+        </member>
+        <member name="F:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.repo">
+            <summary>
+            Holds an instance of the global::MyCRM.MyCRMRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.ComapnyName">
+            <summary>
+            Gets or sets the value of variable ComapnyName.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.AddLine1">
+            <summary>
+            Gets or sets the value of variable AddLine1.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.AddLine2">
+            <summary>
+            Gets or sets the value of variable AddLine2.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.City">
+            <summary>
+            Gets or sets the value of variable City.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.State">
+            <summary>
+            Gets or sets the value of variable State.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Zip">
+            <summary>
+            Gets or sets the value of variable Zip.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Main">
+            <summary>
+            Gets or sets the value of variable Main.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Other">
+            <summary>
+            Gets or sets the value of variable Other.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Comments">
+            <summary>
+            Gets or sets the value of variable Comments.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="T:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed">
@@ -729,6 +823,45 @@
             that will in turn invoke this method.</remarks>
         </member>
         <member name="M:MyCRM.Recordings.People.ValidateDefaultValuesInPeopleTab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyCRM.Recordings.People.ValidateStateDropdown">
+             <summary>
+            The ValidateStateDropdown recording.
+             </summary>
+        </member>
+        <member name="F:MyCRM.Recordings.People.ValidateStateDropdown.repo">
+            <summary>
+            Holds an instance of the global::MyCRM.MyCRMRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.People.ValidateStateDropdown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateStateDropdown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.People.ValidateStateDropdown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.People.ValidateStateDropdown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.People.ValidateStateDropdown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.People.ValidateStateDropdown.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.

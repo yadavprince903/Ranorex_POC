@@ -162,6 +162,14 @@ name="MyCRMRepository">
 			searchtimeout="0ms">
 				<item
 				capname="text"
+				id="561708d1-57ba-4179-bad0-60b5571b1db7"
+				name="CompanyName"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']
+				</item>
+				<item
+				capname="text"
 				id="7b75f60f-32b6-4f20-9418-16e6c61b62d6"
 				name="LabelAddLine1"
 				robustPath="/form[@controlname='Form1']/?/?/element"

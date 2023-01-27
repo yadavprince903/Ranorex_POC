@@ -602,6 +602,7 @@ namespace MyCRM
         [RepositoryFolder("6741e82e-ec3b-4d2f-8c4c-23dc101f2b01")]
         public partial class CompanyFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _companynameInfo;
             RepoItemInfo _labeladdline1Info;
             RepoItemInfo _labeladdline2Info;
             RepoItemInfo _labelcityInfo;
@@ -624,6 +625,7 @@ namespace MyCRM
             public CompanyFolder(RepoGenBaseFolder parentFolder) :
                     base("Company", "", parentFolder, 0, null, false, "6741e82e-ec3b-4d2f-8c4c-23dc101f2b01", "")
             {
+                _companynameInfo = new RepoItemInfo(this, "CompanyName", "tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']", "element", 30000, null, "561708d1-57ba-4179-bad0-60b5571b1db7");
                 _labeladdline1Info = new RepoItemInfo(this, "LabelAddLine1", "tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label22']", "element", 30000, null, "7b75f60f-32b6-4f20-9418-16e6c61b62d6");
                 _labeladdline2Info = new RepoItemInfo(this, "LabelAddLine2", "tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label21']", "element", 30000, null, "7e363e15-abc4-4287-a46b-bcee1a06d4f1");
                 _labelcityInfo = new RepoItemInfo(this, "LabelCity", "tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='label20']", "element", 30000, null, "779072db-e2e8-470f-adc0-5380f608e5a4");
@@ -650,6 +652,30 @@ namespace MyCRM
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CompanyName item.
+            /// </summary>
+            [RepositoryItem("561708d1-57ba-4179-bad0-60b5571b1db7")]
+            public virtual Ranorex.Text CompanyName
+            {
+                get
+                {
+                    return _companynameInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CompanyName item info.
+            /// </summary>
+            [RepositoryItemInfo("561708d1-57ba-4179-bad0-60b5571b1db7")]
+            public virtual RepoItemInfo CompanyNameInfo
+            {
+                get
+                {
+                    return _companynameInfo;
                 }
             }
 

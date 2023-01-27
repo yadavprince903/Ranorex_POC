@@ -147,6 +147,30 @@
     <Compile Include="Program.cs">
       <id>0bde291a-82e5-4dc8-9d70-51b6a6e642fa</id>
     </Compile>
+    <Compile Include="Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs">
+      <BoundTo>13a8ba9e-190b-4f5f-92ba-040925fa8eb7</BoundTo>
+      <DependentUpon>Validate_default_values_comapny_tab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4c34a737-e0f6-41c7-9d10-9ed2c5ee780d</id>
+    </Compile>
+    <Compile Include="Recordings\Company\RG-004\Validate_default_values_comapny_tab.UserCode.cs">
+      <BoundTo>13a8ba9e-190b-4f5f-92ba-040925fa8eb7</BoundTo>
+      <DependentUpon>Validate_default_values_comapny_tab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>94799963-1cca-45f1-9a56-6cee435ce5f0</id>
+    </Compile>
+    <Compile Include="Recordings\Company\RG-006\ValidateInputValuesCompanyTab.cs">
+      <BoundTo>429db7c8-c96e-4bc5-a25d-c814a67a3f66</BoundTo>
+      <DependentUpon>ValidateInputValuesCompanyTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d22f07bd-9d3e-47db-ad5a-3563b33c71d9</id>
+    </Compile>
+    <Compile Include="Recordings\Company\RG-006\ValidateInputValuesCompanyTab.UserCode.cs">
+      <BoundTo>429db7c8-c96e-4bc5-a25d-c814a67a3f66</BoundTo>
+      <DependentUpon>ValidateInputValuesCompanyTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3198eae7-833e-4629-bcb6-f798f5320aa4</id>
+    </Compile>
     <Compile Include="Recordings\Company\TC_001\VerifyPageLabelDisplayed.cs">
       <BoundTo>b979483c-d8e8-49d3-8c82-014f7b058e80</BoundTo>
       <DependentUpon>VerifyPageLabelDisplayed.rxrec</DependentUpon>
@@ -248,6 +272,16 @@
       <repoid>45d9c5ae-36dc-48ef-b65d-536b9fd22260</repoid>
       <reporootid>320422cc-3ab0-40a5-848a-96c127c13395</reporootid>
     </None>
+    <None Include="Recordings\Company\RG-004\Validate_default_values_comapny_tab.rxrec">
+      <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
+      <id>13a8ba9e-190b-4f5f-92ba-040925fa8eb7</id>
+      <recordtableid>17f1c75a-8e40-4313-b549-5d5d3afb8d2a</recordtableid>
+    </None>
+    <None Include="Recordings\Company\RG-006\ValidateInputValuesCompanyTab.rxrec">
+      <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
+      <id>429db7c8-c96e-4bc5-a25d-c814a67a3f66</id>
+      <recordtableid>0fe928ee-30e4-4bdb-8d3a-5c3d25713a79</recordtableid>
+    </None>
     <None Include="Recordings\Company\TC_001\VerifyPageLabelDisplayed.rxrec">
       <BoundTo>bc56680a-af8b-4d9a-bc6d-550e9bf54b5b</BoundTo>
       <id>b979483c-d8e8-49d3-8c82-014f7b058e80</id>
@@ -295,6 +329,12 @@
     </Folder>
     <Folder Include="Recordings\Company">
       <id>625c5129-2fc2-4b1a-964e-b86e728c78b3</id>
+    </Folder>
+    <Folder Include="Recordings\Company\RG-006">
+      <id>c0b4bf6e-f376-46cb-bc19-824d680b99d1</id>
+    </Folder>
+    <Folder Include="Recordings\Company\RG-004">
+      <id>f61873e1-c6bd-4c78-a77b-7f63bc3421d8</id>
     </Folder>
     <Folder Include="Recordings\Company\TC_002">
       <id>6a55a3d1-a1bb-4e67-9a58-837a1f0a4db7</id>
