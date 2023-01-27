@@ -801,6 +801,7 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+<<<<<<< HEAD
         <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Instance">
             <summary>
             Gets a static instance of this recording.
@@ -886,26 +887,98 @@
             </summary>
         </member>
         <member name="T:MyCRM.Recordings.People.Recording1">
+=======
+        <member name="T:MyCRM.Recordings.People.ValidateInputDataInPeopleTab">
+>>>>>>> b312d300f778856fe9670027f5e4044a546c175f
              <summary>
-            The Recording1 recording.
+            The ValidateInputDataInPeopleTab recording.
              </summary>
         </member>
-        <member name="F:MyCRM.Recordings.People.Recording1.repo">
+        <member name="F:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.repo">
             <summary>
             Holds an instance of the global::MyCRM.MyCRMRepository repository.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.People.Recording1.#ctor">
+        <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
+<<<<<<< HEAD
         <member name="M:MyCRM.Recordings.People.Recording1.Start">
+=======
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Instance">
             <summary>
-            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.People.Recording1.Instance"/>.
+            Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.People.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.First">
+            <summary>
+            Gets or sets the value of variable First.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Last">
+            <summary>
+            Gets or sets the value of variable Last.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Addressline1">
+>>>>>>> b312d300f778856fe9670027f5e4044a546c175f
+            <summary>
+            Gets or sets the value of variable Addressline1.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Addressline2">
+            <summary>
+            Gets or sets the value of variable Addressline2.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.City">
+            <summary>
+            Gets or sets the value of variable City.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Zip">
+            <summary>
+            Gets or sets the value of variable Zip.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Home">
+            <summary>
+            Gets or sets the value of variable Home.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Work">
+            <summary>
+            Gets or sets the value of variable Work.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Mobile">
+            <summary>
+            Gets or sets the value of variable Mobile.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Personalmail">
+            <summary>
+            Gets or sets the value of variable Personalmail.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Workmail">
+            <summary>
+            Gets or sets the value of variable Workmail.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Comments">
+            <summary>
+            Gets or sets the value of variable Comments.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -913,7 +986,7 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:MyCRM.Recordings.People.Recording1.Init">
+        <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.

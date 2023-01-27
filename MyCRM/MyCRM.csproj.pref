@@ -1,13 +1,9 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="Sanity.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Sanity.rxtst" />
-    <Element value="Recordings\Company\TC_002\VerifyLabelText.rxrec" />
-    <Element value="Recordings\Company\TC_001\VerifyPageLabelDisplayed.rxrec" />
-    <Element value="Recordings\Other\TC_003\VerifyLabelAndButtonlsPresent.rxrec" />
+    <Element value="StartAUT.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

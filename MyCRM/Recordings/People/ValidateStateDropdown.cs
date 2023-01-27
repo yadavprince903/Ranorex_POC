@@ -24,60 +24,34 @@ namespace MyCRM.Recordings.People
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The ValidateStateDropdown recording.
     /// </summary>
-    [TestModule("182187fd-5a61-4b61-9a11-0a71a1a01bb9", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    [TestModule("463aef47-9a53-4bca-b18e-b6876a7bafeb", ModuleType.Recording, 1)]
+    public partial class ValidateStateDropdown : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::MyCRM.MyCRMRepository repository.
         /// </summary>
         public static global::MyCRM.MyCRMRepository repo = global::MyCRM.MyCRMRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static ValidateStateDropdown instance = new ValidateStateDropdown();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public ValidateStateDropdown()
         {
-            First = "";
-            Last = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static ValidateStateDropdown Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _First;
-
-        /// <summary>
-        /// Gets or sets the value of variable First.
-        /// </summary>
-        [TestVariable("ea5d48d1-a77c-4bfb-a42f-bc5b0f0d9220")]
-        public string First
-        {
-            get { return _First; }
-            set { _First = value; }
-        }
-
-        string _Last;
-
-        /// <summary>
-        /// Gets or sets the value of variable Last.
-        /// </summary>
-        [TestVariable("b86e07f9-6016-4bc4-aa1d-f60bc4e0c011")]
-        public string Last
-        {
-            get { return _Last; }
-            set { _Last = value; }
-        }
 
 #endregion
 
@@ -105,19 +79,12 @@ namespace MyCRM.Recordings.People
 
             Init();
 
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(0));
-            //Delay.Duration(10000, false);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$First' with focus on 'MyCRM.People.First'.", repo.MyCRM.People.FirstInfo, new RecordItemIndex(1));
-            repo.MyCRM.People.First.PressKeys(First);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyCRM.People.State' at Center.", repo.MyCRM.People.StateInfo, new RecordItemIndex(0));
+            repo.MyCRM.People.State.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Last' with focus on 'MyCRM.People.Last'.", repo.MyCRM.People.LastInfo, new RecordItemIndex(2));
-            repo.MyCRM.People.Last.PressKeys(Last);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyCRM.People.Male' at Center.", repo.MyCRM.People.MaleInfo, new RecordItemIndex(3));
-            repo.MyCRM.People.Male.Click();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'X' Press.", new RecordItemIndex(1));
+            Keyboard.Press(System.Windows.Forms.Keys.X, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
         }
