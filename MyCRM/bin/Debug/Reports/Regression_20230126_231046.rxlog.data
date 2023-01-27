@@ -1,0 +1,1372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="33.62s"
+		durationms="33624"
+		type="root"
+		rid="1c11b9e580d4feab"
+		totalerrorcount="3"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="2"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="3"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="9.5.0.0"
+		host="DESKTOP-OFLBUTC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="1/26/2023 11:10:46 PM"
+		timestampiso="2023-01-27T07:10:46"
+		endtime="1/26/2023 11:11:20 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="26.7s"
+			durationms="26699"
+			type="test-suite"
+			rid="5a6757d32c87294"
+			totalerrorcount="3"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="2"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="3"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Regression"
+			headertext="Regression"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="26.65s"
+				durationms="26647"
+				type="smart-folder"
+				rid="48a12738c7a9de"
+				totalerrorcount="3"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="2"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="2"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="3"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Company"
+				testcontainerid="946c5cd9-cb32-4f51-ba6d-44a0589b23ab"
+				headertext="Company"
+				displayName="Company"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="14.12s"
+					durationms="14121"
+					type="test-case"
+					rid="164bbb0678607d0"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="2"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="RG-004"
+					testcontainerid="f8a64fd9-c1c4-4c2c-884c-e184caa5cbf9"
+					headertext="RG-004"
+					displayName="RG-004"
+					iteration="1"
+					activity-exectype="execute"
+					conditionstate="none">
+					<params>
+						<param
+							name="ComapnyName">
+							ABC Computers
+						</param>
+						<param
+							name="AddLine1">
+							500 Park Avenue
+						</param>
+						<param
+							name="AddLine2">
+							Suite 200
+						</param>
+						<param
+							name="City">
+							New York
+						</param>
+						<param
+							name="State">
+							NY
+						</param>
+						<param
+							name="Zip">
+							10028
+						</param>
+						<param
+							name="Main">
+							212-770-7000
+						</param>
+						<param
+							name="Other">
+							212-770-7001
+						</param>
+						<param
+							name="Comments">
+						</param>
+					</params>
+					<activity
+						result="Success"
+						duration="796ms"
+						durationms="796"
+						type="setup-container"
+						rid="1ec9da9b6b2d33e"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="1"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="759ms"
+							durationms="759"
+							type="test-module"
+							rid="1c3099f56030efd0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="StartAUT"
+							displayName="StartAUT"
+							moduleid="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="StartAutProcessIDVar"
+									value="">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.107"
+								timeRelativeToTestModuleStartTime="00:00.013"
+								timeWallClock="23:10:53"
+								time="00:00.107"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$StartAutProcessIDVar = ''
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.172"
+								timeRelativeToTestModuleStartTime="00:00.078"
+								timeWallClock="23:10:53"
+								time="00:00.172"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Users\Admin\Desktop\MyCRM.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\StartAUT.cs"
+									codeline="95"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="12.51s"
+						durationms="12513"
+						type="test-module"
+						rid="8fe55ea7be99eb4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Validate_default_values_comapny_tab"
+						displayName="Validate_default_values_comapny_tab"
+						moduleid="17f1c75a-8e40-4313-b549-5d5d3afb8d2a"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="ComapnyName"
+								value="ABC Computers">
+							</varbinding>
+							<varbinding
+								name="AddLine1"
+								value="500 Park Avenue">
+							</varbinding>
+							<varbinding
+								name="AddLine2"
+								value="Suite 200">
+							</varbinding>
+							<varbinding
+								name="City"
+								value="New York">
+							</varbinding>
+							<varbinding
+								name="State"
+								value="NY">
+							</varbinding>
+							<varbinding
+								name="Zip"
+								value="10028">
+							</varbinding>
+							<varbinding
+								name="Main"
+								value="212-770-7000">
+							</varbinding>
+							<varbinding
+								name="Other"
+								value="212-770-7001">
+							</varbinding>
+							<varbinding
+								name="Comments"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.865"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="23:10:54"
+							time="00:00.865"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$ComapnyName = 'ABC Computers', $AddLine1 = '500 Park Avenue', $AddLine2 = 'Suite 200', $City = 'New York', $State = 'NY', $Zip = '10028', $Main = '212-770-7000', $Other = '212-770-7001', $Comments = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.902"
+							timeRelativeToTestModuleStartTime="00:00.038"
+							timeWallClock="23:10:54"
+							time="00:00.902"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MyCRM.Navigation.Company' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@accessiblename='Company ']"
+								itempath="tabpage[@accessiblename='Company ']"
+								fullname="MyCRMRepository.MyCRM.Navigation.Company"
+								id="c3394663c50f40038abf2e349bdfca82"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="199"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.283"
+							timeRelativeToTestModuleStartTime="00:04.419"
+							timeWallClock="23:10:58"
+							time="00:05.283"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text=$ComapnyName) on item 'MyCRM.Company.CompanyName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']"
+								fullname="MyCRMRepository.MyCRM.Company.CompanyName"
+								id="561708d157ba4179bad060b5571b1db7"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="203"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.064"
+							timeRelativeToTestModuleStartTime="00:05.200"
+							timeWallClock="23:10:59"
+							time="00:06.064"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.CompanyName' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']"
+								fullname="MyCRMRepository.MyCRM.Company.CompanyName"
+								id="561708d157ba4179bad060b5571b1db7"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="204"
+								loglvl="Success"
+								itemindex="1">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.094"
+							timeRelativeToTestModuleStartTime="00:05.230"
+							timeWallClock="23:10:59"
+							time="00:06.094"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text=$AddLine1) on item 'MyCRM.Company.TxtAddressLine1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine1"
+								id="b60ecbbf17c24de7933e459db99e9516"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="207"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.104"
+							timeRelativeToTestModuleStartTime="00:06.241"
+							timeWallClock="23:11:00"
+							time="00:07.104"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.TxtAddressLine1' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine1"
+								id="b60ecbbf17c24de7933e459db99e9516"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="208"
+								loglvl="Success"
+								itemindex="2">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.142"
+							timeRelativeToTestModuleStartTime="00:06.278"
+							timeWallClock="23:11:00"
+							time="00:07.142"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text=$AddLine2) on item 'MyCRM.Company.TxtAddressLine2'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine2"
+								id="49a26305d67449958ccd341ed6f8f41d"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="211"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.259"
+							timeRelativeToTestModuleStartTime="00:07.395"
+							timeWallClock="23:11:01"
+							time="00:08.259"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.TxtAddressLine2' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine2"
+								id="49a26305d67449958ccd341ed6f8f41d"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="212"
+								loglvl="Success"
+								itemindex="3">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.291"
+							timeRelativeToTestModuleStartTime="00:07.427"
+							timeWallClock="23:11:01"
+							time="00:08.291"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text=$City) on item 'MyCRM.Company.TxtCity'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressCity']"
+								itempath="tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressCity']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtCity"
+								id="d87c6fc770eb4d03b9faf153e34ced75"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="215"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.959"
+							timeRelativeToTestModuleStartTime="00:09.095"
+							timeWallClock="23:11:03"
+							time="00:09.959"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.TxtCity' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressCity']"
+								itempath="tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressCity']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtCity"
+								id="d87c6fc770eb4d03b9faf153e34ced75"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="216"
+								loglvl="Success"
+								itemindex="4">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.992"
+							timeRelativeToTestModuleStartTime="00:09.129"
+							timeWallClock="23:11:03"
+							time="00:09.992"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text=$Zip) on item 'MyCRM.Company.TxtZip'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressZip']"
+								itempath="tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressZip']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtZip"
+								id="4ab49ece250a4c499613d35e539e5a1e"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="219"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.514"
+							timeRelativeToTestModuleStartTime="00:10.651"
+							timeWallClock="23:11:05"
+							time="00:11.514"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.TxtZip' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressZip']"
+								itempath="tabpage[@controlname='tabPageCompanies']/?/?/text[@controlname='textBoxCompaniesAddressZip']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtZip"
+								id="4ab49ece250a4c499613d35e539e5a1e"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="220"
+								loglvl="Success"
+								itemindex="5">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.543"
+							timeRelativeToTestModuleStartTime="00:10.679"
+							timeWallClock="23:11:05"
+							time="00:11.543"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text=$Main) on item 'MyCRM.Company.TxtMain'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Main:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Main:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtMain"
+								id="c0fe8e77830f4264baa5eab05b48b368"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="223"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.432"
+							timeRelativeToTestModuleStartTime="00:11.569"
+							timeWallClock="23:11:05"
+							time="00:12.432"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.TxtMain' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Main:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Main:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtMain"
+								id="c0fe8e77830f4264baa5eab05b48b368"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="224"
+								loglvl="Success"
+								itemindex="6">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.460"
+							timeRelativeToTestModuleStartTime="00:11.597"
+							timeWallClock="23:11:05"
+							time="00:12.460"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text=$Other) on item 'MyCRM.Company.TxtOther'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Other:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Other:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtOther"
+								id="202b68c9d3824b20897bbf688bb3e1b3"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="227"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.343"
+							timeRelativeToTestModuleStartTime="00:12.479"
+							timeWallClock="23:11:06"
+							time="00:13.343"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.TxtOther' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Other:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox8']/?/?/text[@accessiblename='Other:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtOther"
+								id="202b68c9d3824b20897bbf688bb3e1b3"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-004\Validate_default_values_comapny_tab.cs"
+								codeline="228"
+								loglvl="Success"
+								itemindex="7">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="799ms"
+						durationms="799"
+						type="teardown-container"
+						rid="6ea6a0fa0c18aa4"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="1"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Failed"
+							duration="795ms"
+							durationms="795"
+							type="test-module"
+							rid="f65a0dc798f270"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="CloseAUT"
+							displayName="CloseAUT"
+							moduleid="f62c3776-3f0e-4cab-9350-fd68c588040b"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<errormessage>
+								The process with id '4824' does not exist.
+							</errormessage>
+							<varbindings>
+								<varbinding
+									name="CloseAutProcessIDVar"
+									value="4824">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:13.383"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="23:11:06"
+								time="00:13.383"
+								level="Info"
+								category="Data"
+								errimg="images_Regressi_ef542b9b\Regressi_ef542b9b_8d074a3a_trace.jpg"
+								errthumb="images_Regressi_ef542b9b\Regressi_ef542b9b_8d074a3a_trace_thumb.jpg">
+								<message>
+									Current variable values:<br/>$CloseAutProcessIDVar = '4824'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:13.411"
+								timeRelativeToTestModuleStartTime="00:00.030"
+								timeWallClock="23:11:06"
+								time="00:13.411"
+								level="Info"
+								category="Application"
+								errimg="images_Regressi_ef542b9b\Regressi_ef542b9b_5f3d0195_trace.jpg"
+								errthumb="images_Regressi_ef542b9b\Regressi_ef542b9b_5f3d0195_trace_thumb.jpg">
+								<message>
+									Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\CloseAUT.cs"
+									codeline="95"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:14.078"
+								timeRelativeToTestModuleStartTime="00:00.696"
+								timeWallClock="23:11:07"
+								time="00:14.078"
+								level="Error"
+								category="Module"
+								errimg="images_Regressi_ef542b9b\Regressi_ef542b9b_6ef90d95_trace.jpg"
+								errthumb="images_Regressi_ef542b9b\Regressi_ef542b9b_6ef90d95_trace_thumb.jpg">
+								<message>
+									The process with id '4824' does not exist.<br/>Process with an Id of 4824 is not running.
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Host.KillApplication(Int32 processId)
+   at Ranorex.Host.CloseApplication(Int32 processId, Duration gracePeriod)
+   at MyCRM.CloseAUT.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\CloseAUT.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+									codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\CloseAUT.cs"
+									codeline="96"
+									loglvl="Error"
+									itemindex="0">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="12.51s"
+					durationms="12512"
+					type="test-case"
+					rid="135117f34ea25954"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="2"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="RG-005"
+					testcontainerid="7302b4a6-1876-4055-9fe0-c013db7c0348"
+					headertext="RG-005"
+					displayName="RG-005"
+					iteration="1"
+					activity-exectype="execute"
+					conditionstate="none">
+					<params>
+						<param
+							name="ComapnyName">
+							RG005 company
+						</param>
+						<param
+							name="AddLine1">
+							RG-005 addrsss1
+						</param>
+						<param
+							name="AddLine2">
+							123 Main Street
+						</param>
+						<param
+							name="City">
+							California
+						</param>
+						<param
+							name="Zip">
+							90011
+						</param>
+						<param
+							name="Main">
+							123456789
+						</param>
+						<param
+							name="Other">
+							987665521
+						</param>
+						<param
+							name="Comments">
+						</param>
+					</params>
+					<activity
+						result="Success"
+						duration="101ms"
+						durationms="101"
+						type="setup-container"
+						rid="207d51d9ddb2e8a2"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="1"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="98ms"
+							durationms="98"
+							type="test-module"
+							rid="19a48927beca46bc"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="StartAUT"
+							displayName="StartAUT"
+							moduleid="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="StartAutProcessIDVar"
+									value="4824">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:14.185"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="23:11:07"
+								time="00:14.185"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$StartAutProcessIDVar = '4824'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:14.229"
+								timeRelativeToTestModuleStartTime="00:00.045"
+								timeWallClock="23:11:07"
+								time="00:14.229"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Users\Admin\Desktop\MyCRM.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\StartAUT.cs"
+									codeline="95"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="11.62s"
+						durationms="11619"
+						type="test-module"
+						rid="30973841dc56f32e"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="ValidateInputValuesCompanyTab"
+						displayName="ValidateInputValuesCompanyTab"
+						moduleid="0fe928ee-30e4-4bdb-8d3a-5c3d25713a79"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<errormessage>
+							Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.TxtAddressLine2' does not match the specified value (actual='yourtext', expected='123·Main·Street').
+						</errormessage>
+						<varbindings>
+							<varbinding
+								name="ComapnyName"
+								value="RG005 company">
+							</varbinding>
+							<varbinding
+								name="AddLine1"
+								value="RG-005 addrsss1">
+							</varbinding>
+							<varbinding
+								name="AddLine2"
+								value="123 Main Street">
+							</varbinding>
+							<varbinding
+								name="City"
+								value="California">
+							</varbinding>
+							<varbinding
+								name="Zip"
+								value="90011">
+							</varbinding>
+							<varbinding
+								name="Main"
+								value="123456789">
+							</varbinding>
+							<varbinding
+								name="Other"
+								value="987665521">
+							</varbinding>
+							<varbinding
+								name="Comments"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.289"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="23:11:07"
+							time="00:14.289"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$ComapnyName = 'RG005 company', $AddLine1 = 'RG-005 addrsss1', $AddLine2 = '123 Main Street', $City = 'California', $Zip = '90011', $Main = '123456789', $Other = '987665521', $Comments = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.338"
+							timeRelativeToTestModuleStartTime="00:00.052"
+							timeWallClock="23:11:07"
+							time="00:14.338"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MyCRM.Navigation.Company' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@accessiblename='Company ']"
+								itempath="tabpage[@accessiblename='Company ']"
+								fullname="MyCRMRepository.MyCRM.Navigation.Company"
+								id="c3394663c50f40038abf2e349bdfca82"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="186"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.478"
+							timeRelativeToTestModuleStartTime="00:01.193"
+							timeWallClock="23:11:09"
+							time="00:15.478"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$ComapnyName' with focus on 'MyCRM.Company.CompanyName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']"
+								fullname="MyCRMRepository.MyCRM.Company.CompanyName"
+								id="561708d157ba4179bad060b5571b1db7"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="190"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.581"
+							timeRelativeToTestModuleStartTime="00:02.296"
+							timeWallClock="23:11:10"
+							time="00:16.581"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text=$ComapnyName) on item 'MyCRM.Company.CompanyName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']"
+								fullname="MyCRMRepository.MyCRM.Company.CompanyName"
+								id="561708d157ba4179bad060b5571b1db7"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="194"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.369"
+							timeRelativeToTestModuleStartTime="00:03.084"
+							timeWallClock="23:11:10"
+							time="00:17.369"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.CompanyName' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox6']/?/?/text[@accessiblename='Work:']"
+								fullname="MyCRMRepository.MyCRM.Company.CompanyName"
+								id="561708d157ba4179bad060b5571b1db7"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="195"
+								loglvl="Success"
+								itemindex="2">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.410"
+							timeRelativeToTestModuleStartTime="00:03.125"
+							timeWallClock="23:11:10"
+							time="00:17.410"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$AddLine1' with focus on 'MyCRM.Company.TxtAddressLine1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine1"
+								id="b60ecbbf17c24de7933e459db99e9516"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="198"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.896"
+							timeRelativeToTestModuleStartTime="00:04.611"
+							timeWallClock="23:11:12"
+							time="00:18.896"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text=$AddLine1) on item 'MyCRM.Company.TxtAddressLine1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine1"
+								id="b60ecbbf17c24de7933e459db99e9516"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="202"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.135"
+							timeRelativeToTestModuleStartTime="00:05.850"
+							timeWallClock="23:11:13"
+							time="00:20.135"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.TxtAddressLine1' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 1:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine1"
+								id="b60ecbbf17c24de7933e459db99e9516"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="203"
+								loglvl="Success"
+								itemindex="4">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.178"
+							timeRelativeToTestModuleStartTime="00:05.893"
+							timeWallClock="23:11:13"
+							time="00:20.178"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'yourtext' with focus on 'MyCRM.Company.TxtAddressLine2'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine2"
+								id="49a26305d67449958ccd341ed6f8f41d"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="206"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.529"
+							timeRelativeToTestModuleStartTime="00:07.244"
+							timeWallClock="23:11:15"
+							time="00:21.529"
+							level="Info"
+							category="Validation"
+							errimg="images_Regressi_ef542b9b\Regressi_ef542b9b_c8de6f5b_trace.jpg"
+							errthumb="images_Regressi_ef542b9b\Regressi_ef542b9b_c8de6f5b_trace_thumb.jpg">
+							<message>
+								Validating AttributeEqual (Text=$AddLine2) on item 'MyCRM.Company.TxtAddressLine2'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine2"
+								id="49a26305d67449958ccd341ed6f8f41d"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="210"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.765"
+							timeRelativeToTestModuleStartTime="00:11.480"
+							timeWallClock="23:11:19"
+							time="00:25.765"
+							level="Failure"
+							category="Validation"
+							errimg="images_Regressi_ef542b9b\Regressi_ef542b9b_1e95c879_trace.jpg"
+							errthumb="images_Regressi_ef542b9b\Regressi_ef542b9b_1e95c879_trace_thumb.jpg">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.TxtAddressLine2' does not match the specified value (actual='yourtext', expected='123·Main·Street').
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine2"
+								id="49a26305d67449958ccd341ed6f8f41d"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="211"
+								loglvl="Failure"
+								itemindex="6">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.810"
+							timeRelativeToTestModuleStartTime="00:11.525"
+							timeWallClock="23:11:19"
+							time="00:25.810"
+							level="Error"
+							category="Module"
+							errimg="images_Regressi_ef542b9b\Regressi_ef542b9b_c1f2f748_trace.jpg"
+							errthumb="images_Regressi_ef542b9b\Regressi_ef542b9b_c1f2f748_trace_thumb.jpg">
+							<message>
+								Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Company.TxtAddressLine2' does not match the specified value (actual='yourtext', expected='123·Main·Street').
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs:line 211
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Company\RG-005\ValidateInputValuesCompanyTab.cs"
+								codeline="211"
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								itempath="tabpage[@controlname='tabPageCompanies']/container[@controlname='groupBox9']/?/?/text[@accessiblename='Add Line 2:']"
+								fullname="MyCRMRepository.MyCRM.Company.TxtAddressLine2"
+								id="49a26305d67449958ccd341ed6f8f41d"
+								timeout="60000"
+								loglvl="Error"
+								itemindex="6">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="788ms"
+						durationms="788"
+						type="teardown-container"
+						rid="110f7d7ebffe4ac"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="1"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Failed"
+							duration="786ms"
+							durationms="786"
+							type="test-module"
+							rid="16a675df1edc5f2d"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="CloseAUT"
+							displayName="CloseAUT"
+							moduleid="f62c3776-3f0e-4cab-9350-fd68c588040b"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<errormessage>
+								The process with id '16516' does not exist.
+							</errormessage>
+							<varbindings>
+								<varbinding
+									name="CloseAutProcessIDVar"
+									value="16516">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:25.909"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="23:11:19"
+								time="00:25.909"
+								level="Info"
+								category="Data"
+								errimg="images_Regressi_ef542b9b\Regressi_ef542b9b_03a69768_trace.jpg"
+								errthumb="images_Regressi_ef542b9b\Regressi_ef542b9b_03a69768_trace_thumb.jpg">
+								<message>
+									Current variable values:<br/>$CloseAutProcessIDVar = '16516'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:25.944"
+								timeRelativeToTestModuleStartTime="00:00.038"
+								timeWallClock="23:11:19"
+								time="00:25.944"
+								level="Info"
+								category="Application"
+								errimg="images_Regressi_ef542b9b\Regressi_ef542b9b_b64b693c_trace.jpg"
+								errthumb="images_Regressi_ef542b9b\Regressi_ef542b9b_b64b693c_trace_thumb.jpg">
+								<message>
+									Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\CloseAUT.cs"
+									codeline="95"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:26.569"
+								timeRelativeToTestModuleStartTime="00:00.662"
+								timeWallClock="23:11:20"
+								time="00:26.569"
+								level="Error"
+								category="Module"
+								errimg="images_Regressi_ef542b9b\Regressi_ef542b9b_5dfef826_trace.jpg"
+								errthumb="images_Regressi_ef542b9b\Regressi_ef542b9b_5dfef826_trace_thumb.jpg">
+								<message>
+									The process with id '16516' does not exist.<br/>Process with an Id of 16516 is not running.
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Host.KillApplication(Int32 processId)
+   at Ranorex.Host.CloseApplication(Int32 processId, Duration gracePeriod)
+   at MyCRM.CloseAUT.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\CloseAUT.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+									codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\CloseAUT.cs"
+									codeline="96"
+									loglvl="Error"
+									itemindex="0">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

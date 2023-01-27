@@ -3,6 +3,62 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="0effdd8f-2d98-464f-94a5-e0383b04a351"
+			name="ValidateInputValuesCompanyTab"
+			ref="0fe928ee-30e4-4bdb-8d3a-5c3d25713a79"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ComapnyName"
+					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
+					variableid="e014fd2a-2294-467d-9cbf-8c383a63edd4"
+					variablename="ComapnyName">
+					</var>
+					<var
+					dataname="AddLine1"
+					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
+					variableid="30245ea2-19a6-41bd-8ed9-3086e40f7c3f"
+					variablename="AddLine1">
+					</var>
+					<var
+					dataname="AddLine2"
+					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
+					variableid="1556561b-a987-4d2d-afd4-6fe912017b11"
+					variablename="AddLine2">
+					</var>
+					<var
+					dataname="City"
+					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
+					variableid="70948fd6-a1df-4eba-b24f-e7e9d0db0fd3"
+					variablename="City">
+					</var>
+					<var
+					dataname="Zip"
+					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
+					variableid="3b5b3c3d-c37b-487c-be75-f73d40eb9dc7"
+					variablename="Zip">
+					</var>
+					<var
+					dataname="Main"
+					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
+					variableid="1a650b31-f47f-4106-ad0e-df449d917083"
+					variablename="Main">
+					</var>
+					<var
+					dataname="Other"
+					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
+					variableid="a15e0e1e-a9c0-427d-8e20-c2c887d01e0a"
+					variablename="Other">
+					</var>
+					<var
+					dataname="Comments"
+					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
+					variableid="f40fc6ac-8b50-4a75-8d12-7677be9225a4"
+					variablename="Comments">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="134fbbb4-99a5-4d25-989e-248e8ea7315f"
 			name="StartAUT"
 			ref="399955bf-e58a-4a56-bd92-89aa1cf60d04"
@@ -24,6 +80,28 @@
 			id="1c61fd0d-c533-433b-9035-55a98496bac2"
 			name="People">
 			</smartfoldernode>
+			<setup
+			id="1ca105fd-f4e2-46b1-986e-84879c8d4dec"
+			name="setup">
+			</setup>
+			<testmodule
+			id="1d9a49c0-e5be-4156-b50f-3824a31ec064"
+			name="CloseAUT"
+			ref="f62c3776-3f0e-4cab-9350-fd68c588040b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="521b9566-633b-4a28-ab01-e7fbdb523c2d"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<teardown
+			id="2692a545-c2d5-4903-8218-b3b28c27cd8e"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="2c15ee49-6dec-4cbb-8515-d09d88749442"
 			name="ValidateInputDataInPeopleTab"
@@ -104,6 +182,122 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="3244325c-8497-4d8b-b03a-85b2a9aba60c"
+			name="CloseAUT"
+			ref="f62c3776-3f0e-4cab-9350-fd68c588040b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="521b9566-633b-4a28-ab01-e7fbdb523c2d"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<smartfoldernode
+			id="327dbcfd-3876-4014-ba1f-c0e3bfbce122"
+			name="MyCRM">
+			</smartfoldernode>
+			<testmodule
+			id="32bac2a7-e177-4409-898b-92bd180e5ce7"
+			name="ValidateInputDataInOthers"
+			ref="73f85410-2773-44da-b139-8e067ed28f29"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Generic1"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="89e10b23-f9e4-4412-8cc2-07ba40ab3055"
+					variablename="Generic1">
+					</var>
+					<var
+					dataname="Generic2"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="9c10ba08-a147-4764-8243-c77a42f6e7a8"
+					variablename="Generic2">
+					</var>
+					<var
+					dataname="Generic3"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="cbcdd142-bfb9-4b3d-8438-88e37704c727"
+					variablename="Generic3">
+					</var>
+					<var
+					dataname="Generic4"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="85844364-96ba-44fe-b6cb-b50da941c74d"
+					variablename="Generic4">
+					</var>
+					<var
+					dataname="Generic5"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="421abfc4-3e5c-4d25-99a1-d92cb4f247a1"
+					variablename="Generic5">
+					</var>
+					<var
+					dataname="Generic6"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="d0d50fb2-39f8-4a42-9b5d-3e425dcccd29"
+					variablename="Generic6">
+					</var>
+					<var
+					dataname="Generic7"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="1090490a-9390-46bb-9f7d-59f6a1587c1f"
+					variablename="Generic7">
+					</var>
+					<var
+					dataname="Generic8"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="ae62bbda-c470-4b14-8b8f-9a65edcc84a9"
+					variablename="Generic8">
+					</var>
+					<var
+					dataname="Generic9"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="29f2e16c-1bfa-4526-b063-6c630a2e22cc"
+					variablename="Generic9">
+					</var>
+					<var
+					dataname="Generic10"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="398e12c6-b27e-4b8a-bdb1-0d120ebdadf1"
+					variablename="Generic10">
+					</var>
+					<var
+					dataname="BrowseButtonText"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="53b0b9d9-deff-445c-9c04-b4e4f7a1b500"
+					variablename="BrowseButtonText">
+					</var>
+					<var
+					dataname="SaveButtonText"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="0f367d7b-155e-4e32-a99d-3ac2f02c31a0"
+					variablename="SaveButtonText">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="32cad3e9-47a5-4511-bf34-cba7d96f43d3"
+			name="CloseAUT"
+			ref="f62c3776-3f0e-4cab-9350-fd68c588040b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="521b9566-633b-4a28-ab01-e7fbdb523c2d"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<teardown
+			id="37fb32cb-3249-4daa-b3c1-f1507a6bd536"
+			name="teardown">
+			</teardown>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -128,6 +322,86 @@
 			reportwriteinterval="30000ms"
 			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
+			<testmodule
+			id="4a5e6939-a30b-4ad6-a1f6-1ff679f8427b"
+			name="ValidateInputDataInPeopleTab"
+			ref="182187fd-5a61-4b61-9a11-0a71a1a01bb9"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="First"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="ea5d48d1-a77c-4bfb-a42f-bc5b0f0d9220"
+					variablename="First">
+					</var>
+					<var
+					dataname="Last"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="b86e07f9-6016-4bc4-aa1d-f60bc4e0c011"
+					variablename="Last">
+					</var>
+					<var
+					dataname="Addressline1"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="34a799b8-e330-475d-96c3-0d4a5484c633"
+					variablename="Addressline1">
+					</var>
+					<var
+					dataname="Addressline2"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="eabd320d-6722-44b9-b753-8f68a3b6880c"
+					variablename="Addressline2">
+					</var>
+					<var
+					dataname="City"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="39694936-b76b-4e96-9513-46ac78ef58a8"
+					variablename="City">
+					</var>
+					<var
+					dataname="Zip"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="dddc0363-7b5b-4fbd-b17c-e2138218512b"
+					variablename="Zip">
+					</var>
+					<var
+					dataname="Home"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="ec149052-780c-4020-b858-81f8799db0eb"
+					variablename="Home">
+					</var>
+					<var
+					dataname="Work"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="37476ffa-5a8b-4807-a209-261eac233e17"
+					variablename="Work">
+					</var>
+					<var
+					dataname="Mobile"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="510a55a1-4b62-442a-85d1-a2797796a65c"
+					variablename="Mobile">
+					</var>
+					<var
+					dataname="Personalmail"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="ff1d802c-74d2-4945-a020-30eb94b8aad8"
+					variablename="Personalmail">
+					</var>
+					<var
+					dataname="Workmail"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="7c612d30-43f0-4d30-b4ae-d96d7962a8c7"
+					variablename="Workmail">
+					</var>
+					<var
+					dataname="Comments"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="c95ec08d-4f67-4cf9-968b-1b7fc60480b1"
+					variablename="Comments">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="4f5732c6-868f-4a46-b1bf-3d5df3ddd2bd"
 			name="teardown">
@@ -136,6 +410,20 @@
 			id="57fa17b9-08fb-4952-8421-236a7e152ba5"
 			name="setup">
 			</setup>
+			<testmodule
+			id="600071c8-51b1-4c8d-90e4-df7dc2c3260f"
+			name="StartAUT"
+			ref="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="ae79d364-9099-4f94-99b4-84d1927a6ab4"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="61009f5e-1c94-4aae-b08f-33fabbe1f78b"
 			name="setup">
@@ -146,6 +434,62 @@
 			ref="d3f0273c-6a4b-4c18-bf32-a9fc5af5daa6"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="6592edd0-4a3d-4537-83d7-72827fb2fde1"
+			name="StartAUT"
+			ref="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="ae79d364-9099-4f94-99b4-84d1927a6ab4"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="7302b4a6-1876-4055-9fe0-c013db7c0348"
+			name="RG-005">
+				<parameters>
+					<param
+					name="ComapnyName"
+					value="RG005 company">
+					</param>
+					<param
+					name="AddLine1"
+					value="RG-005 addrsss1">
+					</param>
+					<param
+					name="AddLine2"
+					value="123 Main Street">
+					</param>
+					<param
+					name="City"
+					value="California">
+					</param>
+					<param
+					name="Zip"
+					value="90011">
+					</param>
+					<param
+					name="Main"
+					value="123456789">
+					</param>
+					<param
+					name="Other"
+					value="987665521">
+					</param>
+					<param
+					name="Comments"
+					value="test RG-005">
+					</param>
+				</parameters>
+			</testcase>
+			<setup
+			id="7a6aee0c-09b2-47f7-bfe9-a9a4e32d495a"
+			name="setup">
+			</setup>
 			<testcase
 			id="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
 			name="Regression"
@@ -174,6 +518,62 @@
 					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
 					variableid="521b9566-633b-4a28-ab01-e7fbdb523c2d"
 					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="86ef9d37-bdb8-40bf-815f-df1808ad6a53"
+			name="ValidateInputValuesCompanyTab"
+			ref="0fe928ee-30e4-4bdb-8d3a-5c3d25713a79"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="City"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="70948fd6-a1df-4eba-b24f-e7e9d0db0fd3"
+					variablename="City">
+					</var>
+					<var
+					dataname="Zip"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="3b5b3c3d-c37b-487c-be75-f73d40eb9dc7"
+					variablename="Zip">
+					</var>
+					<var
+					dataname="Comments"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="f40fc6ac-8b50-4a75-8d12-7677be9225a4"
+					variablename="Comments">
+					</var>
+					<var
+					dataname="ComapnyName"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="e014fd2a-2294-467d-9cbf-8c383a63edd4"
+					variablename="ComapnyName">
+					</var>
+					<var
+					dataname="AddLine1"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="30245ea2-19a6-41bd-8ed9-3086e40f7c3f"
+					variablename="AddLine1">
+					</var>
+					<var
+					dataname="AddLine2"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="1556561b-a987-4d2d-afd4-6fe912017b11"
+					variablename="AddLine2">
+					</var>
+					<var
+					dataname="Main"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="1a650b31-f47f-4106-ad0e-df449d917083"
+					variablename="Main">
+					</var>
+					<var
+					dataname="Other"
+					datasourceid="f5f3dc18-7cdf-4cd6-9238-454976075549"
+					variableid="a15e0e1e-a9c0-427d-8e20-c2c887d01e0a"
+					variablename="Other">
 					</var>
 				</databinding>
 			</testmodule>
@@ -265,8 +665,26 @@
 			id="a07b1b98-0424-40fc-b6b2-efe7c4784b10"
 			name="teardown">
 			</teardown>
+			<setup
+			id="a0d4e9ed-6032-4eac-9f74-2da5f60e1a38"
+			name="setup">
+			</setup>
 			<testmodule
 			id="a56e7cd0-b203-47d2-a312-cf930459fa3f"
+			name="StartAUT"
+			ref="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="7fe1dc66-a5e0-4f7a-aefe-201e03b95460"
+					variableid="ae79d364-9099-4f94-99b4-84d1927a6ab4"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="a5b22422-b4ce-49c7-b6b3-d970ae7577d5"
 			name="StartAUT"
 			ref="399955bf-e58a-4a56-bd92-89aa1cf60d04"
 			type="Recording">
@@ -311,6 +729,60 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+			name="RG-006">
+				<parameters>
+					<param
+					name="Generic1"
+					value="RG-006 Text-1">
+					</param>
+					<param
+					name="Generic2"
+					value="RG-006 Text-2">
+					</param>
+					<param
+					name="Generic3"
+					value="RG-006 Text-3">
+					</param>
+					<param
+					name="Generic4"
+					value="RG-006 Text-4">
+					</param>
+					<param
+					name="Generic5"
+					value="RG-006 Text-5">
+					</param>
+					<param
+					name="Generic6"
+					value="RG-006 Text-6">
+					</param>
+					<param
+					name="Generic7"
+					value="RG-006 Text-7">
+					</param>
+					<param
+					name="Generic8"
+					value="RG-006 Text-8">
+					</param>
+					<param
+					name="Generic9"
+					value="RG-006 Text-9">
+					</param>
+					<param
+					name="Generic10"
+					value="RG-006 Text-10">
+					</param>
+					<param
+					name="BrowseButtonText"
+					value="BROWSE button has been clicked">
+					</param>
+					<param
+					name="SaveButtonText"
+					value="SAVE button has been clicked">
+					</param>
+				</parameters>
+			</testcase>
 			<setup
 			id="b8dbaa89-ad43-40a8-978e-dc5a2a25d8bb"
 			name="setup">
@@ -333,6 +805,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="d7ae7ad8-a06a-4ee9-9512-8a2f65c6b605"
+			name="teardown">
+			</teardown>
 			<testcase
 			id="df7a0fe6-6cce-4d30-829e-6f9c990ad97e"
 			name="RG-002">
@@ -401,6 +877,86 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="e6531d30-34e5-444e-8255-76e0a95ed731"
+			name="ValidateInputDataInOthers"
+			ref="73f85410-2773-44da-b139-8e067ed28f29"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Generic1"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="89e10b23-f9e4-4412-8cc2-07ba40ab3055"
+					variablename="Generic1">
+					</var>
+					<var
+					dataname="Generic2"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="9c10ba08-a147-4764-8243-c77a42f6e7a8"
+					variablename="Generic2">
+					</var>
+					<var
+					dataname="Generic3"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="cbcdd142-bfb9-4b3d-8438-88e37704c727"
+					variablename="Generic3">
+					</var>
+					<var
+					dataname="Generic4"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="85844364-96ba-44fe-b6cb-b50da941c74d"
+					variablename="Generic4">
+					</var>
+					<var
+					dataname="Generic5"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="421abfc4-3e5c-4d25-99a1-d92cb4f247a1"
+					variablename="Generic5">
+					</var>
+					<var
+					dataname="Generic6"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="d0d50fb2-39f8-4a42-9b5d-3e425dcccd29"
+					variablename="Generic6">
+					</var>
+					<var
+					dataname="Generic7"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="1090490a-9390-46bb-9f7d-59f6a1587c1f"
+					variablename="Generic7">
+					</var>
+					<var
+					dataname="Generic8"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="ae62bbda-c470-4b14-8b8f-9a65edcc84a9"
+					variablename="Generic8">
+					</var>
+					<var
+					dataname="Generic9"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="29f2e16c-1bfa-4526-b063-6c630a2e22cc"
+					variablename="Generic9">
+					</var>
+					<var
+					dataname="Generic10"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="398e12c6-b27e-4b8a-bdb1-0d120ebdadf1"
+					variablename="Generic10">
+					</var>
+					<var
+					dataname="BrowseButtonText"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="53b0b9d9-deff-445c-9c04-b4e4f7a1b500"
+					variablename="BrowseButtonText">
+					</var>
+					<var
+					dataname="SaveButtonText"
+					datasourceid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					variableid="0f367d7b-155e-4e32-a99d-3ac2f02c31a0"
+					variablename="SaveButtonText">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="e77ad83e-4c61-4f4e-9468-d3e7b77bab76"
 			name="setup">
@@ -409,6 +965,128 @@
 			id="ea0f25d6-daae-4174-864f-52d623c45b89"
 			name="Other">
 			</smartfoldernode>
+			<testcase
+			id="f5f3dc18-7cdf-4cd6-9238-454976075549"
+			name="RG-007">
+				<parameters>
+					<param
+					name="First"
+					value="testfirst">
+					</param>
+					<param
+					name="Last"
+					value="testlast">
+					</param>
+					<param
+					name="Addressline1"
+					value="testaddress1">
+					</param>
+					<param
+					name="Addressline2"
+					value="testaddress2">
+					</param>
+					<param
+					name="City"
+					value="New York">
+					</param>
+					<param
+					name="Zip"
+					value="11001">
+					</param>
+					<param
+					name="Home"
+					value="123456789">
+					</param>
+					<param
+					name="Work"
+					value="987654321">
+					</param>
+					<param
+					name="Mobile"
+					value="129380129">
+					</param>
+					<param
+					name="Personalmail"
+					value="test123@gmail.com">
+					</param>
+					<param
+					name="Workmail"
+					value="testWork@gmail.com">
+					</param>
+					<param
+					name="Comments"
+					value="testing the end to end fuctionality">
+					</param>
+					<param
+					name="ComapnyName"
+					value="Impact QA">
+					</param>
+					<param
+					name="AddLine1"
+					value="566- street ">
+					</param>
+					<param
+					name="AddLine2"
+					value="flat 13-B">
+					</param>
+					<param
+					name="Main"
+					value="123456789">
+					</param>
+					<param
+					name="Other"
+					value="124367898">
+					</param>
+					<param
+					name="Generic1"
+					value="t1">
+					</param>
+					<param
+					name="Generic2"
+					value="t2">
+					</param>
+					<param
+					name="Generic3"
+					value="t3">
+					</param>
+					<param
+					name="Generic4"
+					value="t4">
+					</param>
+					<param
+					name="Generic5"
+					value="t5">
+					</param>
+					<param
+					name="Generic6"
+					value="t6">
+					</param>
+					<param
+					name="Generic7"
+					value="t7">
+					</param>
+					<param
+					name="Generic8"
+					value="t8">
+					</param>
+					<param
+					name="Generic9"
+					value="t9">
+					</param>
+					<param
+					name="Generic10"
+					value="t10">
+					</param>
+					<param
+					name="BrowseButtonText"
+					value="BROWSE button has been clicked">
+					</param>
+					<param
+					name="SaveButtonText"
+					value="SAVE button has been clicked">
+					</param>
+				</parameters>
+			</testcase>
 			<testcase
 			id="f8a64fd9-c1c4-4c2c-884c-e184caa5cbf9"
 			name="RG-004">
@@ -562,10 +1240,94 @@
 								</testmodule>
 							</teardown>
 						</testcase>
+						<testcase
+						id="7302b4a6-1876-4055-9fe0-c013db7c0348"
+						name="RG-005">
+							<setup
+							id="7a6aee0c-09b2-47f7-bfe9-a9a4e32d495a"
+							name="setup">
+								<testmodule
+								id="6592edd0-4a3d-4537-83d7-72827fb2fde1"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="0effdd8f-2d98-464f-94a5-e0383b04a351"
+							name="ValidateInputValuesCompanyTab">
+							</testmodule>
+							<teardown
+							id="d7ae7ad8-a06a-4ee9-9512-8a2f65c6b605"
+							name="teardown">
+								<testmodule
+								id="1d9a49c0-e5be-4156-b50f-3824a31ec064"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
+						</testcase>
 					</smartfoldernode>
 					<smartfoldernode
 					id="ea0f25d6-daae-4174-864f-52d623c45b89"
 					name="Other">
+						<testcase
+						id="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+						name="RG-006">
+							<setup
+							id="1ca105fd-f4e2-46b1-986e-84879c8d4dec"
+							name="setup">
+								<testmodule
+								id="600071c8-51b1-4c8d-90e4-df7dc2c3260f"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="e6531d30-34e5-444e-8255-76e0a95ed731"
+							name="ValidateInputDataInOthers">
+							</testmodule>
+							<teardown
+							id="37fb32cb-3249-4daa-b3c1-f1507a6bd536"
+							name="teardown">
+								<testmodule
+								id="3244325c-8497-4d8b-b03a-85b2a9aba60c"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
+						</testcase>
+					</smartfoldernode>
+					<smartfoldernode
+					id="327dbcfd-3876-4014-ba1f-c0e3bfbce122"
+					name="MyCRM">
+						<testcase
+						id="f5f3dc18-7cdf-4cd6-9238-454976075549"
+						name="RG-007">
+							<setup
+							id="a0d4e9ed-6032-4eac-9f74-2da5f60e1a38"
+							name="setup">
+								<testmodule
+								id="a5b22422-b4ce-49c7-b6b3-d970ae7577d5"
+								name="StartAUT">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="4a5e6939-a30b-4ad6-a1f6-1ff679f8427b"
+							name="ValidateInputDataInPeopleTab">
+							</testmodule>
+							<testmodule
+							id="86ef9d37-bdb8-40bf-815f-df1808ad6a53"
+							name="ValidateInputValuesCompanyTab">
+							</testmodule>
+							<testmodule
+							id="32bac2a7-e177-4409-898b-92bd180e5ce7"
+							name="ValidateInputDataInOthers">
+							</testmodule>
+							<teardown
+							id="2692a545-c2d5-4903-8218-b3b28c27cd8e"
+							name="teardown">
+								<testmodule
+								id="32cad3e9-47a5-4511-bf34-cba7d96f43d3"
+								name="CloseAUT">
+								</testmodule>
+							</teardown>
+						</testcase>
 					</smartfoldernode>
 				</testcase>
 			</testsuite>
@@ -578,13 +1340,13 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="327dbcfd-3876-4014-ba1f-c0e3bfbce122">
+			</testcontainer>
+			<testcontainer
 			id="7fe1dc66-a5e0-4f7a-aefe-201e03b95460">
 			</testcontainer>
 			<testcontainer
-			id="946c5cd9-cb32-4f51-ba6d-44a0589b23ab">
-			</testcontainer>
-			<testcontainer
-			id="f8a64fd9-c1c4-4c2c-884c-e184caa5cbf9">
+			id="f5f3dc18-7cdf-4cd6-9238-454976075549">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

@@ -1,22 +1,13 @@
 ﻿<Properties>
-<<<<<<< HEAD
   <Array name="active">
-    <Element value="Recording1.rxrec" />
+    <Element value="Recordings\Company\RG-006\ValidateInputValuesCompanyTab.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="MyCRM.rxtst" />
-    <Element value="Recording1.rxrec" />
-=======
-  <Array name="active" />
-  <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="Recordings\Company\TC_002\VerifyLabelText.rxrec" />
-    <Element value="MyCRM.rxtst" />
-    <Element value="Recording1.rxrec" />
-    <Element value="Recordings\Company\TC_001\VerifyPageLabelDisplayed.rxrec" />
->>>>>>> 47f9c4e85363c63337dbd8141b4ec6e7943aca16
+    <Element value="Regression.rxtst" />
+    <Element value="Sanity.rxtst" />
     <Element value="StartAUT.rxrec" />
+    <Element value="Recordings\Company\RG-006\ValidateInputValuesCompanyTab.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

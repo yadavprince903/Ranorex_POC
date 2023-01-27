@@ -73,6 +73,11 @@
             The MyCRM folder.
             </summary>
         </member>
+        <member name="P:MyCRM.MyCRMRepository.Alert">
+            <summary>
+            The Alert folder.
+            </summary>
+        </member>
         <member name="T:MyCRM.MyCRMRepositoryFolders">
             <summary>
             Inner folder classes.
@@ -98,6 +103,11 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.MyCRMAppFolder.Navigation">
+            <summary>
+            The Navigation folder.
+            </summary>
+        </member>
         <member name="P:MyCRM.MyCRMRepositoryFolders.MyCRMAppFolder.People">
             <summary>
             The People folder.
@@ -108,9 +118,44 @@
             The Company folder.
             </summary>
         </member>
-        <member name="P:MyCRM.MyCRMRepositoryFolders.MyCRMAppFolder.Navigation">
+        <member name="P:MyCRM.MyCRMRepositoryFolders.MyCRMAppFolder.Other">
             <summary>
-            The Navigation folder.
+            The Other folder.
+            </summary>
+        </member>
+        <member name="T:MyCRM.MyCRMRepositoryFolders.NavigationFolder">
+            <summary>
+            The NavigationFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyCRM.MyCRMRepositoryFolders.NavigationFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Navigation  folder.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.Company">
+            <summary>
+            The Company item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.CompanyInfo">
+            <summary>
+            The Company item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.Other">
+            <summary>
+            The Other item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.OtherInfo">
+            <summary>
+            The Other item info.
             </summary>
         </member>
         <member name="T:MyCRM.MyCRMRepositoryFolders.PeopleFolder">
@@ -463,29 +508,279 @@
             The TxtOther item info.
             </summary>
         </member>
-        <member name="T:MyCRM.MyCRMRepositoryFolders.NavigationFolder">
+        <member name="T:MyCRM.MyCRMRepositoryFolders.OtherFolder">
             <summary>
-            The NavigationFolder folder.
+            The OtherFolder folder.
             </summary>
         </member>
-        <member name="M:MyCRM.MyCRMRepositoryFolders.NavigationFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+        <member name="M:MyCRM.MyCRMRepositoryFolders.OtherFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
             <summary>
-            Creates a new Navigation  folder.
+            Creates a new Other  folder.
             </summary>
         </member>
-        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.SelfInfo">
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.SelfInfo">
             <summary>
             The Self item info.
             </summary>
         </member>
-        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.Company">
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LnkGeneric1">
             <summary>
-            The Company item.
+            The LnkGeneric1 item.
             </summary>
         </member>
-        <member name="P:MyCRM.MyCRMRepositoryFolders.NavigationFolder.CompanyInfo">
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LnkGeneric1Info">
             <summary>
-            The Company item info.
+            The LnkGeneric1 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric2">
+            <summary>
+            The LinkGeneric2 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric2Info">
+            <summary>
+            The LinkGeneric2 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric3">
+            <summary>
+            The LinkGeneric3 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric3Info">
+            <summary>
+            The LinkGeneric3 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric4">
+            <summary>
+            The LinkGeneric4 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric4Info">
+            <summary>
+            The LinkGeneric4 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric5">
+            <summary>
+            The LinkGeneric5 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric5Info">
+            <summary>
+            The LinkGeneric5 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric6">
+            <summary>
+            The LinkGeneric6 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric6Info">
+            <summary>
+            The LinkGeneric6 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric7">
+            <summary>
+            The LinkGeneric7 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric7Info">
+            <summary>
+            The LinkGeneric7 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric8">
+            <summary>
+            The LinkGeneric8 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric8Info">
+            <summary>
+            The LinkGeneric8 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric9">
+            <summary>
+            The LinkGeneric9 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric9Info">
+            <summary>
+            The LinkGeneric9 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric10">
+            <summary>
+            The LinkGeneric10 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.LinkGeneric10Info">
+            <summary>
+            The LinkGeneric10 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.Browse">
+            <summary>
+            The Browse item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.BrowseInfo">
+            <summary>
+            The Browse item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.Save">
+            <summary>
+            The Save item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.SaveInfo">
+            <summary>
+            The Save item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric1">
+            <summary>
+            The TxtGeneric1 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric1Info">
+            <summary>
+            The TxtGeneric1 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric2">
+            <summary>
+            The TxtGeneric2 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric2Info">
+            <summary>
+            The TxtGeneric2 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric3">
+            <summary>
+            The TxtGeneric3 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric3Info">
+            <summary>
+            The TxtGeneric3 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric4">
+            <summary>
+            The TxtGeneric4 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric4Info">
+            <summary>
+            The TxtGeneric4 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric5">
+            <summary>
+            The TxtGeneric5 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric5Info">
+            <summary>
+            The TxtGeneric5 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric6">
+            <summary>
+            The TxtGeneric6 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric6Info">
+            <summary>
+            The TxtGeneric6 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric7">
+            <summary>
+            The TxtGeneric7 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric7Info">
+            <summary>
+            The TxtGeneric7 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric8">
+            <summary>
+            The TxtGeneric8 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric8Info">
+            <summary>
+            The TxtGeneric8 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric9">
+            <summary>
+            The TxtGeneric9 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric9Info">
+            <summary>
+            The TxtGeneric9 item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric10">
+            <summary>
+            The TxtGeneric10 item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.OtherFolder.TxtGeneric10Info">
+            <summary>
+            The TxtGeneric10 item info.
+            </summary>
+        </member>
+        <member name="T:MyCRM.MyCRMRepositoryFolders.AlertAppFolder">
+            <summary>
+            The AlertAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyCRM.MyCRMRepositoryFolders.AlertAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Alert  folder.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.AlertAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.AlertAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.AlertAppFolder.OkButton">
+            <summary>
+            The OkButton item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.AlertAppFolder.OkButtonInfo">
+            <summary>
+            The OkButton item info.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.AlertAppFolder.Title">
+            <summary>
+            The Title item.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepositoryFolders.AlertAppFolder.TitleInfo">
+            <summary>
+            The Title item info.
             </summary>
         </member>
         <member name="T:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab">
@@ -572,32 +867,72 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed">
+        <member name="T:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab">
              <summary>
-            The VerifyPageLabelDisplayed recording.
+            The ValidateInputValuesCompanyTab recording.
              </summary>
         </member>
-        <member name="F:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.repo">
+        <member name="F:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.repo">
             <summary>
             Holds an instance of the global::MyCRM.MyCRMRepository repository.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.#ctor">
+        <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Instance">
+        <member name="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Start">
+        <member name="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.ComapnyName">
             <summary>
-            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Instance"/>.
+            Gets or sets the value of variable ComapnyName.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.AddLine1">
+            <summary>
+            Gets or sets the value of variable AddLine1.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.AddLine2">
+            <summary>
+            Gets or sets the value of variable AddLine2.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.City">
+            <summary>
+            Gets or sets the value of variable City.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Zip">
+            <summary>
+            Gets or sets the value of variable Zip.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Main">
+            <summary>
+            Gets or sets the value of variable Main.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Other">
+            <summary>
+            Gets or sets the value of variable Other.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Comments">
+            <summary>
+            Gets or sets the value of variable Comments.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -605,78 +940,38 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_001.VerifyPageLabelDisplayed.Init">
+        <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:MyCRM.Recordings.Company.TC_002.VerifyLabelText">
+        <member name="T:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed">
              <summary>
-            The VerifyLabelText recording.
+            The VerifyPageLabelDisplayed recording.
              </summary>
         </member>
-        <member name="F:MyCRM.Recordings.Company.TC_002.VerifyLabelText.repo">
+        <member name="F:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.repo">
             <summary>
             Holds an instance of the global::MyCRM.MyCRMRepository repository.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.#ctor">
+        <member name="M:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Instance">
+        <member name="P:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.AdressLine1">
+        <member name="M:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Start">
             <summary>
-            Gets or sets the value of variable AdressLine1.
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Instance"/>.
             </summary>
         </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.AddressLine2">
-            <summary>
-            Gets or sets the value of variable AddressLine2.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.City">
-            <summary>
-            Gets or sets the value of variable City.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.State">
-            <summary>
-            Gets or sets the value of variable State.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Zip">
-            <summary>
-            Gets or sets the value of variable Zip.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Main">
-            <summary>
-            Gets or sets the value of variable Main.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Other">
-            <summary>
-            Gets or sets the value of variable Other.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Comment">
-            <summary>
-            Gets or sets the value of variable Comment.
-            </summary>
-        </member>
-        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -684,7 +979,224 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:MyCRM.Recordings.Company.TC_002.VerifyLabelText.Init">
+        <member name="M:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyCRM.Recordings.Company.SN_002.VerifyLabelText">
+             <summary>
+            The VerifyLabelText recording.
+             </summary>
+        </member>
+        <member name="F:MyCRM.Recordings.Company.SN_002.VerifyLabelText.repo">
+            <summary>
+            Holds an instance of the global::MyCRM.MyCRMRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.AdressLine1">
+            <summary>
+            Gets or sets the value of variable AdressLine1.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.AddressLine2">
+            <summary>
+            Gets or sets the value of variable AddressLine2.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.City">
+            <summary>
+            Gets or sets the value of variable City.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.State">
+            <summary>
+            Gets or sets the value of variable State.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Zip">
+            <summary>
+            Gets or sets the value of variable Zip.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Main">
+            <summary>
+            Gets or sets the value of variable Main.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Other">
+            <summary>
+            Gets or sets the value of variable Other.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Comment">
+            <summary>
+            Gets or sets the value of variable Comment.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers">
+             <summary>
+            The ValidateInputDataInOthers recording.
+             </summary>
+        </member>
+        <member name="F:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.repo">
+            <summary>
+            Holds an instance of the global::MyCRM.MyCRMRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Generic1">
+            <summary>
+            Gets or sets the value of variable Generic1.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Generic2">
+            <summary>
+            Gets or sets the value of variable Generic2.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Generic3">
+            <summary>
+            Gets or sets the value of variable Generic3.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Generic4">
+            <summary>
+            Gets or sets the value of variable Generic4.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Generic5">
+            <summary>
+            Gets or sets the value of variable Generic5.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Generic6">
+            <summary>
+            Gets or sets the value of variable Generic6.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Generic7">
+            <summary>
+            Gets or sets the value of variable Generic7.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Generic8">
+            <summary>
+            Gets or sets the value of variable Generic8.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Generic9">
+            <summary>
+            Gets or sets the value of variable Generic9.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Generic10">
+            <summary>
+            Gets or sets the value of variable Generic10.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.BrowseButtonText">
+            <summary>
+            Gets or sets the value of variable BrowseButtonText.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.SaveButtonText">
+            <summary>
+            Gets or sets the value of variable SaveButtonText.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent">
+             <summary>
+            The VerifyLabelAndButtonlsPresent recording.
+             </summary>
+        </member>
+        <member name="F:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.repo">
+            <summary>
+            Holds an instance of the global::MyCRM.MyCRMRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.

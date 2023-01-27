@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="19.78s"
+		durationms="19782"
+		type="root"
+		rid="219cae58169fbdd8"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="9.5.0.0"
+		host="DESKTOP-OFLBUTC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="1/26/2023 11:46:42 PM"
+		timestampiso="2023-01-27T07:46:42"
+		endtime="1/26/2023 11:47:02 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="13.05s"
+			durationms="13046"
+			type="test-suite"
+			rid="10571b91195be210"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Regression"
+			headertext="Regression"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="13s"
+				durationms="12996"
+				type="smart-folder"
+				rid="2abe7b2b3cc6a87c"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Other"
+				testcontainerid="ea0f25d6-daae-4174-864f-52d623c45b89"
+				headertext="Other"
+				displayName="Other"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="12.99s"
+					durationms="12990"
+					type="test-case"
+					rid="18d0f7773c0275d"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="2"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="RG-006"
+					testcontainerid="b0b5bd9c-3294-4849-a1f2-4bfab0dabf3e"
+					headertext="RG-006"
+					displayName="RG-006"
+					iteration="1"
+					activity-exectype="execute"
+					conditionstate="none">
+					<params>
+						<param
+							name="Generic1">
+							RG-006 Text-1
+						</param>
+						<param
+							name="Generic2">
+							RG-006 Text-2
+						</param>
+						<param
+							name="Generic3">
+							RG-006 Text-3
+						</param>
+						<param
+							name="Generic4">
+							RG-006 Text-4
+						</param>
+						<param
+							name="Generic5">
+							RG-006 Text-5
+						</param>
+						<param
+							name="Generic6">
+							RG-006 Text-6
+						</param>
+						<param
+							name="Generic7">
+							RG-006 Text-7
+						</param>
+						<param
+							name="Generic8">
+							RG-006 Text-8
+						</param>
+						<param
+							name="Generic9">
+							RG-006 Text-9
+						</param>
+						<param
+							name="Generic10">
+							RG-006 Text-10
+						</param>
+						<param
+							name="BrowseButtonText">
+							BROWSE button has been clicked
+						</param>
+						<param
+							name="SaveButtonText">
+							SAVE button has been clicked
+						</param>
+					</params>
+					<activity
+						result="Success"
+						duration="839ms"
+						durationms="839"
+						type="setup-container"
+						rid="16a11ed4ea1a687e"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="1"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="799ms"
+							durationms="799"
+							type="test-module"
+							rid="160b7efbbfc3e8b8"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="StartAUT"
+							displayName="StartAUT"
+							moduleid="399955bf-e58a-4a56-bd92-89aa1cf60d04"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+								<varbinding
+									name="StartAutProcessIDVar"
+									value="">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.104"
+								timeRelativeToTestModuleStartTime="00:00.012"
+								timeWallClock="23:46:49"
+								time="00:00.104"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$StartAutProcessIDVar = ''
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.174"
+								timeRelativeToTestModuleStartTime="00:00.082"
+								timeWallClock="23:46:49"
+								time="00:00.174"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Users\Admin\Desktop\MyCRM.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\StartAUT.cs"
+									codeline="95"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="11.35s"
+						durationms="11353"
+						type="test-module"
+						rid="26a1c5f0715c680"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="ValidateInputDataInOthers"
+						displayName="ValidateInputDataInOthers"
+						moduleid="73f85410-2773-44da-b139-8e067ed28f29"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<errormessage>
+							Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Other.TxtGeneric1' does not match the specified value (actual='', expected='RG-006·Text-1').
+						</errormessage>
+						<varbindings>
+							<varbinding
+								name="Generic1"
+								value="RG-006 Text-1">
+							</varbinding>
+							<varbinding
+								name="Generic2"
+								value="RG-006 Text-2">
+							</varbinding>
+							<varbinding
+								name="Generic3"
+								value="RG-006 Text-3">
+							</varbinding>
+							<varbinding
+								name="Generic4"
+								value="RG-006 Text-4">
+							</varbinding>
+							<varbinding
+								name="Generic5"
+								value="RG-006 Text-5">
+							</varbinding>
+							<varbinding
+								name="Generic6"
+								value="RG-006 Text-6">
+							</varbinding>
+							<varbinding
+								name="Generic7"
+								value="RG-006 Text-7">
+							</varbinding>
+							<varbinding
+								name="Generic8"
+								value="RG-006 Text-8">
+							</varbinding>
+							<varbinding
+								name="Generic9"
+								value="RG-006 Text-9">
+							</varbinding>
+							<varbinding
+								name="Generic10"
+								value="RG-006 Text-10">
+							</varbinding>
+							<varbinding
+								name="BrowseButtonText"
+								value="BROWSE button has been clicked">
+							</varbinding>
+							<varbinding
+								name="SaveButtonText"
+								value="SAVE button has been clicked">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.903"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="23:46:50"
+							time="00:00.903"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$Generic1 = 'RG-006 Text-1', $Generic2 = 'RG-006 Text-2', $Generic3 = 'RG-006 Text-3', $Generic4 = 'RG-006 Text-4', $Generic5 = 'RG-006 Text-5', $Generic6 = 'RG-006 Text-6', $Generic7 = 'RG-006 Text-7', $Generic8 = 'RG-006 Text-8', $Generic9 = 'RG-006 Text-9', $Generic10 = 'RG-006 Text-10', $BrowseButtonText = 'BROWSE button has been clicked', $SaveButtonText = 'SAVE button has been clicked'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.951"
+							timeRelativeToTestModuleStartTime="00:00.051"
+							timeWallClock="23:46:50"
+							time="00:00.951"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'MyCRM.Navigation.Other' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@accessiblename='Other']"
+								itempath="tabpage[@accessiblename='Other']"
+								fullname="MyCRMRepository.MyCRM.Navigation.Other"
+								id="cd6150602b63404ca29cdbc2ed51514c"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Other\RG-006\ValidateInputDataInOthers.cs"
+								codeline="238"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.139"
+							timeRelativeToTestModuleStartTime="00:04.239"
+							timeWallClock="23:46:54"
+							time="00:05.139"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$Generic1' with focus on 'MyCRM.Other.TxtGeneric1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox8']/text[@accessiblename='Other:']"
+								itempath="tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox8']/text[@accessiblename='Other:']"
+								fullname="MyCRMRepository.MyCRM.Other.TxtGeneric1"
+								id="dbfd88ee63fd4a97bd45f282b3e26af8"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Other\RG-006\ValidateInputDataInOthers.cs"
+								codeline="242"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.405"
+							timeRelativeToTestModuleStartTime="00:06.506"
+							timeWallClock="23:46:56"
+							time="00:07.405"
+							level="Info"
+							category="Validation"
+							errimg="images_Regressi_4bbfcdca\Regressi_4bbfcdca_9337d60c_trace.jpg"
+							errthumb="images_Regressi_4bbfcdca\Regressi_4bbfcdca_9337d60c_trace_thumb.jpg">
+							<message>
+								Validating AttributeEqual (Text=$Generic1) on item 'MyCRM.Other.TxtGeneric1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox8']/text[@accessiblename='Other:']"
+								itempath="tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox8']/text[@accessiblename='Other:']"
+								fullname="MyCRMRepository.MyCRM.Other.TxtGeneric1"
+								id="dbfd88ee63fd4a97bd45f282b3e26af8"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Other\RG-006\ValidateInputDataInOthers.cs"
+								codeline="246"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.065"
+							timeRelativeToTestModuleStartTime="00:11.166"
+							timeWallClock="23:47:01"
+							time="00:12.065"
+							level="Failure"
+							category="Validation"
+							errimg="images_Regressi_4bbfcdca\Regressi_4bbfcdca_7bc94ed1_trace.jpg"
+							errthumb="images_Regressi_4bbfcdca\Regressi_4bbfcdca_7bc94ed1_trace_thumb.jpg">
+							<message>
+								Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Other.TxtGeneric1' does not match the specified value (actual='', expected='RG-006·Text-1').
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox8']/text[@accessiblename='Other:']"
+								itempath="tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox8']/text[@accessiblename='Other:']"
+								fullname="MyCRMRepository.MyCRM.Other.TxtGeneric1"
+								id="dbfd88ee63fd4a97bd45f282b3e26af8"
+								timeout="60000"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Other\RG-006\ValidateInputDataInOthers.cs"
+								codeline="247"
+								loglvl="Failure"
+								itemindex="2">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.123"
+							timeRelativeToTestModuleStartTime="00:11.223"
+							timeWallClock="23:47:01"
+							time="00:12.123"
+							level="Error"
+							category="Module"
+							errimg="images_Regressi_4bbfcdca\Regressi_4bbfcdca_4d203015_trace.jpg"
+							errthumb="images_Regressi_4bbfcdca\Regressi_4bbfcdca_4d203015_trace_thumb.jpg">
+							<message>
+								Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'MyCRMRepository.MyCRM.Other.TxtGeneric1' does not match the specified value (actual='', expected='RG-006·Text-1').
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Other\RG-006\ValidateInputDataInOthers.cs:line 247
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+								codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\Recordings\Other\RG-006\ValidateInputDataInOthers.cs"
+								codeline="247"
+								type="repoitem"
+								path="/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox8']/text[@accessiblename='Other:']"
+								itempath="tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox8']/text[@accessiblename='Other:']"
+								fullname="MyCRMRepository.MyCRM.Other.TxtGeneric1"
+								id="dbfd88ee63fd4a97bd45f282b3e26af8"
+								timeout="60000"
+								loglvl="Error"
+								itemindex="2">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="784ms"
+						durationms="784"
+						type="teardown-container"
+						rid="dbdd66cc1384aee"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="1"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Failed"
+							duration="782ms"
+							durationms="782"
+							type="test-module"
+							rid="1fc4feccc33de290"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="CloseAUT"
+							displayName="CloseAUT"
+							moduleid="f62c3776-3f0e-4cab-9350-fd68c588040b"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<errormessage>
+								The process with id '696' does not exist.
+							</errormessage>
+							<varbindings>
+								<varbinding
+									name="CloseAutProcessIDVar"
+									value="696">
+								</varbinding>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:12.257"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="23:47:01"
+								time="00:12.257"
+								level="Info"
+								category="Data"
+								errimg="images_Regressi_4bbfcdca\Regressi_4bbfcdca_d3a35963_trace.jpg"
+								errthumb="images_Regressi_4bbfcdca\Regressi_4bbfcdca_d3a35963_trace_thumb.jpg">
+								<message>
+									Current variable values:<br/>$CloseAutProcessIDVar = '696'
+								</message>
+								<metainfo
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:12.287"
+								timeRelativeToTestModuleStartTime="00:00.031"
+								timeWallClock="23:47:01"
+								time="00:12.287"
+								level="Info"
+								category="Application"
+								errimg="images_Regressi_4bbfcdca\Regressi_4bbfcdca_c319f8cf_trace.jpg"
+								errthumb="images_Regressi_4bbfcdca\Regressi_4bbfcdca_c319f8cf_trace_thumb.jpg">
+								<message>
+									Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\CloseAUT.cs"
+									codeline="95"
+									loglvl="Info">
+								</metainfo>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:12.942"
+								timeRelativeToTestModuleStartTime="00:00.685"
+								timeWallClock="23:47:02"
+								time="00:12.942"
+								level="Error"
+								category="Module"
+								errimg="images_Regressi_4bbfcdca\Regressi_4bbfcdca_031011dd_trace.jpg"
+								errthumb="images_Regressi_4bbfcdca\Regressi_4bbfcdca_031011dd_trace_thumb.jpg">
+								<message>
+									The process with id '696' does not exist.<br/>Process with an Id of 696 is not running.
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Host.KillApplication(Int32 processId)
+   at Ranorex.Host.CloseApplication(Int32 processId, Duration gracePeriod)
+   at MyCRM.CloseAUT.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\CloseAUT.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+									codefile="C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\CloseAUT.cs"
+									codeline="96"
+									loglvl="Error"
+									itemindex="0">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

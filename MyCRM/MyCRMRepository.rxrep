@@ -21,6 +21,29 @@ name="MyCRMRepository">
 		usecache="False">
 			<folder
 			capname="unknown"
+			id="3c3167bb-0bd8-4bbe-ab1d-1513efefc36e"
+			isrooted="False"
+			name="Navigation"
+			searchtimeout="0ms">
+				<item
+				capname="tabpage"
+				id="c3394663-c50f-4003-8abf-2e349bdfca82"
+				name="Company"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@accessiblename='Company ']
+				</item>
+				<item
+				capname="tabpage"
+				id="cd615060-2b63-404c-a29c-dbc2ed51514c"
+				name="Other"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@accessiblename='Other']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
 			id="e94d6010-509d-4b53-8f15-61503a6a1411"
 			isrooted="False"
 			name="People"
@@ -291,21 +314,216 @@ name="MyCRMRepository">
 			</folder>
 			<folder
 			capname="unknown"
-			id="3c3167bb-0bd8-4bbe-ab1d-1513efefc36e"
+			id="37163c63-0c82-43a0-834c-9b5907690b82"
 			isrooted="False"
-			name="Navigation"
+			name="Other"
 			searchtimeout="0ms">
 				<item
-				capname="tabpage"
-				id="c3394663-c50f-4003-8abf-2e349bdfca82"
-				name="Company"
+				capname="link"
+				id="aa24db8c-eb2d-4460-81b4-f98eac0a106e"
+				name="LnkGeneric1"
 				robustPath="/form[@controlname='Form1']/?/?/element"
 				searchtimeout="30000ms">
-					/form[@controlname='Form1']/?/?/tabpage[@accessiblename='Company ']
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric1']/?/?/link[@accessiblename='Generic 1:']
+				</item>
+				<item
+				capname="link"
+				id="a96d5c52-236f-4ac4-9ac7-50eed7ac9436"
+				name="LinkGeneric2"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric2']/?/?/link[@accessiblename='Generic 2:']
+				</item>
+				<item
+				capname="link"
+				id="efae864f-c705-49f0-b31c-f60dbe078107"
+				name="LinkGeneric3"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric3']/?/?/link[@accessiblename='Generic 3:']
+				</item>
+				<item
+				capname="link"
+				id="c2a5c43a-95fb-4fa5-9e8c-6b65be7680a3"
+				name="LinkGeneric4"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric4']/?/?/link[@accessiblename='Generic 4:']
+				</item>
+				<item
+				capname="link"
+				id="a3eb14c5-c88f-4e7c-8ebb-a142c2be3978"
+				name="LinkGeneric5"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric5']/?/?/link[@accessiblename='Generic 5:']
+				</item>
+				<item
+				capname="link"
+				id="287fbece-84df-4352-ba11-f5b1bbb55477"
+				name="LinkGeneric6"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric6']/?/?/link[@accessiblename='Generic 6:']
+				</item>
+				<item
+				capname="link"
+				id="1b13d570-287a-4c47-91e7-33ea31468d82"
+				name="LinkGeneric7"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric7']/?/?/link[@accessiblename='Generic 7:']
+				</item>
+				<item
+				capname="link"
+				id="19635c85-dca9-4585-846a-62265a510d52"
+				name="LinkGeneric8"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric8']/?/?/link[@accessiblename='Generic 8:']
+				</item>
+				<item
+				capname="link"
+				id="75007f5b-14f3-46c9-b2a6-4ef8ad12281b"
+				name="LinkGeneric9"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric9']/?/?/link[@accessiblename='Generic 9:']
+				</item>
+				<item
+				capname="link"
+				id="6f932c7f-09b8-4add-bd0d-6d9849505c3e"
+				name="LinkGeneric10"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/link[@controlname='linkLabelGeneric10']/?/?/link[@accessiblename='Generic 10:']
+				</item>
+				<item
+				capname="button"
+				id="1ccddaa3-8873-4801-a801-dbfa076f5ac6"
+				name="Browse"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/button[@controlname='button2']
+				</item>
+				<item
+				capname="button"
+				id="b15c5891-c7a6-44bd-81b6-7e220a130b04"
+				name="Save"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/button[@controlname='button1']
+				</item>
+				<item
+				capname="text"
+				id="dbfd88ee-63fd-4a97-bd45-f282b3e26af8"
+				name="TxtGeneric1"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox8']/text[@accessiblename='Other:']
+				</item>
+				<item
+				capname="text"
+				id="8b2d04ce-4448-4265-9225-14b2943d9bb9"
+				name="TxtGeneric2"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox7']/text[@accessiblerole='Text']
+				</item>
+				<item
+				capname="text"
+				id="077dddd6-ef1e-464f-8135-d414ddee41d4"
+				name="TxtGeneric3"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox3']/text[@accessiblerole='Text']
+				</item>
+				<item
+				capname="text"
+				id="63a13efb-fd4c-483a-9924-7bd2cdaaf00b"
+				name="TxtGeneric4"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox2']/text[@accessiblerole='Text']
+				</item>
+				<item
+				capname="text"
+				id="2fd1ea0c-2721-41f4-b5fa-b11145a32f32"
+				name="TxtGeneric5"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox1']/text[@accessiblerole='Text']
+				</item>
+				<item
+				capname="text"
+				id="57995e17-61a5-4379-9194-a46cbc0c11c4"
+				name="TxtGeneric6"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox13']/text[@accessiblerole='Text']
+				</item>
+				<item
+				capname="text"
+				id="2fea7856-340c-4eca-96a7-afa95c0a3ffe"
+				name="TxtGeneric7"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox12']/text[@accessiblerole='Text']
+				</item>
+				<item
+				capname="text"
+				id="5db4037a-0983-4032-b8b4-9788d5d330b7"
+				name="TxtGeneric8"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox11']/text[@accessiblerole='Text']
+				</item>
+				<item
+				capname="text"
+				id="747327fd-4b6c-483e-a202-fb67e90426d8"
+				name="TxtGeneric9"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox10']/text[@accessiblerole='Text']
+				</item>
+				<item
+				capname="text"
+				id="60333416-8525-42cf-aab8-1111878cf713"
+				name="TxtGeneric10"
+				robustPath="/form[@controlname='Form1']/?/?/element"
+				searchtimeout="30000ms">
+					/form[@controlname='Form1']/?/?/tabpage[@controlname='tabPage4']/?/?/text[@controlname='textBox9']/text[@accessiblerole='Text']
 				</item>
 			</folder>
 			<basepath>
 				/form[@controlname='Form1']/?/?
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="bf1149c6-3cb8-412b-8ef8-f519959c8b85"
+		isrooted="True"
+		name="Alert"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="button"
+			id="b7b1898b-67f1-49ba-981b-71f61222c6ff"
+			name="OkButton"
+			robustPath="/element"
+			searchtimeout="30000ms">
+				/form[@title='']/button[@text='OK']
+			</item>
+			<item
+			capname="text"
+			id="0893d739-5169-4e57-b0af-89716334f788"
+			name="Title"
+			robustPath="/element"
+			searchtimeout="30000ms">
+				/form[@title='']/text[@controlid='65535']
+			</item>
+			<basepath>
+				/form[@title='']
 			</basepath>
 		</appfolder>
 		<basepath>
