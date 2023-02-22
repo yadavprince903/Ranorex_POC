@@ -9,52 +9,52 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="ComapnyName"
-					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
-					variableid="e014fd2a-2294-467d-9cbf-8c383a63edd4"
-					variablename="ComapnyName">
-					</var>
-					<var
-					dataname="AddLine1"
-					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
-					variableid="30245ea2-19a6-41bd-8ed9-3086e40f7c3f"
-					variablename="AddLine1">
-					</var>
-					<var
-					dataname="AddLine2"
-					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
-					variableid="1556561b-a987-4d2d-afd4-6fe912017b11"
-					variablename="AddLine2">
-					</var>
-					<var
-					dataname="City"
-					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
-					variableid="70948fd6-a1df-4eba-b24f-e7e9d0db0fd3"
-					variablename="City">
-					</var>
-					<var
-					dataname="Zip"
-					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
-					variableid="3b5b3c3d-c37b-487c-be75-f73d40eb9dc7"
-					variablename="Zip">
-					</var>
-					<var
-					dataname="Main"
-					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
-					variableid="1a650b31-f47f-4106-ad0e-df449d917083"
-					variablename="Main">
+					dataname="Comments"
+					datasourceid="7da35b01-2e12-4811-90bc-487912537a28"
+					variableid="f40fc6ac-8b50-4a75-8d12-7677be9225a4"
+					variablename="Comments">
 					</var>
 					<var
 					dataname="Other"
-					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
+					datasourceid="7da35b01-2e12-4811-90bc-487912537a28"
 					variableid="a15e0e1e-a9c0-427d-8e20-c2c887d01e0a"
 					variablename="Other">
 					</var>
 					<var
-					dataname="Comments"
-					datasourceid="7302b4a6-1876-4055-9fe0-c013db7c0348"
-					variableid="f40fc6ac-8b50-4a75-8d12-7677be9225a4"
-					variablename="Comments">
+					dataname="Main"
+					datasourceid="7da35b01-2e12-4811-90bc-487912537a28"
+					variableid="1a650b31-f47f-4106-ad0e-df449d917083"
+					variablename="Main">
+					</var>
+					<var
+					dataname="Zip"
+					datasourceid="7da35b01-2e12-4811-90bc-487912537a28"
+					variableid="3b5b3c3d-c37b-487c-be75-f73d40eb9dc7"
+					variablename="Zip">
+					</var>
+					<var
+					dataname="City"
+					datasourceid="7da35b01-2e12-4811-90bc-487912537a28"
+					variableid="70948fd6-a1df-4eba-b24f-e7e9d0db0fd3"
+					variablename="City">
+					</var>
+					<var
+					dataname="AddLine2"
+					datasourceid="7da35b01-2e12-4811-90bc-487912537a28"
+					variableid="1556561b-a987-4d2d-afd4-6fe912017b11"
+					variablename="AddLine2">
+					</var>
+					<var
+					dataname="AddLine1"
+					datasourceid="7da35b01-2e12-4811-90bc-487912537a28"
+					variableid="30245ea2-19a6-41bd-8ed9-3086e40f7c3f"
+					variablename="AddLine1">
+					</var>
+					<var
+					dataname="CompanyName"
+					datasourceid="7da35b01-2e12-4811-90bc-487912537a28"
+					variableid="e014fd2a-2294-467d-9cbf-8c383a63edd4"
+					variablename="ComapnyName">
 					</var>
 				</databinding>
 			</testmodule>
@@ -449,6 +449,7 @@
 				</databinding>
 			</testmodule>
 			<testcase
+			datasource="NewConnector"
 			id="7302b4a6-1876-4055-9fe0-c013db7c0348"
 			name="RG-005">
 				<parameters>
@@ -1334,9 +1335,48 @@
 		</childhierarchy>
 	</testsuiteentryhierarchy>
 	<datasources>
+		<DataSource
+		id="7da35b01-2e12-4811-90bc-487912537a28"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="NewConnector"
+		type="Ranorex.Core.Data.CsvDataConnector"
+		withheaders="True">
+			<lastknowncolumns>
+				<column>
+					CompanyName
+				</column>
+				<column>
+					AddLine1
+				</column>
+				<column>
+					AddLine2
+				</column>
+				<column>
+					City
+				</column>
+				<column>
+					Zip
+				</column>
+				<column>
+					Main
+				</column>
+				<column>
+					Other
+				</column>
+				<column>
+					Comments
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<file>
+				TestData.csv
+			</file>
+		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="People">
+	default="Company">
 		<testconfiguration
 		name="Company">
 			<testcontainer

@@ -24,3 +24,16 @@ C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\Sanity.rxtst
 C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\MyCRM.rxsqc
 C:\Users\Admin\Desktop\MyCRM POC\MyCRM\MyCRM\bin\Debug\Regression.rxtst
 C:\Ranorex\Ranorex_POC\MyCRM\bin\Debug\Regression.rxtst
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\bin\Debug\Sanity.rxtst
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\bin\Debug\MyCRM.rxsqc
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\bin\Debug\MyCRM.rxtmg
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\bin\Debug\Regression.rxtst
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\bin\Debug\MyCRM.exe.config
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\bin\Debug\MyCRM.xml
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\bin\Debug\MyCRM.exe
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\bin\Debug\MyCRM.pdb
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\obj\x86\Debug\MyCRM.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\obj\x86\Debug\MyCRM.exe
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\obj\x86\Debug\MyCRM.pdb
+C:\Users\User\Desktop\POC\Ranorex_POC\MyCRM\bin\Debug\TestData.csv

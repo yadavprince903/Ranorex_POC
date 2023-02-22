@@ -1,13 +1,12 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="Recordings\Company\RG-006\ValidateInputValuesCompanyTab.rxrec" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Regression.rxtst" />
-    <Element value="Sanity.rxtst" />
     <Element value="StartAUT.rxrec" />
-    <Element value="Recordings\Company\RG-006\ValidateInputValuesCompanyTab.rxrec" />
+    <Element value="Regression.rxtst" />
+    <Element value="Recordings\People\ValidateStateDropdown.rxrec" />
+    <Element value="Recordings\People\ValidateInputDataInPeopleTab.rxrec" />
+    <Element value="Recordings\Company\RG-005\ValidateInputValuesCompanyTab.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

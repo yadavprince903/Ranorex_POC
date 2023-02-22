@@ -19,16 +19,6 @@
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:MyCRM.CloseAUT.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:MyCRM.CloseAUT.CloseAutProcessIDVar">
-            <summary>
-            Gets or sets the value of variable CloseAutProcessIDVar.
-            </summary>
-        </member>
         <member name="M:MyCRM.CloseAUT.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:MyCRM.CloseAUT.Instance"/>.
@@ -48,19 +38,29 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:MyCRM.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyCRM.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
         <member name="T:MyCRM.MyCRMRepository">
             <summary>
             The class representing the MyCRMRepository element repository.
             </summary>
         </member>
-        <member name="P:MyCRM.MyCRMRepository.Instance">
-            <summary>
-            Gets the singleton class instance representing the MyCRMRepository element repository.
-            </summary>
-        </member>
         <member name="M:MyCRM.MyCRMRepository.#ctor">
             <summary>
             Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyCRM.MyCRMRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyCRMRepository element repository.
             </summary>
         </member>
         <member name="P:MyCRM.MyCRMRepository.SelfInfo">
@@ -798,6 +798,25 @@
             Constructs a new instance.
             </summary>
         </member>
+        <member name="M:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Instance">
             <summary>
             Gets a static instance of this recording.
@@ -848,25 +867,6 @@
             Gets or sets the value of variable Comments.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:MyCRM.Recordings.Company.RG_004.Validate_default_values_comapny_tab.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab">
              <summary>
             The ValidateInputValuesCompanyTab recording.
@@ -880,6 +880,25 @@
         <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Instance">
@@ -927,25 +946,6 @@
             Gets or sets the value of variable Comments.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:MyCRM.Recordings.Company.RG_005.ValidateInputValuesCompanyTab.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed">
              <summary>
             The VerifyPageLabelDisplayed recording.
@@ -959,11 +959,6 @@
         <member name="M:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Start">
@@ -985,6 +980,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:MyCRM.Recordings.Company.SN_001.VerifyPageLabelDisplayed.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:MyCRM.Recordings.Company.SN_002.VerifyLabelText">
              <summary>
             The VerifyLabelText recording.
@@ -998,6 +998,25 @@
         <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Instance">
@@ -1045,25 +1064,6 @@
             Gets or sets the value of variable Comment.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:MyCRM.Recordings.Company.SN_002.VerifyLabelText.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers">
              <summary>
             The ValidateInputDataInOthers recording.
@@ -1077,6 +1077,25 @@
         <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Instance">
@@ -1144,25 +1163,6 @@
             Gets or sets the value of variable SaveButtonText.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:MyCRM.Recordings.Other.RG_006.ValidateInputDataInOthers.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent">
              <summary>
             The VerifyLabelAndButtonlsPresent recording.
@@ -1176,11 +1176,6 @@
         <member name="M:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Start">
@@ -1202,6 +1197,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:MyCRM.Recordings.Other.SN_003.VerifyLabelAndButtonlsPresent.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:MyCRM.Recordings.People.ValidateInputDataInPeopleTab">
              <summary>
             The ValidateInputDataInPeopleTab recording.
@@ -1215,6 +1215,25 @@
         <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Instance">
@@ -1282,25 +1301,6 @@
             Gets or sets the value of variable Comments.
             </summary>
         </member>
-        <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:MyCRM.Recordings.People.ValidateInputDataInPeopleTab.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:MyCRM.Recordings.People.ValidateDefaultValuesInPeopleTab">
              <summary>
             The ValidateDefaultValuesInPeopleTab recording.
@@ -1314,11 +1314,6 @@
         <member name="M:MyCRM.Recordings.People.ValidateDefaultValuesInPeopleTab.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recordings.People.ValidateDefaultValuesInPeopleTab.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:MyCRM.Recordings.People.ValidateDefaultValuesInPeopleTab.Start">
@@ -1340,6 +1335,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:MyCRM.Recordings.People.ValidateDefaultValuesInPeopleTab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:MyCRM.Recordings.People.ValidateStateDropdown">
              <summary>
             The ValidateStateDropdown recording.
@@ -1353,11 +1353,6 @@
         <member name="M:MyCRM.Recordings.People.ValidateStateDropdown.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:MyCRM.Recordings.People.ValidateStateDropdown.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:MyCRM.Recordings.People.ValidateStateDropdown.Start">
@@ -1379,6 +1374,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:MyCRM.Recordings.People.ValidateStateDropdown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:MyCRM.StartAUT">
              <summary>
             The StartAUT recording.
@@ -1392,16 +1392,6 @@
         <member name="M:MyCRM.StartAUT.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:MyCRM.StartAUT.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:MyCRM.StartAUT.StartAutProcessIDVar">
-            <summary>
-            Gets or sets the value of variable StartAutProcessIDVar.
             </summary>
         </member>
         <member name="M:MyCRM.StartAUT.Start">
@@ -1421,6 +1411,16 @@
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyCRM.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyCRM.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

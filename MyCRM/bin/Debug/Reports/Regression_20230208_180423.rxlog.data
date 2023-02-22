@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.4m"
+		durationms="84490"
+		type="root"
+		rid="9f1369c5db3e2e8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ayush"
+		rxversion="9.5.0.0"
+		host="IQA-L70-AYUSH"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="2/8/2023 6:04:23 PM"
+		timestampiso="2023-02-08T12:34:23"
+		endtime="2/8/2023 6:05:47 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="01:23.524"
+			timeRelativeToTestModuleStartTime="01:23.524"
+			timeWallClock="18:05:46"
+			time="01:23.524"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				The run config with name 'TestRun' does not exist in this test suite.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Testing.TestSuite.Run(String runConfigName, String runLabel, Dictionary`2 parameters)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.TryRunTestSuite(RunParams rp, TestSuite testSuite)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.&lt;>c__DisplayClass13_1.&lt;RunInternal>b__6()&#13;&#10;   at Ranorex.Common.Types.OptCombinators.UnwrapOrElse[T](Opt`1 self, Func`1 generator)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>
